@@ -7,7 +7,7 @@
 
 	CEO: Roma Omegov
 	Gamemode Developer: Folinq Weard
-	Gamemode Developer: ...
+	Gamemode Developer: Selena_Lunysh (Female)
 
 	Небольшой регламент написания кода для того, чтобы все было строго по правилам ясно и понятно:
 
@@ -37,7 +37,6 @@
 
 
 */
-
 
 
 // СИСТЕМНЫЕ ИНКЛУДЫ

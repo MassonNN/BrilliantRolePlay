@@ -1,0 +1,45 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[08:13:20] 
+[08:13:20] Server Plugins
+[08:13:20] --------------
+[08:13:20]  Loading plugin: crashdetect
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: CRP
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: mysql_static
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: pawncmd
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: sscanf
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: regex
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: streamer
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: pawnraknet
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: timerfix
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: bots
+[08:13:20]   Failed.
+[08:13:20]  Loading plugin: ColAndreas
+[08:13:20]   Failed.
+[08:13:20]  Loaded 0 plugins.
+
+[08:13:20] Unable to start server on 185.211.247.111:7032. Port in use?
+[08:13:20] 
+[08:13:20] Filterscripts
+[08:13:20] ---------------
+[08:13:20]   Loading filterscript 'creator.amx'...
+[08:13:20]   Unable to load filterscript 'creator.amx'.
+[08:13:20]   Loaded 0 filterscripts.
+
+[08:13:20] Number of vehicle models: 0
