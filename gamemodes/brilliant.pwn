@@ -41,7 +41,8 @@
 
 // яхярелмше хмйксдш
 #include <a_samp>
-#include <includes/API.inc>
+#include <../../includes/brilliant_core.inc>
+#include <../../includes/API.inc>
 
 
 // ондцпсфюелше хмйксдш
@@ -65,6 +66,8 @@ main() {}
 public OnGamemodeInit() {
 	print(SYSTEM_HI_RU);
 }
+
+
 
 
 
