@@ -1,7 +1,6 @@
 new const SYSTEM_HI_RU[] = "Сервер запущен";
 
 // API
-
 new ERROR_TEXT = "Ошибка: {FFFFFF} %s";
 new ERROR_TEXT_WITH_ID = "Ошибка (#%d): {FFFFFF} %s";
 new const ERROR_CONTACT_US = "Обратитесь на форум со скрином данной ошибки для ее исправления";

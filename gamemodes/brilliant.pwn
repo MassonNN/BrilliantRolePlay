@@ -41,8 +41,8 @@
 
 // СИСТЕМНЫЕ ИНКЛУДЫ
 #include <a_samp>
-#include <../../includes/brilliant_core.inc>
-#include <../../includes/API.inc>
+#include <includes/brilliant_core.inc>
+#include <includes/API.inc>
 
 
 // ПОДГРУЖАЕМЫЕ ИНКЛУДЫ
@@ -55,7 +55,7 @@
 #include <mxINI>
 
 // lang файлы
-#include <../../languages/russian.lang>
+#include <languages/russian.lang>
 
 
 
@@ -76,4 +76,4 @@ public OnGamemodeInit() {
 
 
 // Система машин
-#include <../../includes/VEH_system/VEH_main>
+#include <includes/VEH_system/VEH_main>
