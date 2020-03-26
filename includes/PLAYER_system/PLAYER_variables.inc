@@ -13,11 +13,17 @@
 #define NOT_SET				0
 
 
+// OTHER
+#define SPD 				ShowPlayerDialog
+#define SCM 				SendClientMessage
+#define SCMTA				SendClientMessageToAll
+
 enum PLAYER_Stats {
-	PLAYER_Name[MAX_PLAYER_NAME], 	// Имя игрока
+	PLAYER_Name[MAX_PLAYER_NAME], 			// Имя игрока
+	PLAYER_Password[33]
 	PLAYER_Sex, 					// пол игрока. 1 - мужчина, 2 - женщина, 0 - не выбрал
 	PLAYER_Money, 					// Деньги игрока на руках
-	PLAYER_BankMoney[MAX_BANK_ACCOUNTS], // Деньги игрока в банке на разных счетах (максимально пока 10, но можно поменять)
+	PLAYER_BankMoney[MAX_BANK_ACCOUNTS], 		// Деньги игрока в банке на разных счетах (максимально пока 10, но можно поменять)
 	PLAYER_Level, 					// Уровень игрока
 	PLAYER_Exp, 					// Опыта у игрока
 	PLAYER_MuteTime, 				// Время в минутах до окончания затычки
@@ -27,7 +33,8 @@ enum PLAYER_Stats {
 	PLAYER_Age, 					// Игровой возраст игрока
 	PLAYER_Admin,					// Уровень администратора
 	PLAYER_Logged,					// Вошел ли игрок в аккаунт. 0 - нет, 1 - да, 2 - вытолкнут с аккаунта
-	PLAYER_Language					// ID языка игрока
+	PLAYER_Language,				// ID языка игрока
+	PLAYER_IP[17]					// IP-адрес игрока
 
 }; // под каждую переменную создан getter и setter, см. API
 
