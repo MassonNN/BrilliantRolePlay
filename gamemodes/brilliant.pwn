@@ -53,9 +53,18 @@
 #include <foreach>
 #include <mxINI>
 
+// lang файлы
+#include <../../languages/russian.lang>
+
 
 
 // оставить место под системные хуки
+
+main() {}
+
+public OnGamemodeInit() {
+	print(SYSTEM_HI_RU);
+}
 
 
 
@@ -64,3 +73,4 @@
 
 
 // Система машин
+#include <../../includes/VEH_system/VEH_main>
