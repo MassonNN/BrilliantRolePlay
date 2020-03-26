@@ -75,7 +75,7 @@ IsPlayerAdmin(playerid, minlevel = 1) {
 SetPlayerSex(playerid, sex) {
 	if(sex == 3) return 0;
 	PI[playerid][PLAYER_Sex] = sex;
-	SendPond
+	SendPond(playerid, )
 }
 
 

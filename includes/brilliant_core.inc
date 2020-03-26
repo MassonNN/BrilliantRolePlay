@@ -36,3 +36,14 @@
 
 
 new global[1024]; 
+
+
+// LANGUAGE
+#define RUSSIAN				0 // default
+#define ENGLISH				1
+#define UKRAINIAN			2
+#define POLISH				3
+#define CHINESE				4
+#define JAPAN				5	
+
+

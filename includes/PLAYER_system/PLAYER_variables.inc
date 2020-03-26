@@ -12,12 +12,6 @@
 #define WOMAN				2
 #define NOT_SET				0
 
-// LANGUAGE
-#define RUSSIAN				0 // default
-#define ENGLISH				1
-#define UKRAINIAN			2
-#define POLISH				3
-#define 		
 
 enum PLAYER_Stats {
 	PLAYER_Name[MAX_PLAYER_NAME], 	// Имя игрока
