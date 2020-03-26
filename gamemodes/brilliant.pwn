@@ -40,7 +40,8 @@
 
 
 // ÑÈÑÒÅÌÍÛÅ ÈÍÊËÓÄÛ
-//#include <a_samp>
+#include <a_samp>
+#include <a_mysql>
 #include "../includes/brilliant_core.inc"
 #include "../includes/API.inc"
 
@@ -52,7 +53,7 @@
 #include <Pawn.CMD>
 #include <Pawn.RakNet>
 #include <foreach>
-#include <mxINI>
+#include <mxINI> // ÇÀ×ÅÌ ÍÀÌ MXINI?!
 
 // lang ôàéëû
 #include <languages/russian.lang>
