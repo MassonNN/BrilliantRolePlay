@@ -51,5 +51,33 @@ SendError(playerid, text[], error_id = 0) {
 }
 
 
-//
+// 
+
+
+// PLAYER
+
+#define GetPlayerSex(%0)		PI[%0][PLAYER_Sex]
+#define GetMoney(%0)			PI[%0][PLAYER_Money]
+#define GetBankMoney(%0, %1)	PI[%0][PLAYER_BankMoney][%1]
+#define GetPlayerLevel(%0)		PI[%0][PLAYER_Level]
+#define GetPlayerExp(%0)		PI[%0][PLAYER_Exp]
+#define GetPlayerMuteTime(%0)	PI[%0][PLAYER_MuteTime]
+IsPlayerMuted(playerid) if(PI[playerid][PLAYER_MuteTime]) return true, else return false;
+#define GetPlayerBanTime(%0)	PI[%0][PLAYER_BanTime]
+#define GetPlayerReputation(%0)	PI[%0][PLAYER_Reputation]
+#define GetPlayerAge(%0)		PI[%0][PLAYER_Age]
+#define GetPlayerAdminLevel(%0)	PI[%0][PLAYER_Admin]
+IsPlayerAdmin(playerid, minlevel = 1) {
+	if(GetPlayerAdminLevel(playerid) < minlevel) return false;
+	else return true;
+}
+
+SetPlayerSex(playerid, sex) {
+	if(sex == 3) return 0;
+	PI[playerid][PLAYER_Sex] = sex;
+	SendPond
+}
+
+
+// END PLAYER
 
