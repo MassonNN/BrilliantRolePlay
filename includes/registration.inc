@@ -1,35 +1,4 @@
-#define GKick(%1) 				SetTimerEx("PKick", 50, false, "i", %1)
-enum Player_Info
-{
-	ID,
-	Name[MAX_PLAYER_NAME],
-	Password[32],
-	Admin,
-	bool:Logged,
-	Money,
-	Skin,
-	Sex,
-	IP[17],
-};
-//////////////////////////////////////////
-//////////////////////////////////////////
-enum
-{
-	DIALOG_REG,
-	DIALOG_SEX,
-	DIALOG_LOG,
-};
-//////////////////////////////////////////
-new pInfo[MAX_PLAYERS][Player_Info];
-//////////////////////////////////////////
-forward PKick(playerid);
-public PKick(playerid)
-{
-	Kick(playerid);
-	return 1;
-}
-
-public OnPlayerConnect(playerid)
+hook OnPlayerConnect(playerid)
 {
     new name[MAX_PLAYER_NAME];
     GetPlayerName(playerid, name, sizeof(name));
@@ -38,12 +7,12 @@ public OnPlayerConnect(playerid)
         SCM(playerid, COLOR_NEWS, !"Придумайте RolePlay никнейм");
         return GKick(playerid);
     }
-	return 1;
+    return 1;
 }
 
-public OnPlayerRequestClass(playerid, classid)
+hook OnPlayerRequestClass(playerid, classid)
 {
-    SetPlayerColor(playerid, 0xFFFFFFFF);
+        SetPlayerColor(playerid, 0xFFFFFFFF);
    	new name[25];
 	GetPlayerName(playerid, name, 25);
 	TogglePlayerSpectating(playerid, 1);
@@ -51,9 +20,9 @@ public OnPlayerRequestClass(playerid, classid)
 	{
  		GetPlayerName(playerid, pInfo[playerid][Name], MAX_PLAYER_NAME);
  		GetPlayerIp(playerid, pInfo[playerid][IP], 17);
-	    new qString[120];
-	    format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", pInfo[playerid][Name]);
-	    mysql_tquery(MySQL, qString, "CheckAcc", "d", playerid);
+	        new qString[120];
+	        format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", pInfo[playerid][Name]);
+	        mysql_tquery(MySQL, qString, "CheckAcc", "d", playerid);
 	}
 	return 1;
 }
@@ -126,39 +95,6 @@ stock IsRPNick(const name[])
     return false;
 }
 
-public OnPlayerDisconnect(playerid, reason)
-{
-	ClearVars(playerid);
-	return 1;
-}
-
-enum e_RandomSpawn
-{
-	Float:rX,
-	Float:rY,
-	Float:rZ,
-	Float:rA
-}
-
-new RandomSpawn[][e_RandomSpawn] = {
-	{ 2507.06, -2120.7, 23.46, 175.000 },
-	{ 2507.19, -2123.03, 23.46, 183.18 },
-	{ 2506.94, -2129.11, 23.46, 1.6288 },
-	{ 2512.48, -2130.23, 23.46, 3.1328 },
-	{ 2511.64, -2120.85, 23.46, 181.32 },
-	{ 2511.58, -2123.76, 23.46, 178.80 }
-};
-
-public OnPlayerSpawn(playerid)
-{
-	new r = random(6);
-	SetPlayerPos(playerid, RandomSpawn[r][rX], RandomSpawn[r][rY], RandomSpawn[r][rZ]);
-	SetPlayerFacingAngle(playerid, RandomSpawn[r][rA]);
-	SetPlayerSkin(playerid, pInfo[playerid][Skin]);
-	SetCameraBehindPlayer(playerid);
-	return 1;
-}
-
 forward CheckAcc(playerid);
 public CheckAcc(playerid)
 {
@@ -173,7 +109,7 @@ public CheckAcc(playerid)
         SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"{FFFFFF}Введите пароль от аккаунта", !"Ок", "");
         cache_get_field_content(0, "password", pInfo[playerid][Password], MySQL, 33);
     }
-	return 1;
+    return 1;
 }
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
@@ -296,16 +232,3 @@ stock CreateAcc(playerid, password[])
 
 forward LoadAccID(playerid);
 public LoadAccID(playerid) return pInfo[playerid][ID] = cache_get_field_content_int(0, "id", MySQL);
-
-stock ClearVars(playerid)
-{
-    pInfo[playerid][ID] = 0;
-    pInfo[playerid][Name] = EOS;
-    pInfo[playerid][Password] = EOS;
-    pInfo[playerid][Admin] = 0;
-    pInfo[playerid][Logged] = false;
-    pInfo[playerid][Skin] = 0;
-    pInfo[playerid][Money] = 0;
-    pInfo[playerid][Sex] = 0;
-    pInfo[playerid][IP] = EOS;
-}

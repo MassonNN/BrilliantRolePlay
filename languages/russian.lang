@@ -1,1 +1,3 @@
 new SYSTEM_HI_RU[] = "Сервер запущен";
+new HELP_USAGE_BAN[]
+new HELP_USAGE_KICK[]
