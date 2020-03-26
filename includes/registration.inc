@@ -1,3 +1,5 @@
+#include <YSI/y_hooks>
+
 hook OnPlayerConnect(playerid)
 {
     new name[MAX_PLAYER_NAME];
@@ -16,18 +18,18 @@ hook OnPlayerRequestClass(playerid, classid)
    	new name[25];
 	GetPlayerName(playerid, name, 25);
 	TogglePlayerSpectating(playerid, 1);
-	if(!pInfo[playerid][Logged])
+	if(PI[playerid][PLAYER_Logged] == 0)
 	{
- 		GetPlayerName(playerid, pInfo[playerid][Name], MAX_PLAYER_NAME);
- 		GetPlayerIp(playerid, pInfo[playerid][IP], 17);
+ 		GetPlayerName(playerid, PI[playerid][PLAYER_Name], MAX_PLAYER_NAME);
+ 		GetPlayerIp(playerid, PI[playerid][IP], 17);
 	        new qString[120];
-	        format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", pInfo[playerid][Name]);
+	        format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", PI[playerid][PLAYER_Name]);
 	        mysql_tquery(MySQL, qString, "CheckAcc", "d", playerid);
 	}
 	return 1;
 }
 
-stock IsRPNick(const name[])
+IsRPNick(const name[])
 {
     static num_underscores, ptr;
     emit
@@ -96,7 +98,7 @@ stock IsRPNick(const name[])
 }
 
 forward CheckAcc(playerid);
-public CheckAcc(playerid)
+hook CheckAcc(playerid)
 {
     new rows, fields;
     cache_get_data(rows, fields);
@@ -107,12 +109,12 @@ public CheckAcc(playerid)
     else
     {
         SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"{FFFFFF}Введите пароль от аккаунта", !"Ок", "");
-        cache_get_field_content(0, "password", pInfo[playerid][Password], MySQL, 33);
+        cache_get_field_content(0, "password", PI[playerid][PLAYER_Password], MySQL, 33);
     }
     return 1;
 }
 
-public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
 	switch(dialogid)
 	{
@@ -128,47 +130,47 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	                default: return SPD(playerid, DIALOG_REG, DIALOG_STYLE_INPUT, !"Регистрация", !"Введите новый пароль для регистрации", !"Ок", ""), SCM(playerid, COLOR_ADM, !"Пароль может содержать только латинские буквы и цифры");
 	            }
 	        }
-	        format(pInfo[playerid][Password], 32, "%s", inputtext);
+	        format(PI[playerid][PLAYER_Password], 32, "%s", inputtext);
 	        SPD(playerid, DIALOG_SEX, DIALOG_STYLE_MSGBOX, !"Регистрация", !"Выберите пол персонажа", !"Мужской", "Женский");
 		}
 		case DIALOG_SEX:
 		{
-		    if(response) pInfo[playerid][Sex] = 0;
-		    else pInfo[playerid][Sex] = 1;
-		    CreateAcc(playerid, pInfo[playerid][Password]);
+		    	if(response) PI[playerid][PLAYER_Sex] = 1;
+		    	else pInfo[playerid][Sex] = 2;
+		    	CreateAcc(playerid, pInfo[playerid][PLAYER_Password]);
 		}
-	    case DIALOG_LOG:
-	    {
-	        if(!response) return SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"{FFFFFF}Авторизация", !"{FFFFFF}Введите свой пароль", !"Ок", "");
-	        if(strlen(inputtext) < 6 || strlen(inputtext) > 32) return SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"{FFFFFF}Авторизация", !"{FFFFFF}Пароль может состоять только от 6-ти до 32-ух латинских букв и цифр", !"Ок", "");
-            for(new i; i < strlen(inputtext); i++)
-	        {
-	            switch(inputtext[i])
-	            {
-	                case '0'..'9', 'a'..'z', 'A'..'Z': continue;
-	                default: return SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"{FFFFFF}Авторизация", !"{FFFFFF}Пароль может содержать только английские буквы или цифры", !"Ок", "");
-	            }
-	        }
-	        if(!strcmp(pInfo[playerid][Password], inputtext))
-	        {
+	    	case DIALOG_LOG:
+	    	{
+	        	if(!response) return SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"{FFFFFF}Авторизация", !"{FFFFFF}Введите свой пароль", !"Ок", "");
+	        	if(strlen(inputtext) < 6 || strlen(inputtext) > 32) return SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"{FFFFFF}Авторизация", !"{FFFFFF}Пароль может состоять только от 6-ти до 32-ух латинских букв и цифр", !"Ок", "");
+            		for(new i; i < strlen(inputtext); i++)
+	        	{
+	            		switch(inputtext[i])
+	            		{
+	               			case '0'..'9', 'a'..'z', 'A'..'Z': continue;
+	               			default: return SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"{FFFFFF}Авторизация", !"{FFFFFF}Пароль может содержать только английские буквы или цифры", !"Ок", "");
+	            		}
+	        	}
+	       		if(!strcmp(PI[playerid][PLAYER_Password], inputtext))
+	       		{
 				new qString[42 + MAX_PLAYER_NAME];
-	            format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", pInfo[playerid][Name]);
-	            mysql_function_query(MySQL, qString, true, "LoadAcc", "d", playerid);
-	        }
-	        else
-	        {
+            			format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", pInfo[playerid][Name]);	            			
+				mysql_function_query(MySQL, qString, true, "LoadAcc", "d", playerid);
+	        	}
+	        	else
+	        	{
 				if(GetPVarInt(playerid, "BadAttempt") >= 3) return SPD(playerid, 228, DIALOG_STYLE_MSGBOX, !"Кикнут", !"{FFFFFF}Вы ввели неверно пароль 3 раза и были кикнуты, {EC4646}/q {FFFFFF}для выхода", !"Далее", ""), GKick(playerid);
-	            new string[55];
-	            format(string, sizeof(string), "Вы ввели неверный пароль! У Вас осталось %d попытки", 3 - GetPVarInt(playerid, "BadAttempt"));
-             	if(GetPVarInt(playerid, "BadAttempt") == 2)
-             	{
-             	    SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"Введите свой пароль", !"Ок", ""), SCM(playerid, COLOR_ADM, !"Вы ввели неверный пароль! У Вас осталась 1 попытка");
-			 	}
-			 	else
-			 	{
-                    SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"Введите свой пароль", !"Ок", ""), SCM(playerid, COLOR_ADM, string);
+	            		new string[55];
+	            		format(string, sizeof(string), "Вы ввели неверный пароль! У Вас осталось %d попытки", 3 - GetPVarInt(playerid, "BadAttempt"));
+             			if(GetPVarInt(playerid, "BadAttempt") == 2)
+             			{
+             	    			SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"Введите свой пароль", !"Ок", ""), SCM(playerid, COLOR_ADM, !"Вы ввели неверный пароль! У Вас осталась 1 попытка");
 				}
-	            SetPVarInt(playerid, "BadAttempt", GetPVarInt(playerid, "BadAttempt") + 1);
+				else
+				{
+                    			SPD(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"Введите свой пароль", !"Ок", ""), SCM(playerid, COLOR_ADM, string);
+				}
+	            		SetPVarInt(playerid, "BadAttempt", GetPVarInt(playerid, "BadAttempt") + 1);
    			}
   		}
 	}
@@ -176,7 +178,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 }
 
 forward LoadAcc(playerid);
-public LoadAcc(playerid)
+hook LoadAcc(playerid)
 {
     pInfo[playerid][ID] = cache_get_field_content_int(0, "id", MySQL);
     pInfo[playerid][Admin] = cache_get_field_content_int(0, "admin", MySQL);
@@ -191,7 +193,7 @@ public LoadAcc(playerid)
 
 
 forward OnPlayerLogin(playerid);
-public OnPlayerLogin(playerid)
+hook OnPlayerLogin(playerid)
 {
     pInfo[playerid][Logged] = true;
     DeletePVar(playerid, "BadAttempt");
@@ -200,7 +202,7 @@ public OnPlayerLogin(playerid)
 	return 1;
 }
 
-stock CreateAcc(playerid, password[])
+CreateAcc(playerid, password[])
 {
 	new qString[200], skin;
 	if(pInfo[playerid][Sex] == 0)
@@ -231,4 +233,4 @@ stock CreateAcc(playerid, password[])
 }
 
 forward LoadAccID(playerid);
-public LoadAccID(playerid) return pInfo[playerid][ID] = cache_get_field_content_int(0, "id", MySQL);
+hook LoadAccID(playerid) return pInfo[playerid][ID] = cache_get_field_content_int(0, "id", MySQL);

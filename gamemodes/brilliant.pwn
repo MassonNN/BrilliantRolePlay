@@ -40,14 +40,14 @@
 
 
 // яхярелмше хмйксдш
-#include <a_samp>
-#include <includes/brilliant_core.inc>
-#include <includes/API.inc>
+//#include <a_samp>
+#include "../includes/brilliant_core.inc"
+#include "../includes/API.inc"
 
 
 // ондцпсфюелше хмйксдш
-#include <YSF.inc>
-#include <YSI/y_hooks>
+#include <../includes/YSF.inc>
+#include "../YSI/y_hooks"
 #include <mdialog>
 #include <Pawn.CMD>
 #include <Pawn.RakNet>
