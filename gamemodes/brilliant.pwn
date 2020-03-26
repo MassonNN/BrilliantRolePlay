@@ -52,3 +52,15 @@
 #include <Pawn.RakNet>
 #include <foreach>
 #include <mxINI>
+
+
+
+// оставить место под системные хуки
+
+
+
+// СИСТЕМЫ
+
+
+
+// Система машин
