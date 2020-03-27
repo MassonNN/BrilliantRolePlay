@@ -4,24 +4,24 @@
 
 
 // Форматированное сообщение
-#define 	SendMessage(%1, %2, %3, %4)			format(global, 128, %3, %4), SendClientMessage(%1, %2, %3);
+#define 	SendFormatMessage(%1, %2, %3, %4)			format(global, 128, %3, %4), SendMessage(%1, %2, %3);
 
 // 
 
 
 // Отправить игроку подсказку
 SendPond(playerid, text[]) {
-	SendMessage(playerid, COLOR_YELLOW_L, POND_TEXT, text);
+	SendFormatMessage(playerid, COLOR_YELLOW_L, POND_TEXT, text);
 }
 
 // Отправить игроку информацию
 SendInfo(playerid, text[]) {
-	SendMessage(playerid, COLOR_GREEN_L, INFO_TEXT, text);
+	SendFormatMessage(playerid, COLOR_GREEN_L, INFO_TEXT, text);
 }
 
 // Отправить игроку сообщение об успешном выполнении
 SendSuccess(playerid, text[]) {
-	SendMessage(playerid, COLOR_HAKI_L, SUCCESS_TEXT, text);
+	SendFormatMessage(playerid, COLOR_HAKI_L, SUCCESS_TEXT, text);
 }
 
 
@@ -40,15 +40,27 @@ enum ERRORS_LIST {
 
 // Отправить игроку ошибку
 SendError(playerid, text[], error_id = 0) {
-	if(error_id == 0) SendMessage(playerid, COLOR_RED_L, ERROR_TEXT, text);
+	if(error_id == 0) SendFormatMessage(playerid, COLOR_RED_L, ERROR_TEXT, text);
 	else {
-		if (1 <= error_id <= 11) SendMessage(playerid, COLOR_RED_L, ERROR_TEXT_WITH_ID, error_id, text);
+		if (1 <= error_id <= 11) SendFormatMessage(playerid, COLOR_RED_L, ERROR_TEXT_WITH_ID, error_id, text);
 		else if (11 < error_id <= 20) {
-			SendMessage(playerid, COLOR_RED_L, ERROR_TEXT_WITH_ID, error_id, text);
+			SendFormatMessage(playerid, COLOR_RED_L, ERROR_TEXT_WITH_ID, error_id, text);
 			SendPond(playerid, ERROR_CONTACT_US);
 		}
 	}
 }
+
+// Отправить сообщение администрации, где color - цвет, minlevel - минимальный уровень админа для отправления сообщения
+SendAdmin(text[], color = -1, minlevel = 1) {
+	foreach(new i : Player) {
+		if(PI[i][PLAYER_Admin] < minlevel) continue;
+		else {
+			SendMessage(i, color, text);
+		}
+	}
+}
+
+
 
 
 // 

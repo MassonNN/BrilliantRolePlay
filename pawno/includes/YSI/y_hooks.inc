@@ -1,4 +1,4 @@
-#include "YSI_Internal\y_compilerpass"
+#include "..\pawno\includes\YSI_Internal\y_compilerpass"
 #if AUTO_INCLUDE_GUARD
 
 	#if defined _inc_y_hooks
@@ -6,4 +6,4 @@
 		
 #endif
 
-#include "YSI_Coding\y_hooks"
+#include "..\pawno\includes\YSI_Coding\y_hooks"

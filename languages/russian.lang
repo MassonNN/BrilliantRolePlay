@@ -1,14 +1,13 @@
-new const SYSTEM_HI_RU[] = "Сервер запущен";
+// Русский язык
+// локализация с id 0
 
-// API
-new ERROR_TEXT_RU = "Ошибка: {FFFFFF} %s";
-new ERROR_TEXT_WITH_ID_RU = "Ошибка (#%d): {FFFFFF} %s";
-new const ERROR_CONTACT_US_RU = "Обратитесь на форум со скрином данной ошибки для ее исправления";
 
-new POND_TEXT_RU = "Подсказка: {FFFFFF} %s";
-new INFO_TEXT_RU = "Информация: {FFFFFF} %s";
-new SUCCESS_TEXT_RU = "Успешно: {FFFFFF} %s";
-// END API
-
-// new HELP_USAGE_BAN[]
-// new HELP_USAGE_KICK[]
+enum const LOCALE_RU {
+	SYSTEM_HI_RU[] = "Сервер запущен",
+	ERROR_TEXT_RU[] = "Ошибка: {FFFFFF} %s",
+	ERROR_TEXT_WITH_ID_RU[] = "Ошибка (#%d): {FFFFFF} %s",
+	ERROR_CONTACT_US_RU[] = "Обратитесь на форум со скрином данной ошибки для ее исправления",
+	POND_TEXT_RU[] = "Подсказка: {FFFFFF} %s",
+	INFO_TEXT_RU[] = "Информация: {FFFFFF} %s",
+	SUCCESS_TEXT_RU[] = "Успешно: {FFFFFF} %s"
+};

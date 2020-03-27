@@ -40,14 +40,12 @@
 
 
 // ÑÈÑÒÅÌÍÛÅ ÈÍÊËÓÄÛ
-//#include <a_samp>
-#include "../includes/brilliant_core.inc"
-#include "../includes/API.inc"
+#include <..\pawno\includes\a_samp>
+#include "..\includes\brilliant_core.inc"
 
 
 // ÏÎÄÃĞÓÆÀÅÌÛÅ ÈÍÊËÓÄÛ
-#include <../includes/YSF.inc>
-#include "../YSI/y_hooks"
+#include <..\pawno\includes\YSI\y_hooks.inc>
 #include <mdialog>
 #include <Pawn.CMD>
 #include <Pawn.RakNet>
@@ -55,6 +53,7 @@
 #include <mxINI>
 
 // lang ôàéëû
+#include "../languages/languages.inc"
 #include <languages/russian.lang>
 
 
@@ -73,7 +72,12 @@ public OnGamemodeInit() {
 
 // ÑÈÑÒÅÌÛ
 
+// PLAYER
 
+#include "../includes/PLAYER_system/PLAYER_variables.inc"
+
+// API
+#include "../includes/API.inc"
 
 // Ñèñòåìà ìàøèí
 #include <includes/VEH_system/VEH_main>
