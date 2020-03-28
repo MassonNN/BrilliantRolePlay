@@ -1,0 +1,4 @@
+[23:51:34] [plugins/mysql] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'mysql.royal-host.ru' (10061)'
+[23:51:35] [plugins/mysql] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'mysql.royal-host.ru' (10061)'
+[23:51:36] [plugins/mysql] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'mysql.royal-host.ru' (10061)'
+[23:51:37] [plugins/mysql] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'mysql.royal-host.ru' (10061)'

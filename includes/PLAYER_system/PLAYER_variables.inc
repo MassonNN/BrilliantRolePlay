@@ -3,6 +3,7 @@
 
 
 #define MAX_BANK_ACCOUNTS 	10
+#undef MAX_VEHICLES
 #define MAX_VEHICLES		3
 #define MAX_BUSINESSES		3
 
@@ -16,8 +17,7 @@
 #define RUSSIAN				0 // default
 #define ENGLISH				1
 #define UKRAINIAN			2
-#define POLISH				3
-#define 		
+#define POLISH				3	
 
 // OTHER
 #define SPD 				ShowPlayerDialog
@@ -25,8 +25,10 @@
 #define SCMTA				SendClientMessageToAll
 
 enum PLAYER_Stats {
+	PLAYER_ID,
 	PLAYER_Name[MAX_PLAYER_NAME], 			// Имя игрока
-	PLAYER_Password[33]
+	PLAYER_Password[33],
+	PLAYER_Skin,
 	PLAYER_Sex, 					// пол игрока. 1 - мужчина, 2 - женщина, 0 - не выбрал
 	PLAYER_Money, 					// Деньги игрока на руках
 	PLAYER_BankMoney[MAX_BANK_ACCOUNTS], 		// Деньги игрока в банке на разных счетах (максимально пока 10, но можно поменять)

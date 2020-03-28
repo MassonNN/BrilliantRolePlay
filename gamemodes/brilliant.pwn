@@ -53,6 +53,9 @@
 #include <Pawn.CMD>
 #include <Pawn.RakNet>
 #include <foreach>
+#include "../includes/mysql.inc"
+#include "../includes/PLAYER_system/PLAYER_variables.inc"
+#include "../includes/registration.inc"
 //#include <mxINI> // ЗАЧЕМ НАМ MXINI?!
 
 // lang файлы
@@ -62,7 +65,7 @@
 
 // оставить место под системные хуки
 
-main() {}
+main(){}
 
 public OnGameModeInit()
 {
