@@ -62,12 +62,13 @@ SendError(playerid, text[], error_id = 0) {
 #define GetPlayerLevel(%0)		PI[%0][PLAYER_Level]
 #define GetPlayerExp(%0)		PI[%0][PLAYER_Exp]
 #define GetPlayerMuteTime(%0)	PI[%0][PLAYER_MuteTime]
-IsPlayerMuted(playerid) if(PI[playerid][PLAYER_MuteTime]) return true, else return false;
+#define IsPlayerMuted(playerid) if(PI[playerid][PLAYER_MuteTime]) return true, else return false;
 #define GetPlayerBanTime(%0)	PI[%0][PLAYER_BanTime]
 #define GetPlayerReputation(%0)	PI[%0][PLAYER_Reputation]
 #define GetPlayerAge(%0)		PI[%0][PLAYER_Age]
 #define GetPlayerAdminLevel(%0)	PI[%0][PLAYER_Admin]
-IsPlayerAdmin(playerid, minlevel = 1) {
+PlayerTheAdmin(playerid, minlevel = 1) 
+{
 	if(GetPlayerAdminLevel(playerid) < minlevel) return false;
 	else return true;
 }
@@ -80,4 +81,6 @@ SetPlayerSex(playerid, sex) {
 
 
 // END PLAYER
+
+new SYSTEM_HI_RU[] = "Привет, мир!";
 

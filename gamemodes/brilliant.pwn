@@ -47,16 +47,16 @@
 
 
 // ÏÎÄÃÐÓÆÀÅÌÛÅ ÈÍÊËÓÄÛ
-#include <../includes/YSF.inc>
-#include "../YSI/y_hooks"
+#include <YSF>
+#include <YSI\y_hooks>
 #include <mdialog>
 #include <Pawn.CMD>
 #include <Pawn.RakNet>
 #include <foreach>
-#include <mxINI> // ÇÀ×ÅÌ ÍÀÌ MXINI?!
+//#include <mxINI> // ÇÀ×ÅÌ ÍÀÌ MXINI?!
 
 // lang פאיכû
-#include <languages/russian.lang>
+//#include <languages/russian.lang>
 
 
 
@@ -64,7 +64,8 @@
 
 main() {}
 
-public OnGamemodeInit() {
+public OnGameModeInit()
+{
 	print(SYSTEM_HI_RU);
 }
 
@@ -77,4 +78,4 @@ public OnGamemodeInit() {
 
 
 // Ñטסעולא לארטם
-#include <includes/VEH_system/VEH_main>
+//#include "..includes/VEH_system/VEH_main.inc>
