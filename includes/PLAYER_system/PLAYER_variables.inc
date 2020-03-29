@@ -5,6 +5,7 @@
 #define MAX_BANK_ACCOUNTS 	10
 #define MAX_PLAYER_VEHICLES	3
 #define MAX_BUSINESSES		3
+#define MAX_FRACS	10
 
 
 // SEX
@@ -52,9 +53,13 @@ enum PLAYER_Property { // имущество игрока
 new PP[MAX_PLAYERS][PLAYER_Property];
 
 
-enum PLAYER_Organization {
-	PLAYER_Fraction,
-	PLAYER_Rank,
-	PLAYER_FracWarns,
-	PLAYER_TimeInFrac[MAX_FRACS]
-}
+
+enum PLAYER_Organization { // Организации
+	PLAYER_Fraction,				// ID фракций
+	PLAYER_Rank,					// Ранг во фракции
+	PLAYER_FracWarns,				// Выговоры
+	PLAYER_TimeInFrac[MAX_FRACS],	// Время во фракции
+	PLAYER_FracModel				// Фракционный скин
+};
+
+new PO[MAX_PLAYERS][PLAYER_Organization]; 

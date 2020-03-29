@@ -80,10 +80,10 @@ stock SendAdmin(text[], color = -1, minlevel = 1) {
 #define GetPlayerAge(%0)		PI[%0][PLAYER_Age]
 #define GetPlayerAdminLevel(%0)	PI[%0][PLAYER_Admin]
 
-stock IsPlayerAdminEx(playerid, minlevel = 1) 
+stock CheckAdmin(playerid, minlevel = 1) 
 {
-	if(GetPlayerAdminLevel(playerid) < minlevel) return false;
-	else return true;
+	if(GetPlayerAdminLevel(playerid) < minlevel) return SendErr(playerid, "Неизвестная команда. Воспользуйтесь /mm - Помощь.");
+	else return 1;
 }
 
 stock SetPlayerSex(playerid, sex) {
