@@ -3,8 +3,7 @@
 
 
 #define MAX_BANK_ACCOUNTS 	10
-#undef MAX_VEHICLES
-#define MAX_VEHICLES		3
+#define MAX_PLAYER_VEHICLES	3
 #define MAX_BUSINESSES		3
 
 
@@ -45,9 +44,17 @@ new PL[MAX_PLAYERS][PLAYER_Licenses];
 
 enum PLAYER_Property { // имущество игрока
 	PLAYER_House,					// дом игрока
-	PLAYER_Vehicle[MAX_VEHICLES],	// машины игрока
+	PLAYER_Vehicle[MAX_PLAYER_VEHICLES],	// машины игрока
 	PLAYER_Model,					// скин игрока
 	PLAYER_Business[MAX_BUSINESSES] // бизнес игрока
 }; 
 
 new PP[MAX_PLAYERS][PLAYER_Property];
+
+
+enum PLAYER_Organization {
+	PLAYER_Fraction,
+	PLAYER_Rank,
+	PLAYER_FracWarns,
+	PLAYER_TimeInFrac[MAX_FRACS]
+}

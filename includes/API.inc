@@ -10,17 +10,17 @@
 
 
 // Отправить игроку подсказку
-SendPond(playerid, text[]) {
+stock SendPond(playerid, text[]) {
 	SendFormatMessage(playerid, COLOR_YELLOW_L, POND_TEXT, text);
 }
 
 // Отправить игроку информацию
-SendInfo(playerid, text[]) {
+stock SendInfo(playerid, text[]) {
 	SendFormatMessage(playerid, COLOR_GREEN_L, INFO_TEXT, text);
 }
 
 // Отправить игроку сообщение об успешном выполнении
-SendSuccess(playerid, text[]) {
+stock SendSuccess(playerid, text[]) {
 	SendFormatMessage(playerid, COLOR_HAKI_L, SUCCESS_TEXT, text);
 }
 
@@ -39,7 +39,7 @@ enum ERRORS_LIST {
 
 
 // Отправить игроку ошибку
-SendError(playerid, text[], error_id = 0) {
+stock SendError(playerid, text[], error_id = 0) {
 	if(error_id == 0) SendFormatMessage(playerid, COLOR_RED_L, ERROR_TEXT, text);
 	else {
 		if (1 <= error_id <= 11) SendFormatMessage(playerid, COLOR_RED_L, ERROR_TEXT_WITH_ID, error_id, text);
@@ -51,7 +51,7 @@ SendError(playerid, text[], error_id = 0) {
 }
 
 // Отправить сообщение администрации, где color - цвет, minlevel - минимальный уровень админа для отправления сообщения
-SendAdmin(text[], color = -1, minlevel = 1) {
+stock SendAdmin(text[], color = -1, minlevel = 1) {
 	foreach(new i : Player) {
 		if(PI[i][PLAYER_Admin] < minlevel) continue;
 		else {
@@ -79,20 +79,19 @@ SendAdmin(text[], color = -1, minlevel = 1) {
 #define GetPlayerReputation(%0)	PI[%0][PLAYER_Reputation]
 #define GetPlayerAge(%0)		PI[%0][PLAYER_Age]
 #define GetPlayerAdminLevel(%0)	PI[%0][PLAYER_Admin]
-PlayerTheAdmin(playerid, minlevel = 1) 
+
+stock IsPlayerAdminEx(playerid, minlevel = 1) 
 {
 	if(GetPlayerAdminLevel(playerid) < minlevel) return false;
 	else return true;
 }
 
-SetPlayerSex(playerid, sex) {
+stock SetPlayerSex(playerid, sex) {
 	if(sex == 3) return 0;
 	PI[playerid][PLAYER_Sex] = sex;
-	SendPond(playerid, )
+	return sex;
 }
 
 
 // END PLAYER
-
-new SYSTEM_HI_RU[] = "Привет, мир!";
 

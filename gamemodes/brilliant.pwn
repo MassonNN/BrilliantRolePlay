@@ -40,7 +40,7 @@
 
 
 // СИСТЕМНЫЕ ИНКЛУДЫ
-#include <a_samp>
+#include <a_samp.inc>
 #include <a_mysql>
 #include "../includes/brilliant_core.inc"
 #include "../includes/API.inc"
@@ -55,8 +55,8 @@
 #include <foreach>
 #include "../includes/mysql.inc"
 #include "../includes/PLAYER_system/PLAYER_variables.inc"
-#include "../includes/registration.inc"
-//#include <mxINI> // ЗАЧЕМ НАМ MXINI?!
+// #include "../includes/registration.inc" // Это нужно переписать под наш API и наши системы
+//#include <mxINI> 
 
 // lang файлы
 //#include <languages/russian.lang>

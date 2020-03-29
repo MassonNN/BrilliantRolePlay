@@ -1,4 +1,4 @@
-#include <YSI/y_hooks>
+
 
 enum 
 {
@@ -34,73 +34,73 @@ public OnPlayerRequestClass(playerid, classid)
 	return 1;
 }
 
-IsRPNick(const name[])
-{
-    static num_underscores, ptr;
-    emit
-    {
-        load.s.pri name
-        load.i
-        const.alt 'A'
-        jsless ret_false
-        const.alt 'Z'
-        jsgrtr ret_false
-        load.s.pri name
-        add.c (cellbits / charbits)
-        load.i
-        const.alt 'a'
-        jsless ret_false
-        const.alt 'z'
-        jsgrtr ret_false
-        zero num_underscores
-        load.s.pri name
-        add.c (cellbits / charbits * 2)
-        jump loop_entry
-    	loop:
-        load.pri ptr
-        add.c (cellbits / charbits)
-    	loop_entry:
-        stor.pri ptr
-        load.i
-        const.alt 'a'
-        jsless is_underscore
-        const.alt 'z'
-        jsleq loop
-    	is_underscore:
-        const.alt '_'
-        jneq is_term
-        inc num_underscores
-        load.pri ptr
-        add.c (cellbits / charbits)
-        load.i
-        const.alt 'A'
-        jsless ret_false
-        const.alt 'Z'
-        jsgrtr ret_false
-        load.pri ptr
-        add.c (cellbits / charbits * 2)
-        stor.pri ptr
-        load.i
-        const.alt 'a'
-        jsless ret_false
-        const.alt 'z'
-        jsleq loop
-        jump ret_false
-    	is_term:
-        jnz ret_false
-        load.pri ptr
-        load.s.alt name
-        sub
-        const.alt (cellbits / charbits * 4)
-        jsless ret_false
-        load.pri num_underscores
-        const.alt 1
-        eq
-        retn
-    	ret_false:
-    }
-    return false;
-}
+// IsRPNick(const name[])  // Я уже говорил о том, что не могу работать с новым компилятором
+// {
+//     static num_underscores, ptr;
+//     emit
+//     {
+//         load.s.pri name
+//         load.i
+//         const.alt 'A'
+//         jsless ret_false
+//         const.alt 'Z'
+//         jsgrtr ret_false
+//         load.s.pri name
+//         add.c (cellbits / charbits)
+//         load.i
+//         const.alt 'a'
+//         jsless ret_false
+//         const.alt 'z'
+//         jsgrtr ret_false
+//         zero num_underscores
+//         load.s.pri name
+//         add.c (cellbits / charbits * 2)
+//         jump loop_entry
+//     	loop:
+//         load.pri ptr
+//         add.c (cellbits / charbits)
+//     	loop_entry:
+//         stor.pri ptr
+//         load.i
+//         const.alt 'a'
+//         jsless is_underscore
+//         const.alt 'z'
+//         jsleq loop
+//     	is_underscore:
+//         const.alt '_'
+//         jneq is_term
+//         inc num_underscores
+//         load.pri ptr
+//         add.c (cellbits / charbits)
+//         load.i
+//         const.alt 'A'
+//         jsless ret_false
+//         const.alt 'Z'
+//         jsgrtr ret_false
+//         load.pri ptr
+//         add.c (cellbits / charbits * 2)
+//         stor.pri ptr
+//         load.i
+//         const.alt 'a'
+//         jsless ret_false
+//         const.alt 'z'
+//         jsleq loop
+//         jump ret_false
+//     	is_term:
+//         jnz ret_false
+//         load.pri ptr
+//         load.s.alt name
+//         sub
+//         const.alt (cellbits / charbits * 4)
+//         jsless ret_false
+//         load.pri num_underscores
+//         const.alt 1
+//         eq
+//         retn
+//     	ret_false:
+//     }
+//     return false;
+// }
 
 forward CheckAcc(playerid);
 public CheckAcc(playerid)

@@ -243,7 +243,7 @@ stock Hooks_MakeLongName(name[])
 				// two lines look independent, they aren't!
 				i = name[pos] & ~0x80000000,
 				name[pos] = YSI_g_sReplacements[i][E_HOOK_NAME_REPLACEMENT_LONG],
-				strins(name, YSI_g_sReplacements[i][E_HOOK_NAME_REPLACEMENT_LONG + E_HOOK_NAME_REPLACEMENT_DATA:1], pos + 1),
+				strins(name, YSI_g_sReplacements[i][E_HOOK_NAME_REPLACEMENT_LONG + E_HOOK_NAME_REPLACEMENT_DATA:1], pos + 2),
 				pos += YSI_g_sReplacements[i][E_HOOK_NAME_REPLACEMENT_MAX] - 1;
 				P:7("New string: %s", name);
 			}
