@@ -3,6 +3,7 @@
 
 
 #define MAX_BANK_ACCOUNTS 	10
+#undef MAX_VEHICLES
 #define MAX_VEHICLES		3
 #define MAX_BUSINESSES		3
 

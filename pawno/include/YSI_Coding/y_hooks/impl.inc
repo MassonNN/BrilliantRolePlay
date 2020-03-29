@@ -190,7 +190,7 @@ static stock
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-stock Hooks_MakeLongName(name[64])
+stock Hooks_MakeLongName(name[])
 {
 	new
 		end = 0,
@@ -250,7 +250,7 @@ stock Hooks_MakeLongName(name[64])
 		}
 	}
 	// It is possible for the expansions to become TOO big.
-	return Hooks_MakeShortName(name);
+	return 1;
 }
 
 /**--------------------------------------------------------------------------**\

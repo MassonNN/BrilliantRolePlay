@@ -47,24 +47,28 @@
 
 
 // ПОДГРУЖАЕМЫЕ ИНКЛУДЫ
-#include "..\YSI\y_hooks.inc"
+#include <YSF>
+#include <YSI\y_hooks>
 #include <mdialog>
 #include <Pawn.CMD>
 #include <Pawn.RakNet>
 #include <foreach>
-#include <mxINI> // настройки делаются через mxini
+#include "../includes/mysql.inc"
+#include "../includes/PLAYER_system/PLAYER_variables.inc"
+#include "../includes/registration.inc"
+//#include <mxINI> // ЗАЧЕМ НАМ MXINI?!
 
 // lang файлы
-#include "../languages/languages.inc"
-#include <languages/russian.lang>
+//#include <languages/russian.lang>
 
 
 
 // оставить место под системные хуки
 
-main() {}
+main(){}
 
-public OnGamemodeInit() {
+public OnGameModeInit()
+{
 	print(SYSTEM_HI_RU);
 }
 
@@ -82,4 +86,4 @@ public OnGamemodeInit() {
 #include "../includes/API.inc"
 
 // Система машин
-#include <includes/VEH_system/VEH_main>
+//#include "..includes/VEH_system/VEH_main.inc>
