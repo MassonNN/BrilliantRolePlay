@@ -40,17 +40,19 @@
 
 
 // СИСТЕМНЫЕ ИНКЛУДЫ
-#include <..\pawno\includes\a_samp>
-#include "..\includes\brilliant_core.inc"
+#include <a_samp>
+#include <a_mysql>
+#include "../includes/brilliant_core.inc"
+#include "../includes/API.inc"
 
 
 // ПОДГРУЖАЕМЫЕ ИНКЛУДЫ
-#include <..\pawno\includes\YSI\y_hooks.inc>
+#include "..\YSI\y_hooks.inc"
 #include <mdialog>
 #include <Pawn.CMD>
 #include <Pawn.RakNet>
 #include <foreach>
-#include <mxINI>
+#include <mxINI> // настройки делаются через mxini
 
 // lang файлы
 #include "../languages/languages.inc"
