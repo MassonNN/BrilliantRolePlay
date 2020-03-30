@@ -97,3 +97,5 @@ stock SetPlayerSex(playerid, sex) {
 
 // END PLAYER
 
+new SYSTEM_HI_RU[] = "Привет, мир!";
+
