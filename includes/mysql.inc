@@ -1,8 +1,10 @@
+#include <YSI\y_hooks>
+
 new MySQL:dbHandle;
 
 hook OnGameModeInit()
 {
-	dbHandle = mysql_connect("mysql.royal-host.ru", "gs32512", "gs32512", "Omegov666");
+	dbHandle = mysql_connect("185.211.247.111", "gs32512", "Omegov666", "gs32512");
 	switch(mysql_errno())
 	{
 	    case 0: print(!"Подключение к базе данных удалось");

@@ -1679,3 +1679,467 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [23:51:41] [part] Selena_Lunysh has left the server (0:1)
 [23:51:41] [connection] incoming connection: 127.0.0.1:56026 id: 0
 [23:51:41] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:04:30] 
+[15:04:30] Server Plugins
+[15:04:30] --------------
+[15:04:30]  Loading plugin: mysql
+[15:04:30]  >> plugin.mysql: R41-4 successfully loaded.
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: pawncmd
+[15:04:30] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: sscanf
+[15:04:30] 
+
+[15:04:30]  ===============================
+
+[15:04:30]       sscanf plugin loaded.     
+
+[15:04:30]          Version:  2.8.2        
+
+[15:04:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:04:30]  ===============================
+
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: streamer
+[15:04:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: pawnraknet
+[15:04:30] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: timerfix
+[15:04:30]   >> TimerFix v1.5 successfully loaded.
+[15:04:30]   Loaded.
+[15:04:30]  Loaded 6 plugins.
+
+[15:04:31] 
+[15:04:31] Filterscripts
+[15:04:31] ---------------
+[15:04:31]   Loaded 0 filterscripts.
+
+[15:04:31]  
+[15:04:31]  
+[15:04:31]  
+[15:04:31]  ======================================= 
+[15:04:31]  |                                     | 
+[15:04:31]  |        YSI version 4.00.0001        | 
+[15:04:31]  |        By Alex "Y_Less" Cole        | 
+[15:04:31]  |                                     | 
+[15:04:31]  ======================================= 
+[15:04:31]  
+[15:04:36] ке адыеаьееашаошиd
+[15:04:36] Привет, мир!
+[15:04:36] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:05:59] 
+[15:05:59] Server Plugins
+[15:05:59] --------------
+[15:05:59]  Loading plugin: mysql
+[15:05:59]  >> plugin.mysql: R41-4 successfully loaded.
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: pawncmd
+[15:05:59] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: sscanf
+[15:05:59] 
+
+[15:05:59]  ===============================
+
+[15:05:59]       sscanf plugin loaded.     
+
+[15:05:59]          Version:  2.8.2        
+
+[15:05:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:05:59]  ===============================
+
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: streamer
+[15:05:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: pawnraknet
+[15:05:59] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: timerfix
+[15:05:59]   >> TimerFix v1.5 successfully loaded.
+[15:05:59]   Loaded.
+[15:05:59]  Loaded 6 plugins.
+
+[15:05:59] 
+[15:05:59] Filterscripts
+[15:05:59] ---------------
+[15:05:59]   Loaded 0 filterscripts.
+
+[15:05:59]  
+[15:05:59]  
+[15:05:59]  
+[15:05:59]  ======================================= 
+[15:05:59]  |                                     | 
+[15:05:59]  |        YSI version 4.00.0001        | 
+[15:05:59]  |        By Alex "Y_Less" Cole        | 
+[15:05:59]  |                                     | 
+[15:05:59]  ======================================= 
+[15:05:59]  
+[15:06:03] ке адыеаьееашаошиd
+[15:06:03] Привет, мир!
+[15:06:03] Number of vehicle models: 0
+[15:06:07] [connection] 127.0.0.1:49746 requests connection cookie.
+[15:06:08] [connection] incoming connection: 127.0.0.1:49746 id: 0
+[15:06:08] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:09:14] 
+[15:09:14] Server Plugins
+[15:09:14] --------------
+[15:09:14]  Loading plugin: mysql
+[15:09:14]  >> plugin.mysql: R41-4 successfully loaded.
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: pawncmd
+[15:09:14] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: sscanf
+[15:09:14] 
+
+[15:09:14]  ===============================
+
+[15:09:14]       sscanf plugin loaded.     
+
+[15:09:14]          Version:  2.8.2        
+
+[15:09:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:09:14]  ===============================
+
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: streamer
+[15:09:14] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: pawnraknet
+[15:09:14] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: timerfix
+[15:09:14]   >> TimerFix v1.5 successfully loaded.
+[15:09:14]   Loaded.
+[15:09:14]  Loaded 6 plugins.
+
+[15:09:14] 
+[15:09:14] Filterscripts
+[15:09:14] ---------------
+[15:09:14]   Loaded 0 filterscripts.
+
+[15:09:14]  
+[15:09:14]  
+[15:09:14]  
+[15:09:14]  ======================================= 
+[15:09:14]  |                                     | 
+[15:09:14]  |        YSI version 4.00.0001        | 
+[15:09:14]  |        By Alex "Y_Less" Cole        | 
+[15:09:14]  |                                     | 
+[15:09:14]  ======================================= 
+[15:09:14]  
+[15:09:14] Подключение к базе данных удалось
+[15:09:14] Привет, мир!
+[15:09:14] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:09:34] 
+[15:09:34] Server Plugins
+[15:09:34] --------------
+[15:09:34]  Loading plugin: mysql
+[15:09:34]  >> plugin.mysql: R41-4 successfully loaded.
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: pawncmd
+[15:09:34] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: sscanf
+[15:09:34] 
+
+[15:09:34]  ===============================
+
+[15:09:34]       sscanf plugin loaded.     
+
+[15:09:34]          Version:  2.8.2        
+
+[15:09:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:09:34]  ===============================
+
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: streamer
+[15:09:34] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: pawnraknet
+[15:09:34] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: timerfix
+[15:09:34]   >> TimerFix v1.5 successfully loaded.
+[15:09:34]   Loaded.
+[15:09:34]  Loaded 6 plugins.
+
+[15:09:34] 
+[15:09:34] Filterscripts
+[15:09:34] ---------------
+[15:09:34]   Loaded 0 filterscripts.
+
+[15:09:34]  
+[15:09:34]  
+[15:09:34]  
+[15:09:34]  ======================================= 
+[15:09:34]  |                                     | 
+[15:09:34]  |        YSI version 4.00.0001        | 
+[15:09:34]  |        By Alex "Y_Less" Cole        | 
+[15:09:34]  |                                     | 
+[15:09:34]  ======================================= 
+[15:09:34]  
+[15:09:35] Подключение к базе данных удалось
+[15:09:35] Привет, мир!
+[15:09:35] Number of vehicle models: 0
+[15:09:36] [connection] 127.0.0.1:55855 requests connection cookie.
+[15:09:37] [connection] incoming connection: 127.0.0.1:55855 id: 0
+[15:09:37] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:12:28] 
+[15:12:28] Server Plugins
+[15:12:28] --------------
+[15:12:28]  Loading plugin: mysql
+[15:12:28]  >> plugin.mysql: R41-4 successfully loaded.
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: pawncmd
+[15:12:28] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: sscanf
+[15:12:28] 
+
+[15:12:28]  ===============================
+
+[15:12:28]       sscanf plugin loaded.     
+
+[15:12:28]          Version:  2.8.2        
+
+[15:12:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:12:28]  ===============================
+
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: streamer
+[15:12:28] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: pawnraknet
+[15:12:28] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: timerfix
+[15:12:28]   >> TimerFix v1.5 successfully loaded.
+[15:12:28]   Loaded.
+[15:12:28]  Loaded 6 plugins.
+
+[15:12:28] 
+[15:12:28] Filterscripts
+[15:12:28] ---------------
+[15:12:28]   Loaded 0 filterscripts.
+
+[15:12:28]  
+[15:12:28]  
+[15:12:28]  
+[15:12:28]  ======================================= 
+[15:12:28]  |                                     | 
+[15:12:28]  |        YSI version 4.00.0001        | 
+[15:12:28]  |        By Alex "Y_Less" Cole        | 
+[15:12:28]  |                                     | 
+[15:12:28]  ======================================= 
+[15:12:28]  
+[15:12:29] Подключение к базе данных удалось
+[15:12:29] Привет, мир!
+[15:12:29] Number of vehicle models: 0
+[15:12:31] [connection] 127.0.0.1:51448 requests connection cookie.
+[15:12:32] [connection] incoming connection: 127.0.0.1:51448 id: 0
+[15:12:32] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:28:37] 
+[15:28:37] Server Plugins
+[15:28:37] --------------
+[15:28:37]  Loading plugin: mysql
+[15:28:37]  >> plugin.mysql: R41-4 successfully loaded.
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: pawncmd
+[15:28:37] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: sscanf
+[15:28:37] 
+
+[15:28:37]  ===============================
+
+[15:28:37]       sscanf plugin loaded.     
+
+[15:28:37]          Version:  2.8.2        
+
+[15:28:37]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:28:37]  ===============================
+
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: streamer
+[15:28:37] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: pawnraknet
+[15:28:37] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: timerfix
+[15:28:37]   >> TimerFix v1.5 successfully loaded.
+[15:28:37]   Loaded.
+[15:28:37]  Loaded 6 plugins.
+
+[15:28:37] 
+[15:28:37] Filterscripts
+[15:28:37] ---------------
+[15:28:37]   Loaded 0 filterscripts.
+
+[15:28:37]  
+[15:28:37]  
+[15:28:37]  
+[15:28:37]  ======================================= 
+[15:28:37]  |                                     | 
+[15:28:37]  |        YSI version 4.00.0001        | 
+[15:28:37]  |        By Alex "Y_Less" Cole        | 
+[15:28:37]  |                                     | 
+[15:28:37]  ======================================= 
+[15:28:37]  
+[15:28:38] Подключение к базе данных удалось
+[15:28:38] Привет, мир!
+[15:28:38] Number of vehicle models: 0
+[15:28:42] [connection] 127.0.0.1:50336 requests connection cookie.
+[15:28:43] [connection] incoming connection: 127.0.0.1:50336 id: 0
+[15:28:43] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:52:45] 
+[18:52:45] Server Plugins
+[18:52:45] --------------
+[18:52:45]  Loading plugin: mysql
+[18:52:46]  >> plugin.mysql: R41-4 successfully loaded.
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: pawncmd
+[18:52:46] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: sscanf
+[18:52:46] 
+
+[18:52:46]  ===============================
+
+[18:52:46]       sscanf plugin loaded.     
+
+[18:52:46]          Version:  2.8.2        
+
+[18:52:46]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:52:46]  ===============================
+
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: streamer
+[18:52:46] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: pawnraknet
+[18:52:46] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: timerfix
+[18:52:46]   >> TimerFix v1.5 successfully loaded.
+[18:52:46]   Loaded.
+[18:52:46]  Loaded 6 plugins.
+
+[18:52:46] 
+[18:52:46] Filterscripts
+[18:52:46] ---------------
+[18:52:46]   Loaded 0 filterscripts.
+
+[18:52:46]  
+[18:52:46]  
+[18:52:46]  
+[18:52:46]  ======================================= 
+[18:52:46]  |                                     | 
+[18:52:46]  |        YSI version 4.00.0001        | 
+[18:52:46]  |        By Alex "Y_Less" Cole        | 
+[18:52:46]  |                                     | 
+[18:52:46]  ======================================= 
+[18:52:46]  
+[18:52:51] ке адыеаьееашаошиd
+[18:52:51] Привет, мир!
+[18:52:51] Number of vehicle models: 0
+[18:53:51] [connection] 127.0.0.1:50442 requests connection cookie.
+[18:53:52] [connection] incoming connection: 127.0.0.1:50442 id: 0
+[18:53:52] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+[18:56:23] [part] Selena_Lunysh has left the server (0:1)
