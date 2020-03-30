@@ -63,6 +63,8 @@ stock SendAdmin(text[], color = -1, minlevel = 1) {
 
 
 
+
+
 // 
 
 
