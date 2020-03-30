@@ -1,15 +1,4 @@
-/**
- * <library name="y_hooks">
- * <section>
- *  Description
- * </section>
- *  Automatically hooks any callbacks with a very simple syntax.
- * <section>
- *  Version
- * </section>
- *  2.0
- * </library>
- *//** *//*
+/*
 Legal:
 	Version: MPL 1.1
 	
@@ -81,47 +70,5 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#if defined _inc_y_hooks
-	#undef _inc_y_hooks
-#endif
-
-#if !defined _Y_UNIQUE_INCLUDED
-	#tryinclude "..\YSI_Coding\y_unique\y_unique_entry"
-#endif
-#if !defined _Y_UNIQUE_INCLUDED
-	#tryinclude "YSI_Coding\y_unique\y_unique_entry"
-#endif
-#if !defined _Y_UNIQUE_INCLUDED
-	#tryinclude "YSI\YSI_Coding\y_unique\y_unique_entry"
-#endif
-#if !defined _Y_UNIQUE_INCLUDED
-	#tryinclude <YSI_Coding\y_unique\y_unique_entry>
-#endif
-#if !defined _Y_UNIQUE_INCLUDED
-	#tryinclude <YSI\YSI_Coding\y_unique\y_unique_entry>
-#endif
-#if defined _Y_UNIQUE_INCLUDED
-	#undef _Y_UNIQUE_INCLUDED
-#else
-	#error Did you use `YSI/y_hooks` instead of `YSI\y_hooks`?
-#endif
-
-#if !defined _INC_y_hooks
-	#tryinclude "y_hooks\y_hooks_entry"
-#endif
-#if !defined _INC_y_hooks
-	#tryinclude "YSI_Coding\y_hooks\y_hooks_entry"
-#endif
-#if !defined _INC_y_hooks
-	#tryinclude "YSI\YSI_Coding\y_hooks\y_hooks_entry"
-#endif
-#if !defined _INC_y_hooks
-	#tryinclude <YSI_Coding\y_hooks\y_hooks_entry>
-#endif
-#if !defined _INC_y_hooks
-	#tryinclude <YSI\YSI_Coding\y_hooks\y_hooks_entry>
-#endif
-#if !defined _INC_y_hooks
-	#error Could not find y_hooks
-#endif
+#error Use `#include <YSI_Coding\y_hooks>`
 

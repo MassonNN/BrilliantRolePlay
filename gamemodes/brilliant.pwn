@@ -36,13 +36,10 @@
 
 
 */
-#include <a_samp>
-#include "../includes/test.inc"
-/*
+
 // СИСТЕМНЫЕ ИНКЛУДЫ
 #include <a_samp>
 #include <a_mysql>
-#include <YSI\y_hooks>
 #include "../includes/brilliant_core.inc"
 #include "../includes/API.inc"
 
@@ -51,14 +48,15 @@
 #include <YSF>
 #include <mdialog>
 #include <Pawn.CMD>
-#include <Pawn.RakNet>
 #include <foreach>
+#include <Pawn.RakNet>
+new MySQL:dbHandle;
 #include "../includes/mysql.inc"
-#include "../includes/PLAYER_system/PLAYER_variables.inc"
+//#include "../includes/PLAYER_system/PLAYER_variables.inc"
 //#include "../includes/registration.inc" // Это нужно переписать под наш API и наши системы
 //#include <mxINI> 
 
-// lang файлы
+//lang файлы
 //#include <languages/russian.lang>
 
 
@@ -73,9 +71,6 @@ public OnGameModeInit()
 }
 
 
-
-
-*/
 // СИСТЕМЫ
 
 // Система машин

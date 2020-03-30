@@ -1,7 +1,3 @@
-#if !defined _YSI/y_hooks
-#include <YSI/y_hooks>
-#endif
-
 enum 
 {
 	DIALOG_REG,
