@@ -88,24 +88,24 @@ forward _@_y_funcinc_@_();
 
 public _@_y_funcinc_@_()
 {
-	new tmp[2];
+	new _funcinc_a[1 char];
 	// This function calls any functions used in assembly code in YSI to ensure
 	// that they are included in the native function table.
-	print(tmp);
-	printf(tmp);
-	strunpack(tmp, tmp);
-	memcpy(tmp, tmp, 0, 0, 0);
-	format(tmp, 0, tmp);
-	strfind(tmp, tmp, false, 0);
-	strcat(tmp, tmp, 0);
-	strlen(tmp);
-	CallRemoteFunction(tmp, tmp);
-	CallLocalFunction(tmp, tmp);
-	SetTimerEx(tmp, 0, 0, tmp);
+	print("");
+	printf("");
+	strunpack(_funcinc_a, "");
+	memcpy("", "", 0, 0, 0);
+	format("", 0, "");
+	strfind("", "", false, 0);
+	strcat(_funcinc_a, "", 0);
+	strlen("");
+	CallRemoteFunction("", "");
+	CallLocalFunction("", "");
+	SetTimerEx("", 0, 0, "");
 	heapspace();
-	setproperty(0, tmp, 0, tmp);
-	getproperty(0, tmp, 0, tmp);
+	setproperty(0, "", 0, "");
+	getproperty(0, "", 0, _funcinc_a);
 	swapchars(0);
-	strcmp(tmp, tmp);
+	strcmp("", "");
 }
 

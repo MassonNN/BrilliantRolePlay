@@ -70,5 +70,12 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#error Use `#include <YSI_Coding\y_stringhash>`
+#include <YSI_Coding\y_stringhash>
+
+#if !defined __PawnBuild
+	static USE@YSI_Coding@y_stringhash;
+	#endinput
+#endif
+
+#warning Please use `#include <YSI_Coding\y_stringhash>`
 

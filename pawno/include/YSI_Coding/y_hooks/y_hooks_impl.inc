@@ -104,11 +104,6 @@ DEFINE_HOOK_REPLACEMENT__(TextDraw  , TD );
 DEFINE_HOOK_REPLACEMENT__(Update    , Upd);
 DEFINE_HOOK_REPLACEMENT__(Object    , Obj);
 DEFINE_HOOK_REPLACEMENT__(Command   , Cmd);
-
-// SPECIAL HACK!  The streamer plugin already shortens "Checkpoint" to "CP", without this line
-// y_hooks will try to expand it again to `OnPlayerEnterDynamicCheckpoint`, which is a valid
-// callback name, but the wrong one.  Thus we prevent the final expansion with this seemingly
-// pointless replacement.  This is an internal detail you don't really need to worry about.
 DEFINE_HOOK_REPLACEMENT__(DynamicCP , DynamicCP);
 
 enum E_HOOK_NAME_REPLACEMENT_DATA
@@ -1344,7 +1339,7 @@ Hooks_NumArgs_negative:
 	#emit LOAD.I
 	#emit SHR.C.pri           2
 	#emit RETN*/
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 #if defined _ALS_numargs
@@ -1436,11 +1431,8 @@ public OnRuntimeError(code, &bool:suppress)
 	return 1;
 }
 
-#if defined _ALS_OnRuntimeError
-	#undef OnRuntimeError
-#else
-	#define _ALS_OnRuntimeError
-#endif
+// No ALS check because it is done in `y_scriptinit`.
+#undef OnRuntimeError
 #define OnRuntimeError Hooks_OnRuntimeError
 
 #if defined Hooks_OnRuntimeError

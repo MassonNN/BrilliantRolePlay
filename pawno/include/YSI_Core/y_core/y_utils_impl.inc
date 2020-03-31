@@ -281,17 +281,6 @@ stock y_profile_WTF(const name[], const timings[], iters, size = sizeof (timings
 	#if defined _y_utils_OnPlayerDisconnect
 		forward _y_utils_OnPlayerDisconnect(playerid, reason);
 	#endif
-
-	/*-------------------------------------------------------------------------*//**
-	 * <param name="playerid">Player to get IP of.</param>
-	 * <returns>
-	 *  IP as a 32bit int.
-	 * </returns>
-	 *//*------------------------------------------------------------------------**/
-
-	// Cunning macro only uses "%0" once, yet is still safe.
-	P:D(GetIP(playerid));
-	#define GetIP(%0) (YSI_gPlayerIP[min((%0) + cellmin, MAX_PLAYERS + cellmin) - cellmin])
 #endif
 
 #if defined YSI_LOCK_MODE
@@ -322,30 +311,6 @@ stock y_profile_WTF(const name[], const timings[], iters, size = sizeof (timings
 	#if defined _y_utils_OnScriptInit
 		forward _y_utils_OnScriptInit();
 	#endif
-#endif
-
-#if !defined __once
-	#define __once%1;%0) (__gOnce++)%1;(%0),__gOnce=0)
-	#define __gOnce++)%1;(), __gOnce++)%1;
-	stock __gOnce = 1;
-#endif
-
-#define PP_RIGHT_BRACKET<> )
-
-#define IF__(new%0\32;%1=%2) for(IF_FAIL:new%0|||%1;%2)if()
-#define SWITCH__(new%0\32;%1=%2) for(IF_FAIL:new%0|||%1;%2)switch()
-
-#define for(IF_FAIL:new|||%1;%2) for(IF_PASS:new %1=%2;%1;)
-
-#define IF_FAIL:new%0|||%1;%2)%8() ;__once;)%8(new%0 %1=%2 PP_RIGHT_BRACKET<>
-#define IF_PASS:%3;%4;%9)%8() %3;__once;)%8(%4 PP_RIGHT_BRACKET<>
-
-#if YSI_KEYWORD(if)
-	#define if(new%0\32;%1=%2) for(IF_FAIL:new%0|||%1;%2)if()
-#endif
-
-#if YSI_KEYWORD(switch)
-	#define switch(new%0\32;%1=%2) for(IF_FAIL:new%0|||%1;%2)switch()
 #endif
 
 /*-------------------------------------------------------------------------*//**
@@ -405,6 +370,14 @@ P:D(bool:IS_IN_RANGE(value, lower, upper));
 P:D(bool:NOT_IN_RANGE(value, lower, upper));
 #define NOT_IN_RANGE(%0,%1,%2) (((%0)-((%1)+cellmin))>=((%2)-((%1)+cellmin)))
 
+#if __COMPILER_1ST_PASS && defined ceildiv
+	static stock ceildiv_defined__() {}
+#endif
+
+#if defined ceildiv_defined__
+	#undef ceildiv
+#endif
+
 /*-------------------------------------------------------------------------*//**
  * <param name="numerator">The top of the division.</param>
  * <param name="denominator">The bottom of the division.</param>
@@ -417,15 +390,16 @@ P:D(bool:NOT_IN_RANGE(value, lower, upper));
  *//*------------------------------------------------------------------------**/
 
 P:D(ceildiv(numerator, denominator));
-#if defined ceildiv
-	#undef ceildiv
-#endif
-#if __COMPILER_1ST_PASS
-	#define ceildiv __MACRO__ceildiv
-#else
-	#define ceildiv(%0,%1) (((%0)-1)/(%1)+1)
-#endif
+#define ceildiv(%0,%1) (((%0)-1)/(%1)+1)
 #define _ALS_ceildiv
+
+#if __COMPILER_1ST_PASS && defined floordiv
+	static stock floordiv_defined__() {}
+#endif
+
+#if defined floordiv_defined__
+	#undef floordiv
+#endif
 
 /*-------------------------------------------------------------------------*//**
  * <summary>
@@ -443,15 +417,16 @@ P:D(ceildiv(numerator, denominator));
  *//*------------------------------------------------------------------------**/
 
 P:D(floordiv(numerator, denominator));
-#if defined floordiv
-	#undef floordiv
-#endif
-#if __COMPILER_1ST_PASS
-	#define floordiv __MACRO__floordiv
-#else
-	#define floordiv(%0,%1) ((%0)/(%1))
-#endif
+#define floordiv(%0,%1) ((%0)/(%1))
 #define _ALS_floordiv
+
+#if __COMPILER_1ST_PASS && defined isnull
+	static stock isnull_defined__() {}
+#endif
+
+#if defined isnull_defined__
+	#undef isnull
+#endif
 
 /*-------------------------------------------------------------------------*//**
  * <param name="str">String to check if is null.</param>
@@ -466,44 +441,39 @@ P:D(floordiv(numerator, denominator));
  *//*------------------------------------------------------------------------**/
 
 P:D(bool:isnull(str[]));
-#if defined isnull
-	#undef isnull
-#endif
-#if __COMPILER_1ST_PASS
-	#define isnull __MACRO__isnull
-#else
-	#define isnull(%0) ((%0[(%0[0])=='\1'])=='\0')
-#endif
+#define isnull(%0) ((%0[(%0[0])=='\1'])=='\0')
 #define _ALS_isnull
+
+#if __COMPILER_1ST_PASS && defined isodd
+	static stock isodd_defined__() {}
+#endif
+
+#if defined isodd_defined__
+	#undef isodd
+#endif
 
 /*-------------------------------------------------------------------------*//**
  * <param name="value">Value to check if is odd.</param>
  *//*------------------------------------------------------------------------**/
 
 P:D(bool:isodd(value));
-#if defined isodd
-	#undef isodd
-#endif
-#if __COMPILER_1ST_PASS
-	#define isodd __MACRO__isodd
-#else
-	#define isodd(%1) ((%1)&1)
-#endif
+#define isodd(%1) ((%1)&1)
 #define _ALS_isodd
+
+#if __COMPILER_1ST_PASS && defined iseven
+	static stock iseven_defined__() {}
+#endif
+
+#if defined iseven_defined__
+	#undef iseven
+#endif
 
 /*-------------------------------------------------------------------------*//**
  * <param name="value">Value to check if is even.</param>
  *//*------------------------------------------------------------------------**/
 
 P:D(bool:iseven(value));
-#if defined iseven
-	#undef iseven
-#endif
-#if __COMPILER_1ST_PASS
-	#define iseven __MACRO__iseven
-#else
-	#define iseven(%1) (!isodd(%1))
-#endif
+#define iseven(%1) (!isodd(%1))
 #define _ALS_iseven
 
 #if __COMPILER_1ST_PASS && !defined strcpy
@@ -766,9 +736,9 @@ stock IPToInt(const ip[])
 
 stock bernstein(const string[] /* 12 */)
 {
-	new h = 5381, i, j;
+	new h = -1, i, j;
 	while ((j = string[i++]))
-		h = h * 33 ^ j;
+		h = h * 33 + j;
 	return h;
 }
 
@@ -816,6 +786,17 @@ stock unpack(const str[])
 	}
 	return ret;
 }
+
+/*-------------------------------------------------------------------------*//**
+ * <param name="playerid">Player to get IP of.</param>
+ * <returns>
+ *  IP as a 32bit int.
+ * </returns>
+ *//*------------------------------------------------------------------------**/
+
+// Cunning macro only uses "%0" once, yet is still safe.
+P:D(GetIP(playerid));
+#define GetIP(%0) (YSI_gPlayerIP[min((%0) + cellmin, MAX_PLAYERS + cellmin) - cellmin])
 
 /*-------------------------------------------------------------------------*//**
  * <param name="idx">Index of the string in the parameters.</param>
@@ -1258,7 +1239,7 @@ stock Base64Encode(dest[], const src[], num = sizeof (src), len = sizeof (dest),
 			#emit RETN
 		}
 	}
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -1970,6 +1951,11 @@ static stock DoLevenshteinDistance(const a[], lenA, const b[], lenB)
 
 stock LevenshteinDistance(const a[], const b[])
 {
+	if (!strcmp(a, b))
+	{
+		// Same string.
+		return 0;
+	}
 	// If a string is empty, the other length is the distance.
 	new
 		lenA = strlen(a),
@@ -1987,17 +1973,15 @@ stock LevenshteinDistance(const a[], const b[])
 		}
 		return DoLevenshteinDistance(b, lenB, a, lenA);
 	}
-	else if (lenA == lenB && strcmp(a, b) == 0)
+	else
 	{
-		// Same string.
-		return 0;
+		if (lenA > MAX_LEVENSHTEIN_STRING)
+		{
+			P:E("`LevenshteinDistance` can currently only handle strings up to `MAX_LEVENSHTEIN_STRING` characters (%d).", MAX_LEVENSHTEIN_STRING);
+			return 1;
+		}
+		return DoLevenshteinDistance(a, lenA, b, lenB);
 	}
-	if (lenA > MAX_LEVENSHTEIN_STRING)
-	{
-		P:E("`LevenshteinDistance` can currently only handle strings up to `MAX_LEVENSHTEIN_STRING` characters (%d).", MAX_LEVENSHTEIN_STRING);
-		return 1;
-	}
-	return DoLevenshteinDistance(a, lenA, b, lenB);
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -2020,7 +2004,7 @@ stock PrintArg(n)
 	#emit SYSREQ.C     print
 	#emit STACK        8
 	#emit RETN
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 #define printarg PrintArg

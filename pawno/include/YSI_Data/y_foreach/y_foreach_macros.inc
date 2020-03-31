@@ -199,23 +199,6 @@ P:D(Iter_Init(Iterator:iter[]<>));
 #endif
 
 /*-------------------------------------------------------------------------*//**
- * <param name="iter">Name of the iterator array to initialise.</param>
- * <remarks>
- *  Wrapper for Iter_Init_Internal.  ALWAYS resets the array.
- *
- * <code>native Iter_InitAndClear(IteratorArray:Name[]&lt;&gt;);</code>
- *
- * </remarks>
- *//*------------------------------------------------------------------------**/
-
-P:D(Iter_InitAndClear(Iterator:iter[]<>));
-#if __COMPILER_NESTED_ELLIPSIS
-	#define Iter_InitAndClear(%0) Iter_Init_Internal(F@r(Iterator@%0),F@r(Iterator@%0)[0],F@s(Iterator@%0),F@s(Iterator@%0[]),F@s(Iter_Single@%0[]))
-#else
-	#define Iter_InitAndClear(%0) Iter_Init_Internal(F@r(Iterator@%0),F@r(Iterator@%0)[0],F@s(Iterator@%0),F@s(Iterator@%0[]),F@r(Iter_Init@%0))
-#endif
-
-/*-------------------------------------------------------------------------*//**
  * <param name="iter">Name of the iterator to add the data to.</param>
  * <param name="value">Value to add to the iterator.</param>
  * <remarks>
@@ -438,20 +421,6 @@ P:D(Iter_Clear(Iterator:iter<>));
 #define Iter_Clear_InternalA(%0,%1)           Iter_Clear_InternalC(_:%1,F@s(%1),F@s(%0),%0)
 #define Iter_Clear_InternalB(%0,%2,%1)        Iter_Clear_InternalD(_:%1,F@s(%1),F@s(%0),F@s(%1)-F@s(%0),%0,%2)
 #define Iter_Clear_InternalD(%0,%1,%2,%3,%4,) Iter_Clear_InternalC(%0,%1,%2,%4)
-
-/*-------------------------------------------------------------------------*//**
- * <param name="iter">Name of the iterator to test emptiness of.</param>
- * <remarks>
- *
- * native Iter_IsEmpty(Iterator:Name&lt;&gt;);
- *
- * </remarks>
- *//*------------------------------------------------------------------------**/
-
-P:D(Iter_IsEmpty(Iterator:iter<>));
-#define Iter_IsEmpty _ITER<IsEmpty>
-#define Iter_IsEmpty_InternalA(%0,%1)    ((%0) == 0)
-#define Iter_IsEmpty_InternalB(%0,%2,%1) ((%0[%2]) == 0)
 
 /*-------------------------------------------------------------------------*//**
  * <param name="iter">Name of the iterator to get the first free slot in.</param>

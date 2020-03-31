@@ -37,8 +37,13 @@
 
 */
 
+#pragma warning disable 204 // Symbol never used
+#pragma warning disable 203 //
+
 // СИСТЕМНЫЕ ИНКЛУДЫ
 #include <a_samp>
+#define  YSI_NO_HEAP_MALLOC
+#include <YSI_Data/y_foreach>
 #include <a_mysql>
 #include "../includes/brilliant_core.inc"
 #include "../includes/API.inc"
@@ -46,15 +51,13 @@
 
 // ПОДГРУЖАЕМЫЕ ИНКЛУДЫ
 #include <YSF>
-#include <mdialog>
 #include <Pawn.CMD>
-#include <foreach>
+#include <mdialog>
 #include <Pawn.RakNet>
-new MySQL:dbHandle;
 #include "../includes/mysql.inc"
-//#include "../includes/PLAYER_system/PLAYER_variables.inc"
-//#include "../includes/registration.inc" // Это нужно переписать под наш API и наши системы
-//#include <mxINI> 
+#include "../includes/PLAYER_system/PLAYER_variables.inc"
+#include "../includes/registration.inc" // Это нужно переписать под наш API и наши системы
+//#include <mxINI>
 
 //lang файлы
 //#include <languages/russian.lang>

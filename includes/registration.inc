@@ -17,42 +17,19 @@ public OnPlayerConnect(playerid)
     return 1;
 }
 
-hook OnPlayerRequestClass(playerid, classid)
+public OnPlayerRequestClass(playerid, classid)
 {
-        SetPlayerColor(playerid, 0xFFFFFFFF);
+    SetPlayerColor(playerid, 0xFFFFFFFF);
    	GetPlayerName(playerid, PI[playerid][PLAYER_Name], MAX_PLAYER_NAME);
 	TogglePlayerSpectating(playerid, 1);
 	if(PI[playerid][PLAYER_Logged] == 0)
 	{
  		GetPlayerIp(playerid, PI[playerid][PLAYER_IP], 17);
-	        new qString[120];
-	        format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", PI[playerid][PLAYER_Name]);
-	        mysql_tquery(dbHandle, qString, "CheckAcc", "d", playerid);
+	   	new qString[120];
+	    format(qString, sizeof(qString), "SELECT * FROM `accounts` WHERE `name` = '%s'", PI[playerid][PLAYER_Name]);
+	    mysql_tquery(dbHandle, qString, "CheckAcc", "d", playerid);
 	}
 	return 1;
-}
-
-bool:IsRPNick(const name[])
-{
-    static i, n;
-    if('A' <= name[0] <= 'Z' && 'a' <= name[1] <= 'z')
-    {
-        for(i = 1, n = 0;;)
-        {
-            switch(name[++i])
-            {
-                case 'a'..'z': continue;
-                case '_':
-		{
-                    if (n++, 'A' <= name[++i] <= 'Z' && 'a' <= name[++i] <= 'z') continue;
-                    else break;
-		}
-                case '\0': return (i >= 4 && n == 1);
-                default: return false;
-            }
-        }
-    }
-    return false;
 }
 
 new TempPlayerPassword[MAX_PLAYERS][33];
@@ -75,7 +52,7 @@ public CheckAcc(playerid)
     	return 1;
 }
 
-hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
 	switch(dialogid)
 	{
@@ -196,3 +173,26 @@ CreateAcc(playerid, password[])
 
 forward LoadAccID(playerid);
 public LoadAccID(playerid) return cache_get_value_name_int(0, "id", PI[playerid][PLAYER_ID]);
+
+stock IsRPNick(const name[])
+{
+    static i, n;
+    if('A' <= name[0] <= 'Z' && 'a' <= name[1] <= 'z')
+    {
+        for(i = 1, n = 0;;)
+        {
+            switch(name[++i])
+            {
+                case 'a'..'z': continue;
+                case '_':
+		{
+                    if (n++, 'A' <= name[++i] <= 'Z' && 'a' <= name[++i] <= 'z') continue;
+                    else break;
+		}
+                case '\0': return (i >= 4 && n == 1);
+                default: return false;
+            }
+        }
+    }
+    return false;
+}

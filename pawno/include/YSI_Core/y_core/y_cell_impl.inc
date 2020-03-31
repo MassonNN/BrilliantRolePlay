@@ -142,7 +142,7 @@ stock Cell_ReverseBits(GLOBAL_TAG_TYPES:data)
 	#emit STACK                8
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -191,7 +191,7 @@ stock Cell_ReverseNibbles(GLOBAL_TAG_TYPES:data)
 	#emit STACK                8
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -281,7 +281,7 @@ stock Cell_CountBits(GLOBAL_TAG_TYPES:data)
 	#emit SHR.C.pri            24
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -335,7 +335,7 @@ stock Cell_GetLowestBit(GLOBAL_TAG_TYPES:data)
 	
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -407,7 +407,7 @@ stock Cell_GetLowestBitEx(GLOBAL_TAG_TYPES:data)
 	{} // Zero-cost bug fix.
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -456,7 +456,7 @@ stock Cell_CountBlanks(GLOBAL_TAG_TYPES:data)
 	#emit SHR.C.pri            24
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -495,7 +495,7 @@ stock Cell_GetLowestBlank(GLOBAL_TAG_TYPES:data)
 	
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -534,7 +534,7 @@ stock Cell_GetLowestBlankEx(GLOBAL_TAG_TYPES:data)
 	{} // Zero-cost bug fix.
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -576,7 +576,7 @@ stock Cell_GetLowestComponent(GLOBAL_TAG_TYPES:data)
 	#emit AND
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**
@@ -602,7 +602,7 @@ stock Cell_GetLowestEmpty(GLOBAL_TAG_TYPES:data)
 	#emit AND
 	#emit RETN
 	
-	__pragma(naked);
+	__COMPILER_NAKED
 }
 
 /*-------------------------------------------------------------------------*//**

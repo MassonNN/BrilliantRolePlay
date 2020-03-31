@@ -101,10 +101,6 @@ CHAIN_FORWARD:YVers_OnScriptInit() = 1;
 
 #define YSI_VERSION                     #YSI_VERSION_MAJOR "." #YSI_VERSION_MINOR "." #YSI_VERSION_BUILD
 
-#if defined YSI_NO_VERSION_CHECK && !defined _YSI_NO_VERSION_CHECK
-	#define _YSI_NO_VERSION_CHECK
-#endif
-
 #if defined _YSI_NO_VERSION_CHECK
 	
 	public OnScriptInit()
@@ -147,25 +143,19 @@ CHAIN_FORWARD:YVers_OnScriptInit() = 1;
 				YSI_gLockData[x / 3] = x * 10;
 				YSI_gLockData[1] = (YSI_gLockData[2] - YSI_gLockData[3]) / 2 + YSI_gLockData[3];
 			#endif
-			YSI_Print(" ");
-			YSI_Print(" ");
-			YSI_Print(" ");
-			YSI_Print(" ========================================== ");
-			YSI_Print(" |                                        | ");
-			YSI_Print(" |         YSI version " YSI_VERSION "          | ");
-			YSI_Print(" |         By Alex \"Y_Less\" Cole          | ");
-			YSI_Print(" |                                        | ");
-			YSI_Print(" | Unable to check the latest YSI version | ");
-			YSI_Print(" | - please watch the forums and github:  | ");
-			YSI_Print(" |                                        | ");
-			YSI_Print(" |   https://git.io/5.x                   | ");
-			YSI_Print(" |                                        | ");
-			YSI_Print(" | You can disabled this message with:    | ");
-			YSI_Print(" |                                        | ");
-			YSI_Print(" |   #define YSI_NO_VERSION_CHECK         | ");
-			YSI_Print(" |                                        | ");
-			YSI_Print(" ========================================== ");
-			YSI_Print(" ");
+			YSIPrint(" ");
+			YSIPrint(" ");
+			YSIPrint(" ");
+			YSIPrint(" ======================================= ");
+			YSIPrint(" |                                     | ");
+			YSIPrint(" |        YSI version " YSI_VERSION "        | ");
+			YSIPrint(" |        By Alex \"Y_Less\" Cole        | ");
+			YSIPrint(" |                                     | ");
+			YSIPrint(" |   Unable to check the latest YSI    | ");
+			YSIPrint(" |  version, please watch the forums.  | ");
+			YSIPrint(" |                                     | ");
+			YSIPrint(" ======================================= ");
+			YSIPrint(" ");
 			YVers_OnScriptInit();
 			return 1;
 		}
@@ -193,22 +183,18 @@ CHAIN_FORWARD:YVers_OnScriptInit() = 1;
 			YSI_gLockData[0] -= 1;
 			YSI_gLockData[1] = YSI_gLockData[0] + 7;
 		#endif
-		YSI_Print(" ");
-		YSI_Print(" ");
-		YSI_Print(" ");
-		YSI_Print(" ========================================== ");
-		YSI_Print(" |                                        | ");
-		YSI_Print(" |         YSI version " YSI_VERSION "          | ");
-		YSI_Print(" |         By Alex \"Y_Less\" Cole          | ");
-		//YSI_Print(" |                                      | ");
-		//YSI_Print(" |  Checking the latest YSI version..   | ");
-		YSI_Print(" |                                        | ");
-		YSI_Print(" | You can disabled this message with:    | ");
-		YSI_Print(" |                                        | ");
-		YSI_Print(" |   #define YSI_NO_VERSION_CHECK         | ");
-		YSI_Print(" |                                        | ");
-		YSI_Print(" ========================================== ");
-		YSI_Print(" ");
+		YSIPrint(" ");
+		YSIPrint(" ");
+		YSIPrint(" ");
+		YSIPrint(" ======================================= ");
+		YSIPrint(" |                                     | ");
+		YSIPrint(" |        YSI version " YSI_VERSION "        | ");
+		YSIPrint(" |        By Alex \"Y_Less\" Cole        | ");
+		//YSIPrint(" |                                     | ");
+		//YSIPrint(" |  Checking the latest YSI version..  | ");
+		YSIPrint(" |                                     | ");
+		YSIPrint(" ======================================= ");
+		YSIPrint(" ");
 		// Call my server to check the current public YSI version.  v is the
 		// current version and c is the version of data response which this code
 		// can parse.  Note that the response data SHOULD be backward compatible
@@ -267,17 +253,17 @@ CHAIN_FORWARD:YVers_OnScriptInit() = 1;
 			if (strcmp(data[pos], YSI_VERSION, false, 9))
 			{
 				//data[pos + 9] = '\0';
-				YSI_Print(" ");
-				YSI_Print(" ========================================== ");
-				YSI_Print(" |                                        | ");
-				YSI_PrintF(" |  A new version (v%.9s) of YSI is  | ", data[pos]);
-				YSI_Print(" |            available from:             | ");
-				YSI_Print(" |                                        | ");
-				YSI_Print(" |     www.y-less.com/YSI/YSI_1.0.zip     | ");
+				YSIPrint(" ");
+				YSIPrint(" ========================================== ");
+				YSIPrint(" |                                        | ");
+				YSIPrintF(" |  A new version (v%.9s) of YSI is  | ", data[pos]);
+				YSIPrint(" |            available from:             | ");
+				YSIPrint(" |                                        | ");
+				YSIPrint(" |     www.y-less.com/YSI/YSI_1.0.zip     | ");
 				if (data[0] == '2')
 				{
-					YSI_Print(" |                                        | ");
-					YSI_Print(" | Changelog:                             | ");
+					YSIPrint(" |                                        | ");
+					YSIPrint(" | Changelog:                             | ");
 					// Print the changelog.
 					new
 						last = pos + 13;
@@ -291,13 +277,13 @@ CHAIN_FORWARD:YVers_OnScriptInit() = 1;
 						}
 						pos += last;
 						data[pos - 1] = '\0';
-						YSI_PrintF(" | %38s | ", data[last]);
+						YSIPrintF(" | %38s | ", data[last]);
 						last = pos + 1;
 					}
 				}
-				YSI_Print(" |                                        | ");
-				YSI_Print(" ========================================== ");
-				YSI_Print(" ");
+				YSIPrint(" |                                        | ");
+				YSIPrint(" ========================================== ");
+				YSIPrint(" ");
 			}
 		}
 	}

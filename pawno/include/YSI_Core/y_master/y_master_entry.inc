@@ -93,19 +93,14 @@ Optional plugins:
 
 #if !defined _INC_y_master
 	#include "..\..\YSI_Core\y_utils"
-	#include "..\..\YSI_Core\y_core\y_codeparse"
-
+	#include "..\..\YSI_Coding\y_hooks"
+	
 	CHAIN_HOOK(Master)
 	#undef CHAIN_ORDER
 	#define CHAIN_ORDER CHAIN_NEXT(Master)
 	
-	#if !defined YSI_NO_MASTER
-		#include "y_rconfix"
-	#endif
 	#include "y_master_once"
-	#if !defined YSI_NO_MASTER
-		#include "y_distribute"
-	#endif
+	#include "y_distribute"
 #endif
 
 // ALWAYS!  The compiler defines this automatically, don't use it as this is
@@ -160,7 +155,6 @@ Optional plugins:
 
 // Only include this lot once.
 #if defined YSI_TESTS
-	#include "..\..\YSI_Coding\y_hooks"
 	// Get the new master.
 	#define MASTER 58
 	#include "y_master_entry"
@@ -168,36 +162,5 @@ Optional plugins:
 	#include "y_master_tests"
 	// Pop the master.
 	#include "y_master_entry"
-
-	#define MASTER 57
-	#define YSIM_U_ENABLE
-	#include "y_master_entry"
-	#include "y_master_module_tests"
-	#include "y_master_entry"
-#elseif defined YSIM_TEST_MODULE
-	#if YSIM_TEST_MODULE == 1
-		#define MASTER 57
-		#include "y_master_entry"
-		#include "y_master_module_funcs"
-		#include "y_master_entry"
-	#elseif YSIM_TEST_MODULE == 2
-		#define MASTER 57
-		#define YSIM_S_ENABLE
-		#include "y_master_entry"
-		#include "y_master_module_funcs"
-		#include "y_master_entry"
-	#elseif YSIM_TEST_MODULE == 3
-		#define MASTER 57
-		#define YSIM_C_ENABLE
-		#include "y_master_entry"
-		#include "y_master_module_funcs"
-		#include "y_master_entry"
-	#elseif YSIM_TEST_MODULE == 4
-		#define MASTER 57
-		#define YSIM_VERSION 8
-		#include "y_master_entry"
-		#include "y_master_module_funcs"
-		#include "y_master_entry"
-	#endif
 #endif
 

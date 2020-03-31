@@ -16,11 +16,11 @@ static const AdminLevelName[][] = {
 
 hook OnPlayerLogin(playerid)
 {
-	if(IsPlayerAdmin(playerid) {
+	if(IsPlayerAdmin(playerid)) {
 
-		new str[125];
-		format(str, sizeof(str), "Вы в%s", )
-		SendClientMessage(playerid, 0xFFFFFFFF, !"Hi"))
+		new str[50];
+		format(str, sizeof(str), "Вы вошли как %s", AdminLeveName[playerinfo[playerid][PLAYER_Admin]-1])
+		SendClientMessage(playerid, 0xFFFFFFFF, str)
 	}
 	return 1;
 }
