@@ -4,11 +4,11 @@ new MySQL:dbHandle;
 
 hook OnGameModeInit()
 {
-	dbHandle = mysql_connect("185.211.247.111", "gs32512", "Omegov666", "gs32512");
+	dbHandle = mysql_connect("193.109.78.92", "gs30197", "intell", "gs30197");
 	switch(mysql_errno())
 	{
-	    case 0: print(!"РџРѕРґРєР»СЋС‡РµРЅ Рє Р±Р°Р·Рµ!!");
-	    default: printf(!"РџРѕРґРєР»СЋС‡РµРЅРёРµ РЅРµСѓРґР°С‡РЅРѕ. РљРѕРґ РѕС€РёР±РєРё: %d", mysql_errno());
+	    case 0: print(!"Подключен к базе!!");
+	    default: printf("Подключение неудачно. Код ошибки: %d", mysql_errno());
 	}
 	return Y_HOOKS_CONTINUE_RETURN_1;
 }

@@ -14,9 +14,11 @@
 
 enum PLAYER_Stats {
 
+	PLAYER_ID,
 	PLAYER_Name[MAX_PLAYER_NAME],
 	PLAYER_IP[17], 
-	PLAYER_Sex, 					
+	PLAYER_Sex, 	
+	PLAYER_Skin,					
 	PLAYER_Money, 					
 	PLAYER_BankMoney[MAX_BANK_ACCOUNTS], 
 	PLAYER_Level, 					
