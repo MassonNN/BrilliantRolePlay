@@ -1,0 +1,60 @@
+/* 
+
+	??? ???? ? ??? ??? ? ??? ???? ???     ?? ??? ???? ??? 
+	??? ???? ? ??? ??? ? ??? ???? ???     ?? ??? ???? ??? 
+	??? ???? ? ??? ??? ? ??? ???? ???     ?? ??? ???? ??? 
+
+*/
+
+#define COLOR_WHITE			#FFFFFF
+#define COLOR_WHITE_L		0xFFFFFFFF
+#define COLOR_WHITE_S		"{FFFFFF}"
+
+#define COLOR_RED			#CC0000
+#define COLOR_RED_L			0xCC0000FF
+#define COLOR_RED_S			"{CC0000}"
+
+#define COLOR_BLUE 			#0000FF
+#define COLOR_BLUE_L		0x0000FFFF
+#define COLOR_BLUE_S		"{0000FF}"
+
+#define COLOR_ORANGE		#FF4500
+#define COLOR_ORANGE_L 		0xFF4500FF
+#define COLOR_ORANGE_S		"{FF4500}"
+
+#define COLOR_YELLOW 		#FFFF00
+#define COLOR_YELLOW_L		0xFFFF00FF
+#define COLOR_YELLOW_S		"{FFFF00}"
+
+#define COLOR_HAKI			#F0E68C
+#define COLOR_HAKI_L		0xF0E68CFF
+#define COLOR_HAKI_S		"{F0E68C}"
+
+#define COLOR_CYAN			#00FFFF
+#define COLOR_CYAN_L		0x00FFFFFF
+#define COLOR_CYAN_S		"{00FFFF}"
+
+#define COLOR_PURPLE		#800080
+#define COLOR_PURPLE_L		0x800080FF
+#define COLOR_PURPLE_S		"{800080}"
+
+#define COLOR_CHOCOLATE 	#D2691E
+#define COLOR_CHOCOLATE_L 	0xD2691EFF
+#define COLOR_CHOCOLATE_S	"{D2691E}"
+
+#define COLOR_GREEN			#008000
+#define COLOR_GREEN_L		0x008000FF
+#define COLOR_GREEN_S		"{008000}"
+
+new global[1024]; 
+
+
+// LANGUAGE
+#define RUSSIAN				0 // default
+#define ENGLISH				1
+#define UKRAINIAN			2
+#define POLISH				3
+#define CHINESE				4
+#define JAPAN				5	
+
+

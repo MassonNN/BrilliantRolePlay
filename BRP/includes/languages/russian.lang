@@ -1,0 +1,13 @@
+// Русский язык
+// локализация с id 0
+
+
+enum const LOCALE_RU {
+	SYSTEM_HI_RU[] = "Сервер запущен",
+	ERROR_TEXT_RU[] = "Ошибка: {FFFFFF} %s",
+	ERROR_TEXT_WITH_ID_RU[] = "Ошибка (#%d): {FFFFFF} %s",
+	ERROR_CONTACT_US_RU[] = "Обратитесь на форум со скрином данной ошибки для ее исправления",
+	POND_TEXT_RU[] = "Подсказка: {FFFFFF} %s",
+	INFO_TEXT_RU[] = "Информация: {FFFFFF} %s",
+	SUCCESS_TEXT_RU[] = "Успешно: {FFFFFF} %s"
+};
