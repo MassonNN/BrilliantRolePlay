@@ -1,6 +1,6 @@
 public OnPlayerSpawn(playerid)
 {
-	FreezePlayer(playerid, 2300);
+	FreezePlayer(playerid, 1600);
 	switch(random(5))
 	{
 		case 0: SetPlayerPos(playerid, 2507.1040, -2121.2522, 23.4558), SetPlayerFacingAngle(playerid, 180);
@@ -11,6 +11,7 @@ public OnPlayerSpawn(playerid)
 	}
 	SetPlayerSkin(playerid, PI[playerid][PLAYER_Skin]);
 	SetCameraBehindPlayer(playerid);
-
+	ResetPlayerMoney(playerid);
+	GivePlayerMoney(playerid, PI[playerid][PLAYER_Money]);
 	return 1;
 }

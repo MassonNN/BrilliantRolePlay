@@ -12,9 +12,20 @@ stock UnknownCommand(playerid) {
 }
 
 
+//Сделать что-то относительно поворота игрока
+stock GetPlayerTurn(playerid, &Float:x, &Float:y, &Float:z, Float:distance, turn)
+{
+    new Float:angle,Float:dis;
+    dis = dis/2 - distance;
+    GetPlayerPos(playerid, x, y, z),GetPlayerFacingAngle(playerid, angle);
+    x += (dis * floatsin(-angle+turn, degrees)),y += (dis * floatcos(-angle+turn, degrees));
+    return 1;
+}
+
 //Задержка для кика (fix)
 stock GKick(playerid) {
 	SetTimerEx("KickPlayer", 50, false, "d", playerid);
+	return 1;
 }
 
 forward KickPlayer(playerid);

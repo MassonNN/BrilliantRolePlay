@@ -1,8 +1,13 @@
-OnPlayerCommandReceived(playerid, cmd[], params[], flags)
-{
+public OnPlayerCommandReceived(playerid, cmd[], params[], flags) {
 	if(!PI[playerid][PLAYER_Logged]) return 0;
 	return 1;
 }
+
+hook OnPlayerDisconnect(playerid) {
+	DestroyVehicle(AVeh[playerid]);
+	return 1;
+}
+
 
 ///////////////////////////////////////////////////[КОМАНДЫ ДЛЯ АДМИНИСТРАТОРА 1+ УРОВНЯ]////////////////////////////////////////////////////////////////////
 
@@ -18,6 +23,35 @@ cmd:setskin(playerid, params[])
     if(params[1] < 0 || params[1] > 311) return SendClientMessage(playerid, COLOR_WHITE_L, !"ID скинов от 0 до 311");
 	if(!PI[params[0]][PLAYER_Logged]) return SendClientMessage(playerid, COLOR_WHITE_L, !"Игрок еще не вошел");
     SetPlayerSkin(params[0], params[1]);
+	return 1;
+}
+
+cmd:veh(playerid, params[])
+{
+    if(PI[playerid][PLAYER_Admin] < 3) return UnknownCommand(playerid);
+    if(!sscanf(params, "ddd", params[0], params[1], params[2]))
+	{
+        if(params[0] < 400 || params[0] > 611) return SendClientMessage(playerid, COLOR_WHITE_L, !"ID транспорта от 400 до 611");
+        if(params[1] < 0 || params[1] > 255 || params[2] < 0 || params[2] > 255) return SendClientMessage(playerid, COLOR_WHITE_L, !"ID цвета от 0 до 255");
+        if(AVeh[playerid] != 0) DestroyVehicle(AVeh[playerid]);
+        new Float:x, Float:y, Float:z, Float:a;
+        GetPlayerTurn(playerid, x, y, z, 5, 180);
+        AVeh[playerid] = CreateVehicle(params[0], x, y, z, a, params[1], params[2], 0, 0);
+        LinkVehicleToInterior(AVeh[playerid], GetPlayerInterior(playerid));
+		SetVehicleVirtualWorld(AVeh[playerid], GetPlayerVirtualWorld(playerid));
+	}
+	else if(!sscanf(params, "k<vehiclemodel>dd", params[0], params[1], params[2]))
+	{
+        if(params[1] < 0 || params[1] > 255 || params[2] < 0 || params[2] > 255) return SendClientMessage(playerid, COLOR_WHITE_L, !"ID цвета от 0 до 255");
+        if(AVeh[playerid] != 0) DestroyVehicle(AVeh[playerid]);
+        new Float:x, Float:y, Float:z, Float:a;
+        GetPlayerTurn(playerid, x, y, z, 5, 180);
+        AVeh[playerid] = CreateVehicle(params[0], x, y, z, a, 1, 1, 0, 0);
+        LinkVehicleToInterior(AVeh[playerid], GetPlayerInterior(playerid));
+		SetVehicleVirtualWorld(AVeh[playerid], GetPlayerVirtualWorld(playerid));
+	}
+	else return SendClientMessage(playerid, COLOR_WHITE_L, !"Используйте /veh [ID/Имя] [ID цвета] [ID цвета]");
+	ChangeVehicleColor(AVeh[playerid], params[1], params[2]);
 	return 1;
 }
 

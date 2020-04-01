@@ -90,6 +90,8 @@ main(){}
 
 public OnGameModeInit()
 {
+ 	DisableInteriorEnterExits();
+ 	EnableStuntBonusForAll(0);
     mysql_log();
 	print(SYSTEM_HI_RU);
 }

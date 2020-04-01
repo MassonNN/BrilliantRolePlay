@@ -5,13 +5,6 @@ enum
 	DIALOG_SEX
 }
 
-cmd:tppos(playerid, params[])
-{
-	if(sscanf(params, "ddd", params[0], params[1], params[2])) return SendClientMessage(playerid, 0xFFFFFFFF, !"Используйте /tppos [x] [y] [z]");
-	SetPlayerPos(playerid, params[0], params[1], params[2]);
-	return 1;
-}
-
 public OnPlayerConnect(playerid)
 {
     new name[MAX_PLAYER_NAME];
@@ -19,7 +12,7 @@ public OnPlayerConnect(playerid)
     if(!IsRPNick(name))
     {
         SendClientMessage(playerid, 0xFFFFFFFF, !"Придумайте RP никнейм");
-        return Kick(playerid);
+        return GKick(playerid);
     }
     return 1;
 }
@@ -94,7 +87,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
         		switch(inputtext[i])
         		{
            			case '0'..'9', 'a'..'z', 'A'..'Z': continue;
-           			default: return ShowPlayerDialog(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"{FFFFFF}Введите пароль от своего аккаунта", !"Далее", !"Отмена");
+           			default: return ShowPlayerDialog(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"{FFFFFF}Введите пароль от своего аккаунта", !"Далее", !"Отмена"), SendClientMessage(playerid, COLOR_WHITE_L, !"Пароль может содержать только английские буквы и цифры");
         		}
         	}
        		if(!strcmp(TempPlayerPassword[playerid], inputtext))
@@ -106,7 +99,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
         	else
         	{
 				if(GetPVarInt(playerid, "BadAttempt") >= 3) return ShowPlayerDialog(playerid, 228, DIALOG_STYLE_MSGBOX, !"Отключен", !"{FFFFFF}Вы были отключны от сервера из-за неоднократного ввода неправильного пароля\
-				", !"Окей", ""), Kick(playerid);
+				", !"Окей", ""), GKick(playerid);
         		new string[55];
         		format(string, sizeof(string), "Неверный пароль! Осталось %d попытки", 3 - GetPVarInt(playerid, "BadAttempt"));
      			if(GetPVarInt(playerid, "BadAttempt") == 2)
@@ -182,6 +175,7 @@ CreateAcc(playerid, const password[])
 	TempPlayerPassword[playerid][0] = EOS;
 	return 1;
 }
+
 
 forward LoadAccID(playerid);
 public LoadAccID(playerid) return cache_get_value_name_int(0, "id", PI[playerid][PLAYER_ID]);
