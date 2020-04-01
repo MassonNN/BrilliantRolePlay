@@ -177,9 +177,6 @@ Iterators:
 	Character - All players and bots.
 \*----------------------------------------------------------------------------*/
 
-#if defined _FOREACH_LOCAL_VERSION
-	#endinput
-#endif
 #define _FOREACH_LOCAL_VERSION		19
 
 // Foreach is testing us.
@@ -189,7 +186,7 @@ Iterators:
 #endif
 #if !defined _FOREACH_NO_TEST
 	#define _FOREACH_INC_TEST
-	#tryinclude <YSI\y_iterate>
+	#tryinclude <YSI_Data\y_iterate>
 	#undef _FOREACH_INC_TEST
 	// <foreach> exists - test which is newer.
 	#if defined _inc_y_iterate
@@ -550,386 +547,6 @@ Notes:
 #define foreachex(%1,%2) foreach(%2:%1)
 	//for (%2=_Y_ITER_ARRAY_SIZE(%1);(%2=_Y_ITER_ARRAY:%1@YSII_Ag[%2])!=_Y_ITER_ARRAY_SIZE(%1);)
 
-
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_AddInternal
-Params:
-	&count - Number of items in the iterator.
-	array[] - Iterator data.
-	value - Item to add.
-	size - Size of the iterator.
-Return:
-	-
-Notes:
-	Adds a value to a given iterator set. Now detects when you try and add the
-	last item multiple times, as well as all the other items. Now simplified even
-	further with the new internal representation.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_AddInternal(&count, array[], value, size)
-{
-	if (0 <= value < size && array[value] > size)
-	{
-		new
-			last = size,
-			next = array[last];
-		while (next < value)
-		{
-			last = next;
-			next = array[last];
-		}
-		array[last] = value;
-		array[value] = next;
-		++count;
-		return 1;
-	}
-	return 0;
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_ClearInternal
-Params:
-	&count - Number of items in the iterator.
-	array[] - Iterator data.
-	size - Size of the iterator.
-Return:
-	-
-Notes:
-	Resets an iterator.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_ClearInternal(&count, array[], size)
-{
-	for (new i = 0, t = size + 1; i < size; ++i)
-	{
-		array[i] = t;
-	}
-	array[size] = size;
-	count = 0;
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_RandomInternal
-Params:
-	count - Number of items in the iterator.
-	array[] - Iterator data.
-	size - Size of the iterator.
-Return:
-	-
-Notes:
-	Returns a random value from an iterator.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_RandomInternal(count, array[], size)
-{
-	if (count == 0)
-	{
-		return ITER_NONE;
-	}
-	new
-		rnd = random(count),
-		cur = array[size];
-	while (cur != size)
-	{
-		if (rnd-- == 0)
-		{
-			return cur;
-		}
-		cur = array[cur];
-	}
-	return ITER_NONE;
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_FreeInternal
-Params:
-	array[] - Iterator data.
-	size - Size of the iterator.
-Return:
-	-
-Notes:
-	Finds the first free slot in the iterator. Iterators now HAVE to be
-	sorted for this function to work correctly as it uses that fact to decide
-	whether a slot is unused or the last one. If you want to use the slot
-	straight after finding it the iterator will need to re-find it to add in
-	the data.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_FreeInternal(array[], size)
-{
-	for (new i = 0; i != size; ++i)
-	{
-		if (array[i] > size)
-		{
-			return i;
-		}
-	}
-	return ITER_NONE;
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_RemoveInternal
-Params:
-	&count - Number of items in the iterator.
-	array[] - Iterator data.
-	value - Item to remove.
-	size - Size of the iterator.
-Return:
-	-
-Notes:
-	Removes a value from an iterator.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_RemoveInternal(&count, array[], value, size)
-{
-	new
-		last;
-	return Iter_SafeRemoveInternal(count, array, value, last, size);
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_SafeRemoveInternal
-Params:
-	&count - Number of items in the iterator.
-	array[] - Iterator data.
-	value - Item to remove.
-	&last - Pointer in which to store the last pointer.
-	size - Size of the iterator.
-Return:
-	-
-Notes:
-	Removes a value from an iterator safely.
-\*----------------------------------------------------------------------------*/
-
-/*stock Iter_SafeRemoveInternal(&count, array[], value, &last, size)
-{
-	if (0 <= value < size && array[value] <= size)
-	{
-		last = size;
-		new
-			next = array[last];
-		while (next != value)
-		{
-			last = next;
-			next = array[last];
-		}
-		array[last] = array[value];
-		array[value] = size + 1;
-		--count;
-		return 1;
-	}
-	return 0;
-}*/
-
-stock Iter_SafeRemoveInternal(&count, array[], value, &last, size)
-{
-	if (0 <= value < size && array[value] <= size) {
-		last = size;
-		new
-			next = array[last];
-		while (next < size) {
-			if (next == value) {
-				array[last] = array[value];
-				array[value] = size + 1;
-				--count;
-				return 1;
-			}
-			last = next;
-			next = array[last];
-		}
-	}
-	return 0;
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_ContainsInternal
-Params:
-	array[] - Iterator data.
-	value - Item to check.
-	size - Size of the iterator.
-Return:
-	-
-Notes:
-	Checks if this item is in the iterator.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_ContainsInternal(array[], value, size)
-{
-	return 0 <= value < size && array[value] <= size;
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_InitInternal
-Params:
-	array[][] - Iterator array to initialise.
-	s0 - Size of first dimension.
-	s1 - Size of second dimension.
-Return:
-	-
-Notes:
-	Multi-dimensional arrays can not be initialised at compile time, so need to be
-	done at run time, which is slightly annoying.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_InitInternal(arr[][], s0, s1)
-{
-	for (new i = 0, t = s1 + 1; i < s0; ++i)
-	{
-		for (new j = 0; j < s1; ++j)
-		{
-			arr[i][j] = t;
-		}
-		arr[i][s1] = s1;
-	}
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_PrevInternal
-Params:
-	array[] - Iterator data.
-	size - Size of the iterator.
-	slot - The current slot.
-Return:
-	-
-Notes:
-	Gets the element in an iterator that points to the current element.
-\*----------------------------------------------------------------------------*/
-
-stock Iter_PrevInternal(array[], size, slot)
-{
-	if (0 <= slot <= size && array[slot] <= size)
-	{
-		for (new last = slot; last--; )
- 		{
- 			if (array[last] == slot)
- 			{
- 			    return last;
- 			}
- 		}
-	}
-	return size;
-}
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_Begin
-Params:
-	iter - Name of the iterator to get the start of.
-Return:
-	-
-Notes:
-	Gets a point BEFORE the start of the iterator (the theoretical beginning).
-\*----------------------------------------------------------------------------*/
-
-#define Iter_Begin(%1) (_Y_ITER_ARRAY_SIZE(%1))
-#define Iter_Start Iter_Begin
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_End
-Params:
-	iter - Name of the iterator to
-Return:
-	-
-Notes:
-	Gets a point AFTER the end of the iterator (think "MAX_PLAYERS").
-\*----------------------------------------------------------------------------*/
-
-#define Iter_End(%1) (_Y_ITER_ARRAY_SIZE(%1))
-#define Iter_Finish Iter_End
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_First
-Params:
-	iter - Name of the iterator to
-Return:
-	-
-Notes:
-	Gets the first element in an iterator.
-\*----------------------------------------------------------------------------*/
-
-#define Iter_First(%1) (_Y_ITER_ARRAY:%1@YSII_Ag[_Y_ITER_ARRAY_SIZE(%1)])
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_Last
-Params:
-	iter - Name of the iterator to
-Return:
-	-
-Notes:
-	Gets the last element in an iterator.
-\*----------------------------------------------------------------------------*/
-
-#define Iter_Last(%1) Iter_PrevInternal(_Y_ITER_ARRAY:%1@YSII_Ag,_Y_ITER_ARRAY_SIZE(%1),_Y_ITER_ARRAY_SIZE(%1))
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_Next
-Params:
-	iter - Name of the iterator to
-Return:
-	-
-Notes:
-	Gets the element in an interator after the current one.
-\*----------------------------------------------------------------------------*/
-
-#define Iter_Next(%1,%2) (_Y_ITER_ARRAY:%1@YSII_Ag[(%2)])
-
-/*----------------------------------------------------------------------------*\
-Function:
-	Iter_Prev
-Params:
-	iter - Name of the iterator to
-Return:
-	-
-Notes:
-	Gets the element in an iterator before the current one. Slow.
-\*----------------------------------------------------------------------------*/
-
-#define Iter_Prev(%1,%2) Iter_PrevInternal(_Y_ITER_ARRAY:%1@YSII_Ag,_Y_ITER_ARRAY_SIZE(%1),(%2))
-#define Iter_Previous Iter_Prev
-
-/*----------------------------------------------------------------------------*\
-Function:
-    Iter_InternalArray
-Params:
-    iter - Name of the iterator to get the true name of.
-Return:
-    -
-Notes:
-    Accesses the internal array of an iterator.
-\*----------------------------------------------------------------------------*/
-
-#define Iter_InternalArray(%1) (_Y_ITER_ARRAY:%1@YSII_Ag)
-
-/*----------------------------------------------------------------------------*\
-Function:
-    Iter_InternalSize
-Params:
-    iter - Name of the iterator to get the true size of.
-Return:
-    -
-Notes:
-    Accesses the internal size of an iterator.
-\*----------------------------------------------------------------------------*/
-
-#define _Y_ITER_INT_SIZE:%0(%2[%1]@YSII_Ag)) %0(%2@YSII_Ag[]))
-
-#define Iter_InternalSize(%1) (_:_Y_ITER_INT_SIZE:sizeof (%1@YSII_Ag))
-
-
 /*----------------------------------------------------------------------------*\
 Function:
 	Iter_OnPlayerConnect
@@ -1265,3 +882,380 @@ Notes:
 		#endif
 	}
 #endif
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_RandomInternal
+Params:
+	count - Number of items in the iterator.
+	array[] - Iterator data.
+	size - Size of the iterator.
+Return:
+	-
+Notes:
+	Returns a random value from an iterator.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_RandomInternal(count, array[], size)
+{
+	if (count == 0)
+	{
+		return ITER_NONE;
+	}
+	new
+		rnd = random(count),
+		cur = array[size];
+	while (cur != size)
+	{
+		if (rnd-- == 0)
+		{
+			return cur;
+		}
+		cur = array[cur];
+	}
+	return ITER_NONE;
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_FreeInternal
+Params:
+	array[] - Iterator data.
+	size - Size of the iterator.
+Return:
+	-
+Notes:
+	Finds the first free slot in the iterator. Iterators now HAVE to be
+	sorted for this function to work correctly as it uses that fact to decide
+	whether a slot is unused or the last one. If you want to use the slot
+	straight after finding it the iterator will need to re-find it to add in
+	the data.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_FreeInternal(array[], size)
+{
+	for (new i = 0; i != size; ++i)
+	{
+		if (array[i] > size)
+		{
+			return i;
+		}
+	}
+	return ITER_NONE;
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_AddInternal
+Params:
+	&count - Number of items in the iterator.
+	array[] - Iterator data.
+	value - Item to add.
+	size - Size of the iterator.
+Return:
+	-
+Notes:
+	Adds a value to a given iterator set. Now detects when you try and add the
+	last item multiple times, as well as all the other items. Now simplified even
+	further with the new internal representation.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_AddInternal(&count, array[], value, size)
+{
+	if (0 <= value < size && array[value] > size)
+	{
+		new
+			last = size,
+			next = array[last];
+		while (next < value)
+		{
+			last = next;
+			next = array[last];
+		}
+		array[last] = value;
+		array[value] = next;
+		++count;
+		return 1;
+	}
+	return 0;
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_RemoveInternal
+Params:
+	&count - Number of items in the iterator.
+	array[] - Iterator data.
+	value - Item to remove.
+	size - Size of the iterator.
+Return:
+	-
+Notes:
+	Removes a value from an iterator.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_RemoveInternal(&count, array[], value, size)
+{
+	new
+		last;
+	return Iter_SafeRemoveInternal(count, array, value, last, size);
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_SafeRemoveInternal
+Params:
+	&count - Number of items in the iterator.
+	array[] - Iterator data.
+	value - Item to remove.
+	&last - Pointer in which to store the last pointer.
+	size - Size of the iterator.
+Return:
+	-
+Notes:
+	Removes a value from an iterator safely.
+\*----------------------------------------------------------------------------*/
+
+/*stock Iter_SafeRemoveInternal(&count, array[], value, &last, size)
+{
+	if (0 <= value < size && array[value] <= size)
+	{
+		last = size;
+		new
+			next = array[last];
+		while (next != value)
+		{
+			last = next;
+			next = array[last];
+		}
+		array[last] = array[value];
+		array[value] = size + 1;
+		--count;
+		return 1;
+	}
+	return 0;
+}*/
+
+stock Iter_SafeRemoveInternal(&count, array[], value, &last, size)
+{
+	if (0 <= value < size && array[value] <= size) {
+		last = size;
+		new
+			next = array[last];
+		while (next < size) {
+			if (next == value) {
+				array[last] = array[value];
+				array[value] = size + 1;
+				--count;
+				return 1;
+			}
+			last = next;
+			next = array[last];
+		}
+	}
+	return 0;
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_ContainsInternal
+Params:
+	array[] - Iterator data.
+	value - Item to check.
+	size - Size of the iterator.
+Return:
+	-
+Notes:
+	Checks if this item is in the iterator.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_ContainsInternal(array[], value, size)
+{
+	return 0 <= value < size && array[value] <= size;
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_ClearInternal
+Params:
+	&count - Number of items in the iterator.
+	array[] - Iterator data.
+	size - Size of the iterator.
+Return:
+	-
+Notes:
+	Resets an iterator.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_ClearInternal(&count, array[], size)
+{
+	for (new i = 0, t = size + 1; i < size; ++i)
+	{
+		array[i] = t;
+	}
+	array[size] = size;
+	count = 0;
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_InitInternal
+Params:
+	array[][] - Iterator array to initialise.
+	s0 - Size of first dimension.
+	s1 - Size of second dimension.
+Return:
+	-
+Notes:
+	Multi-dimensional arrays can not be initialised at compile time, so need to be
+	done at run time, which is slightly annoying.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_InitInternal(arr[][], s0, s1)
+{
+	for (new i = 0, t = s1 + 1; i < s0; ++i)
+	{
+		for (new j = 0; j < s1; ++j)
+		{
+			arr[i][j] = t;
+		}
+		arr[i][s1] = s1;
+	}
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_PrevInternal
+Params:
+	array[] - Iterator data.
+	size - Size of the iterator.
+	slot - The current slot.
+Return:
+	-
+Notes:
+	Gets the element in an iterator that points to the current element.
+\*----------------------------------------------------------------------------*/
+
+stock Iter_PrevInternal(array[], size, slot)
+{
+	if (0 <= slot <= size && array[slot] <= size)
+	{
+		for (new last = slot; last--; )
+ 		{
+ 			if (array[last] == slot)
+ 			{
+ 			    return last;
+ 			}
+ 		}
+	}
+	return size;
+}
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_Begin
+Params:
+	iter - Name of the iterator to get the start of.
+Return:
+	-
+Notes:
+	Gets a point BEFORE the start of the iterator (the theoretical beginning).
+\*----------------------------------------------------------------------------*/
+
+#define Iter_Begin(%1) (_Y_ITER_ARRAY_SIZE(%1))
+#define Iter_Start Iter_Begin
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_End
+Params:
+	iter - Name of the iterator to
+Return:
+	-
+Notes:
+	Gets a point AFTER the end of the iterator (think "MAX_PLAYERS").
+\*----------------------------------------------------------------------------*/
+
+#define Iter_End(%1) (_Y_ITER_ARRAY_SIZE(%1))
+#define Iter_Finish Iter_End
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_First
+Params:
+	iter - Name of the iterator to
+Return:
+	-
+Notes:
+	Gets the first element in an iterator.
+\*----------------------------------------------------------------------------*/
+
+#define Iter_First(%1) (_Y_ITER_ARRAY:%1@YSII_Ag[_Y_ITER_ARRAY_SIZE(%1)])
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_Last
+Params:
+	iter - Name of the iterator to
+Return:
+	-
+Notes:
+	Gets the last element in an iterator.
+\*----------------------------------------------------------------------------*/
+
+#define Iter_Last(%1) Iter_PrevInternal(_Y_ITER_ARRAY:%1@YSII_Ag,_Y_ITER_ARRAY_SIZE(%1),_Y_ITER_ARRAY_SIZE(%1))
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_Next
+Params:
+	iter - Name of the iterator to
+Return:
+	-
+Notes:
+	Gets the element in an interator after the current one.
+\*----------------------------------------------------------------------------*/
+
+#define Iter_Next(%1,%2) (_Y_ITER_ARRAY:%1@YSII_Ag[(%2)])
+
+/*----------------------------------------------------------------------------*\
+Function:
+	Iter_Prev
+Params:
+	iter - Name of the iterator to
+Return:
+	-
+Notes:
+	Gets the element in an iterator before the current one. Slow.
+\*----------------------------------------------------------------------------*/
+
+#define Iter_Prev(%1,%2) Iter_PrevInternal(_Y_ITER_ARRAY:%1@YSII_Ag,_Y_ITER_ARRAY_SIZE(%1),(%2))
+#define Iter_Previous Iter_Prev
+
+/*----------------------------------------------------------------------------*\
+Function:
+    Iter_InternalArray
+Params:
+    iter - Name of the iterator to get the true name of.
+Return:
+    -
+Notes:
+    Accesses the internal array of an iterator.
+\*----------------------------------------------------------------------------*/
+
+#define Iter_InternalArray(%1) (_Y_ITER_ARRAY:%1@YSII_Ag)
+
+/*----------------------------------------------------------------------------*\
+Function:
+    Iter_InternalSize
+Params:
+    iter - Name of the iterator to get the true size of.
+Return:
+    -
+Notes:
+    Accesses the internal size of an iterator.
+\*----------------------------------------------------------------------------*/
+
+#define _Y_ITER_INT_SIZE:%0(%2[%1]@YSII_Ag)) %0(%2@YSII_Ag[]))
+
+#define Iter_InternalSize(%1) (_:_Y_ITER_INT_SIZE:sizeof (%1@YSII_Ag))

@@ -1679,3 +1679,4820 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [23:51:41] [part] Selena_Lunysh has left the server (0:1)
 [23:51:41] [connection] incoming connection: 127.0.0.1:56026 id: 0
 [23:51:41] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:04:30] 
+[15:04:30] Server Plugins
+[15:04:30] --------------
+[15:04:30]  Loading plugin: mysql
+[15:04:30]  >> plugin.mysql: R41-4 successfully loaded.
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: pawncmd
+[15:04:30] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: sscanf
+[15:04:30] 
+
+[15:04:30]  ===============================
+
+[15:04:30]       sscanf plugin loaded.     
+
+[15:04:30]          Version:  2.8.2        
+
+[15:04:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:04:30]  ===============================
+
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: streamer
+[15:04:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: pawnraknet
+[15:04:30] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:04:30]   Loaded.
+[15:04:30]  Loading plugin: timerfix
+[15:04:30]   >> TimerFix v1.5 successfully loaded.
+[15:04:30]   Loaded.
+[15:04:30]  Loaded 6 plugins.
+
+[15:04:31] 
+[15:04:31] Filterscripts
+[15:04:31] ---------------
+[15:04:31]   Loaded 0 filterscripts.
+
+[15:04:31]  
+[15:04:31]  
+[15:04:31]  
+[15:04:31]  ======================================= 
+[15:04:31]  |                                     | 
+[15:04:31]  |        YSI version 4.00.0001        | 
+[15:04:31]  |        By Alex "Y_Less" Cole        | 
+[15:04:31]  |                                     | 
+[15:04:31]  ======================================= 
+[15:04:31]  
+[15:04:36] ке адыеаьееашаошиd
+[15:04:36] Привет, мир!
+[15:04:36] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:05:59] 
+[15:05:59] Server Plugins
+[15:05:59] --------------
+[15:05:59]  Loading plugin: mysql
+[15:05:59]  >> plugin.mysql: R41-4 successfully loaded.
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: pawncmd
+[15:05:59] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: sscanf
+[15:05:59] 
+
+[15:05:59]  ===============================
+
+[15:05:59]       sscanf plugin loaded.     
+
+[15:05:59]          Version:  2.8.2        
+
+[15:05:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:05:59]  ===============================
+
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: streamer
+[15:05:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: pawnraknet
+[15:05:59] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:05:59]   Loaded.
+[15:05:59]  Loading plugin: timerfix
+[15:05:59]   >> TimerFix v1.5 successfully loaded.
+[15:05:59]   Loaded.
+[15:05:59]  Loaded 6 plugins.
+
+[15:05:59] 
+[15:05:59] Filterscripts
+[15:05:59] ---------------
+[15:05:59]   Loaded 0 filterscripts.
+
+[15:05:59]  
+[15:05:59]  
+[15:05:59]  
+[15:05:59]  ======================================= 
+[15:05:59]  |                                     | 
+[15:05:59]  |        YSI version 4.00.0001        | 
+[15:05:59]  |        By Alex "Y_Less" Cole        | 
+[15:05:59]  |                                     | 
+[15:05:59]  ======================================= 
+[15:05:59]  
+[15:06:03] ке адыеаьееашаошиd
+[15:06:03] Привет, мир!
+[15:06:03] Number of vehicle models: 0
+[15:06:07] [connection] 127.0.0.1:49746 requests connection cookie.
+[15:06:08] [connection] incoming connection: 127.0.0.1:49746 id: 0
+[15:06:08] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:09:14] 
+[15:09:14] Server Plugins
+[15:09:14] --------------
+[15:09:14]  Loading plugin: mysql
+[15:09:14]  >> plugin.mysql: R41-4 successfully loaded.
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: pawncmd
+[15:09:14] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: sscanf
+[15:09:14] 
+
+[15:09:14]  ===============================
+
+[15:09:14]       sscanf plugin loaded.     
+
+[15:09:14]          Version:  2.8.2        
+
+[15:09:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:09:14]  ===============================
+
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: streamer
+[15:09:14] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: pawnraknet
+[15:09:14] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:09:14]   Loaded.
+[15:09:14]  Loading plugin: timerfix
+[15:09:14]   >> TimerFix v1.5 successfully loaded.
+[15:09:14]   Loaded.
+[15:09:14]  Loaded 6 plugins.
+
+[15:09:14] 
+[15:09:14] Filterscripts
+[15:09:14] ---------------
+[15:09:14]   Loaded 0 filterscripts.
+
+[15:09:14]  
+[15:09:14]  
+[15:09:14]  
+[15:09:14]  ======================================= 
+[15:09:14]  |                                     | 
+[15:09:14]  |        YSI version 4.00.0001        | 
+[15:09:14]  |        By Alex "Y_Less" Cole        | 
+[15:09:14]  |                                     | 
+[15:09:14]  ======================================= 
+[15:09:14]  
+[15:09:14] Подключение к базе данных удалось
+[15:09:14] Привет, мир!
+[15:09:14] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:09:34] 
+[15:09:34] Server Plugins
+[15:09:34] --------------
+[15:09:34]  Loading plugin: mysql
+[15:09:34]  >> plugin.mysql: R41-4 successfully loaded.
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: pawncmd
+[15:09:34] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: sscanf
+[15:09:34] 
+
+[15:09:34]  ===============================
+
+[15:09:34]       sscanf plugin loaded.     
+
+[15:09:34]          Version:  2.8.2        
+
+[15:09:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:09:34]  ===============================
+
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: streamer
+[15:09:34] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: pawnraknet
+[15:09:34] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:09:34]   Loaded.
+[15:09:34]  Loading plugin: timerfix
+[15:09:34]   >> TimerFix v1.5 successfully loaded.
+[15:09:34]   Loaded.
+[15:09:34]  Loaded 6 plugins.
+
+[15:09:34] 
+[15:09:34] Filterscripts
+[15:09:34] ---------------
+[15:09:34]   Loaded 0 filterscripts.
+
+[15:09:34]  
+[15:09:34]  
+[15:09:34]  
+[15:09:34]  ======================================= 
+[15:09:34]  |                                     | 
+[15:09:34]  |        YSI version 4.00.0001        | 
+[15:09:34]  |        By Alex "Y_Less" Cole        | 
+[15:09:34]  |                                     | 
+[15:09:34]  ======================================= 
+[15:09:34]  
+[15:09:35] Подключение к базе данных удалось
+[15:09:35] Привет, мир!
+[15:09:35] Number of vehicle models: 0
+[15:09:36] [connection] 127.0.0.1:55855 requests connection cookie.
+[15:09:37] [connection] incoming connection: 127.0.0.1:55855 id: 0
+[15:09:37] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:12:28] 
+[15:12:28] Server Plugins
+[15:12:28] --------------
+[15:12:28]  Loading plugin: mysql
+[15:12:28]  >> plugin.mysql: R41-4 successfully loaded.
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: pawncmd
+[15:12:28] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: sscanf
+[15:12:28] 
+
+[15:12:28]  ===============================
+
+[15:12:28]       sscanf plugin loaded.     
+
+[15:12:28]          Version:  2.8.2        
+
+[15:12:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:12:28]  ===============================
+
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: streamer
+[15:12:28] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: pawnraknet
+[15:12:28] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:12:28]   Loaded.
+[15:12:28]  Loading plugin: timerfix
+[15:12:28]   >> TimerFix v1.5 successfully loaded.
+[15:12:28]   Loaded.
+[15:12:28]  Loaded 6 plugins.
+
+[15:12:28] 
+[15:12:28] Filterscripts
+[15:12:28] ---------------
+[15:12:28]   Loaded 0 filterscripts.
+
+[15:12:28]  
+[15:12:28]  
+[15:12:28]  
+[15:12:28]  ======================================= 
+[15:12:28]  |                                     | 
+[15:12:28]  |        YSI version 4.00.0001        | 
+[15:12:28]  |        By Alex "Y_Less" Cole        | 
+[15:12:28]  |                                     | 
+[15:12:28]  ======================================= 
+[15:12:28]  
+[15:12:29] Подключение к базе данных удалось
+[15:12:29] Привет, мир!
+[15:12:29] Number of vehicle models: 0
+[15:12:31] [connection] 127.0.0.1:51448 requests connection cookie.
+[15:12:32] [connection] incoming connection: 127.0.0.1:51448 id: 0
+[15:12:32] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:28:37] 
+[15:28:37] Server Plugins
+[15:28:37] --------------
+[15:28:37]  Loading plugin: mysql
+[15:28:37]  >> plugin.mysql: R41-4 successfully loaded.
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: pawncmd
+[15:28:37] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: sscanf
+[15:28:37] 
+
+[15:28:37]  ===============================
+
+[15:28:37]       sscanf plugin loaded.     
+
+[15:28:37]          Version:  2.8.2        
+
+[15:28:37]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:28:37]  ===============================
+
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: streamer
+[15:28:37] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: pawnraknet
+[15:28:37] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[15:28:37]   Loaded.
+[15:28:37]  Loading plugin: timerfix
+[15:28:37]   >> TimerFix v1.5 successfully loaded.
+[15:28:37]   Loaded.
+[15:28:37]  Loaded 6 plugins.
+
+[15:28:37] 
+[15:28:37] Filterscripts
+[15:28:37] ---------------
+[15:28:37]   Loaded 0 filterscripts.
+
+[15:28:37]  
+[15:28:37]  
+[15:28:37]  
+[15:28:37]  ======================================= 
+[15:28:37]  |                                     | 
+[15:28:37]  |        YSI version 4.00.0001        | 
+[15:28:37]  |        By Alex "Y_Less" Cole        | 
+[15:28:37]  |                                     | 
+[15:28:37]  ======================================= 
+[15:28:37]  
+[15:28:38] Подключение к базе данных удалось
+[15:28:38] Привет, мир!
+[15:28:38] Number of vehicle models: 0
+[15:28:42] [connection] 127.0.0.1:50336 requests connection cookie.
+[15:28:43] [connection] incoming connection: 127.0.0.1:50336 id: 0
+[15:28:43] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:52:45] 
+[18:52:45] Server Plugins
+[18:52:45] --------------
+[18:52:45]  Loading plugin: mysql
+[18:52:46]  >> plugin.mysql: R41-4 successfully loaded.
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: pawncmd
+[18:52:46] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: sscanf
+[18:52:46] 
+
+[18:52:46]  ===============================
+
+[18:52:46]       sscanf plugin loaded.     
+
+[18:52:46]          Version:  2.8.2        
+
+[18:52:46]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:52:46]  ===============================
+
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: streamer
+[18:52:46] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: pawnraknet
+[18:52:46] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[18:52:46]   Loaded.
+[18:52:46]  Loading plugin: timerfix
+[18:52:46]   >> TimerFix v1.5 successfully loaded.
+[18:52:46]   Loaded.
+[18:52:46]  Loaded 6 plugins.
+
+[18:52:46] 
+[18:52:46] Filterscripts
+[18:52:46] ---------------
+[18:52:46]   Loaded 0 filterscripts.
+
+[18:52:46]  
+[18:52:46]  
+[18:52:46]  
+[18:52:46]  ======================================= 
+[18:52:46]  |                                     | 
+[18:52:46]  |        YSI version 4.00.0001        | 
+[18:52:46]  |        By Alex "Y_Less" Cole        | 
+[18:52:46]  |                                     | 
+[18:52:46]  ======================================= 
+[18:52:46]  
+[18:52:51] ке адыеаьееашаошиd
+[18:52:51] Привет, мир!
+[18:52:51] Number of vehicle models: 0
+[18:53:51] [connection] 127.0.0.1:50442 requests connection cookie.
+[18:53:52] [connection] incoming connection: 127.0.0.1:50442 id: 0
+[18:53:52] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+[18:56:23] [part] Selena_Lunysh has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:32:53] 
+[22:32:53] Server Plugins
+[22:32:53] --------------
+[22:32:53]  Loading plugin: mysql
+[22:32:53]  >> plugin.mysql: R41-4 successfully loaded.
+[22:32:53]   Loaded.
+[22:32:53]  Loading plugin: pawncmd
+[22:32:53] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:32:53]   Loaded.
+[22:32:53]  Loading plugin: sscanf
+[22:32:53] 
+
+[22:32:53]  ===============================
+
+[22:32:53]       sscanf plugin loaded.     
+
+[22:32:53]          Version:  2.8.2        
+
+[22:32:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:32:53]  ===============================
+
+[22:32:53]   Loaded.
+[22:32:53]  Loading plugin: streamer
+[22:32:53] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:32:53]   Loaded.
+[22:32:53]  Loading plugin: pawnraknet
+[22:32:53] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:32:53]   Loaded.
+[22:32:53]  Loading plugin: timerfix
+[22:32:53]   >> TimerFix v1.5 successfully loaded.
+[22:32:53]   Loaded.
+[22:32:53]  Loaded 6 plugins.
+
+[22:32:53] 
+[22:32:53] Filterscripts
+[22:32:53] ---------------
+[22:32:53]   Loaded 0 filterscripts.
+
+[22:32:53]  
+[22:32:53]  ======================================= 
+[22:32:53]  |                                     | 
+[22:32:53]  |    Optimising code, this may take   | 
+[22:32:53]  |        a little bit of time.        | 
+[22:32:53]  |                                     | 
+[22:32:53]  |            Please wait...           | 
+[22:32:53]  |                                     | 
+[22:32:53]  |=====================================| 
+[22:32:53]  |                                     | 
+[22:32:53]  | Note that these optimisations are   | 
+[22:32:53]  | designed to improve performance     | 
+[22:32:53]  | with the JIT plugin, which you are  | 
+[22:32:53]  | not currently using.  Get it here:  | 
+[22:32:53]  |                                     | 
+[22:32:53]  |      https://git.io/jit-plugin      | 
+[22:32:53]  |                                     | 
+[22:32:53]  ======================================= 
+[22:32:53]  
+[22:32:54]  
+[22:32:54]  
+[22:32:54]  
+[22:32:54]  ======================================= 
+[22:32:54]  |                                     | 
+[22:32:54]  |        YSI version 5.03.0689        | 
+[22:32:54]  |        By Alex "Y_Less" Cole        | 
+[22:32:54]  |                                     | 
+[22:32:54]  ======================================= 
+[22:32:54]  
+[22:33:10] ѕєЋµёРСРР.Р €±ёd
+[22:33:10] Привет, мир!
+[22:33:10] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:34:07] 
+[22:34:07] Server Plugins
+[22:34:07] --------------
+[22:34:07]  Loading plugin: mysql
+[22:34:07]  >> plugin.mysql: R41-4 successfully loaded.
+[22:34:07]   Loaded.
+[22:34:07]  Loading plugin: pawncmd
+[22:34:07] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:34:07]   Loaded.
+[22:34:07]  Loading plugin: sscanf
+[22:34:07] 
+
+[22:34:07]  ===============================
+
+[22:34:07]       sscanf plugin loaded.     
+
+[22:34:07]          Version:  2.8.2        
+
+[22:34:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:34:07]  ===============================
+
+[22:34:07]   Loaded.
+[22:34:07]  Loading plugin: streamer
+[22:34:07] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:34:07]   Loaded.
+[22:34:07]  Loading plugin: pawnraknet
+[22:34:07] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:34:07]   Loaded.
+[22:34:07]  Loading plugin: timerfix
+[22:34:07]   >> TimerFix v1.5 successfully loaded.
+[22:34:07]   Loaded.
+[22:34:07]  Loaded 6 plugins.
+
+[22:34:08] 
+[22:34:08] Filterscripts
+[22:34:08] ---------------
+[22:34:08]   Loaded 0 filterscripts.
+
+[22:34:08]  
+[22:34:08]  ======================================= 
+[22:34:08]  |                                     | 
+[22:34:08]  |    Optimising code, this may take   | 
+[22:34:08]  |        a little bit of time.        | 
+[22:34:08]  |                                     | 
+[22:34:08]  |            Please wait...           | 
+[22:34:08]  |                                     | 
+[22:34:08]  |=====================================| 
+[22:34:08]  |                                     | 
+[22:34:08]  | Note that these optimisations are   | 
+[22:34:08]  | designed to improve performance     | 
+[22:34:08]  | with the JIT plugin, which you are  | 
+[22:34:08]  | not currently using.  Get it here:  | 
+[22:34:08]  |                                     | 
+[22:34:08]  |      https://git.io/jit-plugin      | 
+[22:34:08]  |                                     | 
+[22:34:08]  ======================================= 
+[22:34:08]  
+[22:34:08]  
+[22:34:08]  
+[22:34:08]  
+[22:34:08]  ======================================= 
+[22:34:08]  |                                     | 
+[22:34:08]  |        YSI version 5.03.0689        | 
+[22:34:08]  |        By Alex "Y_Less" Cole        | 
+[22:34:08]  |                                     | 
+[22:34:08]  ======================================= 
+[22:34:08]  
+[22:34:13] [connection] 127.0.0.1:60417 requests connection cookie.
+[22:34:30] ѕєЋµёРСРР.Р €±ёd
+[22:34:30] Привет, мир!
+[22:34:30] Number of vehicle models: 0
+[22:34:30] [connection] incoming connection: 127.0.0.1:60417 id: 0
+[22:34:30] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:37:53] 
+[22:37:53] Server Plugins
+[22:37:53] --------------
+[22:37:53]  Loading plugin: mysql
+[22:37:53]  >> plugin.mysql: R41-4 successfully loaded.
+[22:37:53]   Loaded.
+[22:37:53]  Loading plugin: pawncmd
+[22:37:53] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:37:53]   Loaded.
+[22:37:53]  Loading plugin: sscanf
+[22:37:53] 
+
+[22:37:53]  ===============================
+
+[22:37:53]       sscanf plugin loaded.     
+
+[22:37:53]          Version:  2.8.2        
+
+[22:37:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:37:53]  ===============================
+
+[22:37:53]   Loaded.
+[22:37:53]  Loading plugin: streamer
+[22:37:53] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:37:53]   Loaded.
+[22:37:53]  Loading plugin: pawnraknet
+[22:37:53] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:37:53]   Loaded.
+[22:37:53]  Loading plugin: timerfix
+[22:37:53]   >> TimerFix v1.5 successfully loaded.
+[22:37:53]   Loaded.
+[22:37:53]  Loaded 6 plugins.
+
+[22:37:53] 
+[22:37:53] Filterscripts
+[22:37:53] ---------------
+[22:37:53]   Loaded 0 filterscripts.
+
+[22:37:53]  
+[22:37:53]  ======================================= 
+[22:37:53]  |                                     | 
+[22:37:53]  |    Optimising code, this may take   | 
+[22:37:53]  |        a little bit of time.        | 
+[22:37:53]  |                                     | 
+[22:37:53]  |            Please wait...           | 
+[22:37:53]  |                                     | 
+[22:37:53]  |=====================================| 
+[22:37:53]  |                                     | 
+[22:37:53]  | Note that these optimisations are   | 
+[22:37:53]  | designed to improve performance     | 
+[22:37:53]  | with the JIT plugin, which you are  | 
+[22:37:53]  | not currently using.  Get it here:  | 
+[22:37:53]  |                                     | 
+[22:37:53]  |      https://git.io/jit-plugin      | 
+[22:37:53]  |                                     | 
+[22:37:53]  ======================================= 
+[22:37:53]  
+[22:37:53]  
+[22:37:53]  
+[22:37:53]  
+[22:37:53]  ======================================= 
+[22:37:53]  |                                     | 
+[22:37:53]  |        YSI version 5.03.0689        | 
+[22:37:53]  |        By Alex "Y_Less" Cole        | 
+[22:37:53]  |                                     | 
+[22:37:53]  ======================================= 
+[22:37:53]  
+[22:37:54] РџРѕРґРєР»СЋС‡РµРЅ Рє Р±Р°Р·Рµ!!
+[22:37:54] Привет, мир!
+[22:37:54] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:38:09] 
+[22:38:09] Server Plugins
+[22:38:09] --------------
+[22:38:09]  Loading plugin: mysql
+[22:38:09]  >> plugin.mysql: R41-4 successfully loaded.
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: pawncmd
+[22:38:09] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: sscanf
+[22:38:09] 
+
+[22:38:09]  ===============================
+
+[22:38:09]       sscanf plugin loaded.     
+
+[22:38:09]          Version:  2.8.2        
+
+[22:38:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:38:09]  ===============================
+
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: streamer
+[22:38:09] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: pawnraknet
+[22:38:09] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: timerfix
+[22:38:09]   >> TimerFix v1.5 successfully loaded.
+[22:38:09]   Loaded.
+[22:38:09]  Loaded 6 plugins.
+
+[22:38:09] 
+[22:38:09] Filterscripts
+[22:38:09] ---------------
+[22:38:09]   Loaded 0 filterscripts.
+
+[22:38:09]  
+[22:38:09]  ======================================= 
+[22:38:09]  |                                     | 
+[22:38:09]  |    Optimising code, this may take   | 
+[22:38:09]  |        a little bit of time.        | 
+[22:38:09]  |                                     | 
+[22:38:09]  |            Please wait...           | 
+[22:38:09]  |                                     | 
+[22:38:09]  |=====================================| 
+[22:38:09]  |                                     | 
+[22:38:09]  | Note that these optimisations are   | 
+[22:38:09]  | designed to improve performance     | 
+[22:38:09]  | with the JIT plugin, which you are  | 
+[22:38:09]  | not currently using.  Get it here:  | 
+[22:38:09]  |                                     | 
+[22:38:09]  |      https://git.io/jit-plugin      | 
+[22:38:09]  |                                     | 
+[22:38:09]  ======================================= 
+[22:38:09]  
+[22:38:09]  
+[22:38:09]  
+[22:38:09]  
+[22:38:09]  ======================================= 
+[22:38:09]  |                                     | 
+[22:38:09]  |        YSI version 5.03.0689        | 
+[22:38:09]  |        By Alex "Y_Less" Cole        | 
+[22:38:09]  |                                     | 
+[22:38:09]  ======================================= 
+[22:38:09]  
+[22:38:11] РџРѕРґРєР»СЋС‡РµРЅ Рє Р±Р°Р·Рµ!!
+[22:38:11] Привет, мир!
+[22:38:11] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:38:25] 
+[22:38:25] Server Plugins
+[22:38:25] --------------
+[22:38:25]  Loading plugin: mysql
+[22:38:25]  >> plugin.mysql: R41-4 successfully loaded.
+[22:38:25]   Loaded.
+[22:38:25]  Loading plugin: pawncmd
+[22:38:25] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:38:25]   Loaded.
+[22:38:25]  Loading plugin: sscanf
+[22:38:25] 
+
+[22:38:25]  ===============================
+
+[22:38:25]       sscanf plugin loaded.     
+
+[22:38:25]          Version:  2.8.2        
+
+[22:38:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:38:25]  ===============================
+
+[22:38:25]   Loaded.
+[22:38:25]  Loading plugin: streamer
+[22:38:25] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:38:25]   Loaded.
+[22:38:25]  Loading plugin: pawnraknet
+[22:38:25] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:38:25]   Loaded.
+[22:38:25]  Loading plugin: timerfix
+[22:38:25]   >> TimerFix v1.5 successfully loaded.
+[22:38:25]   Loaded.
+[22:38:25]  Loaded 6 plugins.
+
+[22:38:25] 
+[22:38:25] Filterscripts
+[22:38:25] ---------------
+[22:38:25]   Loaded 0 filterscripts.
+
+[22:38:25]  
+[22:38:25]  ======================================= 
+[22:38:25]  |                                     | 
+[22:38:25]  |    Optimising code, this may take   | 
+[22:38:25]  |        a little bit of time.        | 
+[22:38:25]  |                                     | 
+[22:38:25]  |            Please wait...           | 
+[22:38:25]  |                                     | 
+[22:38:25]  |=====================================| 
+[22:38:25]  |                                     | 
+[22:38:25]  | Note that these optimisations are   | 
+[22:38:25]  | designed to improve performance     | 
+[22:38:25]  | with the JIT plugin, which you are  | 
+[22:38:25]  | not currently using.  Get it here:  | 
+[22:38:25]  |                                     | 
+[22:38:25]  |      https://git.io/jit-plugin      | 
+[22:38:25]  |                                     | 
+[22:38:25]  ======================================= 
+[22:38:25]  
+[22:38:25]  
+[22:38:25]  
+[22:38:25]  
+[22:38:25]  ======================================= 
+[22:38:25]  |                                     | 
+[22:38:25]  |        YSI version 5.03.0689        | 
+[22:38:25]  |        By Alex "Y_Less" Cole        | 
+[22:38:25]  |                                     | 
+[22:38:25]  ======================================= 
+[22:38:25]  
+[22:38:26] РџРѕРґРєР»СЋС‡РµРЅ Рє Р±Р°Р·Рµ!!
+[22:38:26] Привет, мир!
+[22:38:26] Number of vehicle models: 0
+[22:38:30] --- Server Shutting Down.
+[22:38:30] plugin.mysql: Unloading plugin...
+[22:38:30] plugin.mysql: Plugin unloaded.
+[22:38:30] Pawn.CMD plugin v3.2.0 by urShadow has been unloaded
+[22:38:30] 
+
+[22:38:30]  ===============================
+
+[22:38:30]      sscanf plugin unloaded.    
+
+[22:38:30]  ===============================
+
+[22:38:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[22:38:30] Pawn.RakNet plugin v1.3.0 by urShadow has been unloaded
+[22:38:30] [plugin.timerfix] Plugsin successfully unloaded!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:38:46] 
+[22:38:46] Server Plugins
+[22:38:46] --------------
+[22:38:46]  Loading plugin: mysql
+[22:38:46]  >> plugin.mysql: R41-4 successfully loaded.
+[22:38:46]   Loaded.
+[22:38:46]  Loading plugin: pawncmd
+[22:38:46] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:38:46]   Loaded.
+[22:38:46]  Loading plugin: sscanf
+[22:38:46] 
+
+[22:38:46]  ===============================
+
+[22:38:46]       sscanf plugin loaded.     
+
+[22:38:46]          Version:  2.8.2        
+
+[22:38:46]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:38:46]  ===============================
+
+[22:38:46]   Loaded.
+[22:38:46]  Loading plugin: streamer
+[22:38:46] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:38:46]   Loaded.
+[22:38:46]  Loading plugin: pawnraknet
+[22:38:46] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:38:46]   Loaded.
+[22:38:46]  Loading plugin: timerfix
+[22:38:46]   >> TimerFix v1.5 successfully loaded.
+[22:38:46]   Loaded.
+[22:38:46]  Loaded 6 plugins.
+
+[22:38:46] 
+[22:38:46] Filterscripts
+[22:38:46] ---------------
+[22:38:46]   Loaded 0 filterscripts.
+
+[22:38:46]  
+[22:38:46]  ======================================= 
+[22:38:46]  |                                     | 
+[22:38:46]  |    Optimising code, this may take   | 
+[22:38:46]  |        a little bit of time.        | 
+[22:38:46]  |                                     | 
+[22:38:46]  |            Please wait...           | 
+[22:38:46]  |                                     | 
+[22:38:46]  |=====================================| 
+[22:38:46]  |                                     | 
+[22:38:46]  | Note that these optimisations are   | 
+[22:38:46]  | designed to improve performance     | 
+[22:38:46]  | with the JIT plugin, which you are  | 
+[22:38:46]  | not currently using.  Get it here:  | 
+[22:38:46]  |                                     | 
+[22:38:46]  |      https://git.io/jit-plugin      | 
+[22:38:46]  |                                     | 
+[22:38:46]  ======================================= 
+[22:38:46]  
+[22:38:46]  
+[22:38:46]  
+[22:38:46]  
+[22:38:46]  ======================================= 
+[22:38:46]  |                                     | 
+[22:38:46]  |        YSI version 5.03.0689        | 
+[22:38:46]  |        By Alex "Y_Less" Cole        | 
+[22:38:46]  |                                     | 
+[22:38:46]  ======================================= 
+[22:38:46]  
+[22:38:46] РџРѕРґРєР»СЋС‡РµРЅ Рє Р±Р°Р·Рµ!!
+[22:38:46] Привет, мир!
+[22:38:46] Number of vehicle models: 0
+[22:39:02] [connection] 127.0.0.1:52494 requests connection cookie.
+[22:39:39] [connection] 127.0.0.1:52510 requests connection cookie.
+[22:39:40] [connection] incoming connection: 127.0.0.1:52510 id: 0
+[22:39:41] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:41:58] 
+[22:41:58] Server Plugins
+[22:41:58] --------------
+[22:41:58]  Loading plugin: mysql
+[22:41:58]  >> plugin.mysql: R41-4 successfully loaded.
+[22:41:58]   Loaded.
+[22:41:58]  Loading plugin: pawncmd
+[22:41:58] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:41:58]   Loaded.
+[22:41:58]  Loading plugin: sscanf
+[22:41:58] 
+
+[22:41:58]  ===============================
+
+[22:41:58]       sscanf plugin loaded.     
+
+[22:41:58]          Version:  2.8.2        
+
+[22:41:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:41:58]  ===============================
+
+[22:41:58]   Loaded.
+[22:41:58]  Loading plugin: streamer
+[22:41:58] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:41:58]   Loaded.
+[22:41:58]  Loading plugin: pawnraknet
+[22:41:58] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:41:58]   Loaded.
+[22:41:58]  Loading plugin: timerfix
+[22:41:58]   >> TimerFix v1.5 successfully loaded.
+[22:41:58]   Loaded.
+[22:41:58]  Loaded 6 plugins.
+
+[22:41:58] 
+[22:41:58] Filterscripts
+[22:41:58] ---------------
+[22:41:58]   Loaded 0 filterscripts.
+
+[22:41:58]  
+[22:41:58]  ======================================= 
+[22:41:58]  |                                     | 
+[22:41:58]  |    Optimising code, this may take   | 
+[22:41:58]  |        a little bit of time.        | 
+[22:41:58]  |                                     | 
+[22:41:58]  |            Please wait...           | 
+[22:41:58]  |                                     | 
+[22:41:58]  |=====================================| 
+[22:41:58]  |                                     | 
+[22:41:58]  | Note that these optimisations are   | 
+[22:41:58]  | designed to improve performance     | 
+[22:41:58]  | with the JIT plugin, which you are  | 
+[22:41:58]  | not currently using.  Get it here:  | 
+[22:41:58]  |                                     | 
+[22:41:58]  |      https://git.io/jit-plugin      | 
+[22:41:58]  |                                     | 
+[22:41:58]  ======================================= 
+[22:41:58]  
+[22:41:58]  
+[22:41:58]  
+[22:41:58]  
+[22:41:58]  ======================================= 
+[22:41:58]  |                                     | 
+[22:41:58]  |        YSI version 5.03.0689        | 
+[22:41:58]  |        By Alex "Y_Less" Cole        | 
+[22:41:58]  |                                     | 
+[22:41:58]  ======================================= 
+[22:41:58]  
+[22:41:59] Подключен к базе!!
+[22:41:59] Привет, мир!
+[22:41:59] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:42:33] 
+[22:42:33] Server Plugins
+[22:42:33] --------------
+[22:42:33]  Loading plugin: mysql
+[22:42:33]  >> plugin.mysql: R41-4 successfully loaded.
+[22:42:33]   Loaded.
+[22:42:33]  Loading plugin: pawncmd
+[22:42:33] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:42:33]   Loaded.
+[22:42:33]  Loading plugin: sscanf
+[22:42:33] 
+
+[22:42:33]  ===============================
+
+[22:42:33]       sscanf plugin loaded.     
+
+[22:42:33]          Version:  2.8.2        
+
+[22:42:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:42:33]  ===============================
+
+[22:42:33]   Loaded.
+[22:42:33]  Loading plugin: streamer
+[22:42:33] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:42:33]   Loaded.
+[22:42:33]  Loading plugin: pawnraknet
+[22:42:33] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:42:33]   Loaded.
+[22:42:33]  Loading plugin: timerfix
+[22:42:33]   >> TimerFix v1.5 successfully loaded.
+[22:42:33]   Loaded.
+[22:42:33]  Loaded 6 plugins.
+
+[22:42:33] 
+[22:42:33] Filterscripts
+[22:42:33] ---------------
+[22:42:33]   Loaded 0 filterscripts.
+
+[22:42:33]  
+[22:42:33]  ======================================= 
+[22:42:33]  |                                     | 
+[22:42:33]  |    Optimising code, this may take   | 
+[22:42:33]  |        a little bit of time.        | 
+[22:42:33]  |                                     | 
+[22:42:33]  |            Please wait...           | 
+[22:42:33]  |                                     | 
+[22:42:33]  |=====================================| 
+[22:42:33]  |                                     | 
+[22:42:33]  | Note that these optimisations are   | 
+[22:42:33]  | designed to improve performance     | 
+[22:42:33]  | with the JIT plugin, which you are  | 
+[22:42:33]  | not currently using.  Get it here:  | 
+[22:42:33]  |                                     | 
+[22:42:33]  |      https://git.io/jit-plugin      | 
+[22:42:33]  |                                     | 
+[22:42:33]  ======================================= 
+[22:42:33]  
+[22:42:34]  
+[22:42:34]  
+[22:42:34]  
+[22:42:34]  ======================================= 
+[22:42:34]  |                                     | 
+[22:42:34]  |        YSI version 5.03.0689        | 
+[22:42:34]  |        By Alex "Y_Less" Cole        | 
+[22:42:34]  |                                     | 
+[22:42:34]  ======================================= 
+[22:42:34]  
+[22:42:34] Подключен к базе!!
+[22:42:34] Привет, мир!
+[22:42:34] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:42:52] 
+[22:42:52] Server Plugins
+[22:42:52] --------------
+[22:42:52]  Loading plugin: mysql
+[22:42:52]  >> plugin.mysql: R41-4 successfully loaded.
+[22:42:52]   Loaded.
+[22:42:52]  Loading plugin: pawncmd
+[22:42:52] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:42:52]   Loaded.
+[22:42:52]  Loading plugin: sscanf
+[22:42:52] 
+
+[22:42:52]  ===============================
+
+[22:42:52]       sscanf plugin loaded.     
+
+[22:42:52]          Version:  2.8.2        
+
+[22:42:52]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:42:52]  ===============================
+
+[22:42:52]   Loaded.
+[22:42:52]  Loading plugin: streamer
+[22:42:52] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:42:52]   Loaded.
+[22:42:52]  Loading plugin: pawnraknet
+[22:42:52] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:42:52]   Loaded.
+[22:42:52]  Loading plugin: timerfix
+[22:42:52]   >> TimerFix v1.5 successfully loaded.
+[22:42:52]   Loaded.
+[22:42:52]  Loaded 6 plugins.
+
+[22:42:52] 
+[22:42:52] Filterscripts
+[22:42:52] ---------------
+[22:42:52]   Loaded 0 filterscripts.
+
+[22:42:52]  
+[22:42:52]  ======================================= 
+[22:42:52]  |                                     | 
+[22:42:52]  |    Optimising code, this may take   | 
+[22:42:52]  |        a little bit of time.        | 
+[22:42:52]  |                                     | 
+[22:42:52]  |            Please wait...           | 
+[22:42:52]  |                                     | 
+[22:42:52]  |=====================================| 
+[22:42:52]  |                                     | 
+[22:42:52]  | Note that these optimisations are   | 
+[22:42:52]  | designed to improve performance     | 
+[22:42:52]  | with the JIT plugin, which you are  | 
+[22:42:52]  | not currently using.  Get it here:  | 
+[22:42:52]  |                                     | 
+[22:42:52]  |      https://git.io/jit-plugin      | 
+[22:42:52]  |                                     | 
+[22:42:52]  ======================================= 
+[22:42:52]  
+[22:42:52]  
+[22:42:52]  
+[22:42:52]  
+[22:42:52]  ======================================= 
+[22:42:52]  |                                     | 
+[22:42:52]  |        YSI version 5.03.0689        | 
+[22:42:52]  |        By Alex "Y_Less" Cole        | 
+[22:42:52]  |                                     | 
+[22:42:52]  ======================================= 
+[22:42:52]  
+[22:42:53] Подключен к базе!!
+[22:42:53] Привет, мир!
+[22:42:53] Number of vehicle models: 0
+[22:42:58] [part] Marshall_Matthers has left the server (0:2)
+[22:43:01] [connection] incoming connection: 127.0.0.1:57947 id: 0
+[22:43:01] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:43:07] 
+[22:43:07] Server Plugins
+[22:43:07] --------------
+[22:43:07]  Loading plugin: mysql
+[22:43:07]  >> plugin.mysql: R41-4 successfully loaded.
+[22:43:07]   Loaded.
+[22:43:07]  Loading plugin: pawncmd
+[22:43:07] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:43:07]   Loaded.
+[22:43:07]  Loading plugin: sscanf
+[22:43:07] 
+
+[22:43:07]  ===============================
+
+[22:43:07]       sscanf plugin loaded.     
+
+[22:43:07]          Version:  2.8.2        
+
+[22:43:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:43:07]  ===============================
+
+[22:43:07]   Loaded.
+[22:43:07]  Loading plugin: streamer
+[22:43:07] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:43:07]   Loaded.
+[22:43:07]  Loading plugin: pawnraknet
+[22:43:07] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:43:07]   Loaded.
+[22:43:07]  Loading plugin: timerfix
+[22:43:07]   >> TimerFix v1.5 successfully loaded.
+[22:43:07]   Loaded.
+[22:43:07]  Loaded 6 plugins.
+
+[22:43:07] 
+[22:43:07] Filterscripts
+[22:43:07] ---------------
+[22:43:07]   Loaded 0 filterscripts.
+
+[22:43:07]  
+[22:43:07]  ======================================= 
+[22:43:07]  |                                     | 
+[22:43:07]  |    Optimising code, this may take   | 
+[22:43:07]  |        a little bit of time.        | 
+[22:43:07]  |                                     | 
+[22:43:07]  |            Please wait...           | 
+[22:43:07]  |                                     | 
+[22:43:07]  |=====================================| 
+[22:43:07]  |                                     | 
+[22:43:07]  | Note that these optimisations are   | 
+[22:43:07]  | designed to improve performance     | 
+[22:43:07]  | with the JIT plugin, which you are  | 
+[22:43:07]  | not currently using.  Get it here:  | 
+[22:43:07]  |                                     | 
+[22:43:07]  |      https://git.io/jit-plugin      | 
+[22:43:07]  |                                     | 
+[22:43:07]  ======================================= 
+[22:43:07]  
+[22:43:07]  
+[22:43:07]  
+[22:43:07]  
+[22:43:07]  ======================================= 
+[22:43:07]  |                                     | 
+[22:43:07]  |        YSI version 5.03.0689        | 
+[22:43:07]  |        By Alex "Y_Less" Cole        | 
+[22:43:07]  |                                     | 
+[22:43:07]  ======================================= 
+[22:43:07]  
+[22:43:08] Подключен к базе!!
+[22:43:08] Привет, мир!
+[22:43:08] Number of vehicle models: 0
+[22:43:11] [connection] 127.0.0.1:57950 requests connection cookie.
+[22:43:12] [connection] incoming connection: 127.0.0.1:57950 id: 0
+[22:43:13] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+[22:43:14] [part] Marshall_Matthers has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:44:28] 
+[22:44:28] Server Plugins
+[22:44:28] --------------
+[22:44:28]  Loading plugin: mysql
+[22:44:28]  >> plugin.mysql: R41-4 successfully loaded.
+[22:44:28]   Loaded.
+[22:44:28]  Loading plugin: pawncmd
+[22:44:28] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:44:28]   Loaded.
+[22:44:28]  Loading plugin: sscanf
+[22:44:28] 
+
+[22:44:28]  ===============================
+
+[22:44:28]       sscanf plugin loaded.     
+
+[22:44:28]          Version:  2.8.2        
+
+[22:44:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:44:28]  ===============================
+
+[22:44:28]   Loaded.
+[22:44:28]  Loading plugin: streamer
+[22:44:28] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:44:28]   Loaded.
+[22:44:28]  Loading plugin: pawnraknet
+[22:44:28] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:44:28]   Loaded.
+[22:44:28]  Loading plugin: timerfix
+[22:44:28]   >> TimerFix v1.5 successfully loaded.
+[22:44:28]   Loaded.
+[22:44:28]  Loaded 6 plugins.
+
+[22:44:28] 
+[22:44:28] Filterscripts
+[22:44:28] ---------------
+[22:44:28]   Loaded 0 filterscripts.
+
+[22:44:28]  
+[22:44:28]  ======================================= 
+[22:44:28]  |                                     | 
+[22:44:28]  |    Optimising code, this may take   | 
+[22:44:28]  |        a little bit of time.        | 
+[22:44:28]  |                                     | 
+[22:44:28]  |            Please wait...           | 
+[22:44:28]  |                                     | 
+[22:44:28]  |=====================================| 
+[22:44:28]  |                                     | 
+[22:44:28]  | Note that these optimisations are   | 
+[22:44:28]  | designed to improve performance     | 
+[22:44:28]  | with the JIT plugin, which you are  | 
+[22:44:28]  | not currently using.  Get it here:  | 
+[22:44:28]  |                                     | 
+[22:44:28]  |      https://git.io/jit-plugin      | 
+[22:44:28]  |                                     | 
+[22:44:28]  ======================================= 
+[22:44:28]  
+[22:44:28]  
+[22:44:28]  
+[22:44:28]  
+[22:44:28]  ======================================= 
+[22:44:28]  |                                     | 
+[22:44:28]  |        YSI version 5.03.0689        | 
+[22:44:28]  |        By Alex "Y_Less" Cole        | 
+[22:44:28]  |                                     | 
+[22:44:28]  ======================================= 
+[22:44:28]  
+[22:44:29] Подключен к базе!!
+[22:44:29] Привет, мир!
+[22:44:29] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:44:48] 
+[22:44:48] Server Plugins
+[22:44:48] --------------
+[22:44:48]  Loading plugin: mysql
+[22:44:48]  >> plugin.mysql: R41-4 successfully loaded.
+[22:44:48]   Loaded.
+[22:44:48]  Loading plugin: pawncmd
+[22:44:48] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:44:48]   Loaded.
+[22:44:48]  Loading plugin: sscanf
+[22:44:48] 
+
+[22:44:48]  ===============================
+
+[22:44:48]       sscanf plugin loaded.     
+
+[22:44:48]          Version:  2.8.2        
+
+[22:44:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:44:48]  ===============================
+
+[22:44:48]   Loaded.
+[22:44:48]  Loading plugin: streamer
+[22:44:48] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:44:48]   Loaded.
+[22:44:48]  Loading plugin: pawnraknet
+[22:44:49] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:44:49]   Loaded.
+[22:44:49]  Loading plugin: timerfix
+[22:44:49]   >> TimerFix v1.5 successfully loaded.
+[22:44:49]   Loaded.
+[22:44:49]  Loaded 6 plugins.
+
+[22:44:49] 
+[22:44:49] Filterscripts
+[22:44:49] ---------------
+[22:44:49]   Loaded 0 filterscripts.
+
+[22:44:49]  
+[22:44:49]  ======================================= 
+[22:44:49]  |                                     | 
+[22:44:49]  |    Optimising code, this may take   | 
+[22:44:49]  |        a little bit of time.        | 
+[22:44:49]  |                                     | 
+[22:44:49]  |            Please wait...           | 
+[22:44:49]  |                                     | 
+[22:44:49]  |=====================================| 
+[22:44:49]  |                                     | 
+[22:44:49]  | Note that these optimisations are   | 
+[22:44:49]  | designed to improve performance     | 
+[22:44:49]  | with the JIT plugin, which you are  | 
+[22:44:49]  | not currently using.  Get it here:  | 
+[22:44:49]  |                                     | 
+[22:44:49]  |      https://git.io/jit-plugin      | 
+[22:44:49]  |                                     | 
+[22:44:49]  ======================================= 
+[22:44:49]  
+[22:44:49]  
+[22:44:49]  
+[22:44:49]  
+[22:44:49]  ======================================= 
+[22:44:49]  |                                     | 
+[22:44:49]  |        YSI version 5.03.0689        | 
+[22:44:49]  |        By Alex "Y_Less" Cole        | 
+[22:44:49]  |                                     | 
+[22:44:49]  ======================================= 
+[22:44:49]  
+[22:44:49] Подключен к базе!!
+[22:44:49] Привет, мир!
+[22:44:49] Number of vehicle models: 0
+[22:44:50] [connection] 127.0.0.1:64654 requests connection cookie.
+[22:44:51] [connection] incoming connection: 127.0.0.1:64654 id: 0
+[22:44:52] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:49:34] 
+[22:49:34] Server Plugins
+[22:49:34] --------------
+[22:49:34]  Loading plugin: mysql
+[22:49:34]  >> plugin.mysql: R41-4 successfully loaded.
+[22:49:34]   Loaded.
+[22:49:34]  Loading plugin: pawncmd
+[22:49:34] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[22:49:34]   Loaded.
+[22:49:34]  Loading plugin: sscanf
+[22:49:34] 
+
+[22:49:34]  ===============================
+
+[22:49:34]       sscanf plugin loaded.     
+
+[22:49:34]          Version:  2.8.2        
+
+[22:49:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:49:34]  ===============================
+
+[22:49:34]   Loaded.
+[22:49:34]  Loading plugin: streamer
+[22:49:34] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:49:34]   Loaded.
+[22:49:34]  Loading plugin: pawnraknet
+[22:49:34] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[22:49:34]   Loaded.
+[22:49:34]  Loading plugin: timerfix
+[22:49:34]   >> TimerFix v1.5 successfully loaded.
+[22:49:34]   Loaded.
+[22:49:34]  Loaded 6 plugins.
+
+[22:49:34] 
+[22:49:34] Filterscripts
+[22:49:34] ---------------
+[22:49:34]   Loaded 0 filterscripts.
+
+[22:49:34]  
+[22:49:34]  ======================================= 
+[22:49:34]  |                                     | 
+[22:49:34]  |    Optimising code, this may take   | 
+[22:49:34]  |        a little bit of time.        | 
+[22:49:34]  |                                     | 
+[22:49:34]  |            Please wait...           | 
+[22:49:34]  |                                     | 
+[22:49:34]  |=====================================| 
+[22:49:34]  |                                     | 
+[22:49:34]  | Note that these optimisations are   | 
+[22:49:34]  | designed to improve performance     | 
+[22:49:34]  | with the JIT plugin, which you are  | 
+[22:49:34]  | not currently using.  Get it here:  | 
+[22:49:34]  |                                     | 
+[22:49:34]  |      https://git.io/jit-plugin      | 
+[22:49:34]  |                                     | 
+[22:49:34]  ======================================= 
+[22:49:34]  
+[22:49:34]  
+[22:49:34]  
+[22:49:34]  
+[22:49:34]  ======================================= 
+[22:49:34]  |                                     | 
+[22:49:34]  |        YSI version 5.03.0689        | 
+[22:49:34]  |        By Alex "Y_Less" Cole        | 
+[22:49:34]  |                                     | 
+[22:49:34]  ======================================= 
+[22:49:34]  
+[22:49:34] Подключен к базе!!
+[22:49:34] Привет, мир!
+[22:49:34] Number of vehicle models: 0
+[22:49:36] [connection] 127.0.0.1:53373 requests connection cookie.
+[22:49:37] [connection] incoming connection: 127.0.0.1:53373 id: 0
+[22:49:37] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+[22:49:40] [part] Marshall_Matthers has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:35:56] 
+[23:35:56] Server Plugins
+[23:35:56] --------------
+[23:35:56]  Loading plugin: mysql
+[23:35:56]  >> plugin.mysql: R41-4 successfully loaded.
+[23:35:56]   Loaded.
+[23:35:56]  Loading plugin: pawncmd
+[23:35:56] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:35:56]   Loaded.
+[23:35:56]  Loading plugin: sscanf
+[23:35:57] 
+
+[23:35:57]  ===============================
+
+[23:35:57]       sscanf plugin loaded.     
+
+[23:35:57]          Version:  2.8.2        
+
+[23:35:57]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:35:57]  ===============================
+
+[23:35:57]   Loaded.
+[23:35:57]  Loading plugin: streamer
+[23:35:57] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:35:57]   Loaded.
+[23:35:57]  Loading plugin: pawnraknet
+[23:35:57] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:35:57]   Loaded.
+[23:35:57]  Loading plugin: timerfix
+[23:35:57]   >> TimerFix v1.5 successfully loaded.
+[23:35:57]   Loaded.
+[23:35:57]  Loaded 6 plugins.
+
+[23:35:57] 
+[23:35:57] Filterscripts
+[23:35:57] ---------------
+[23:35:57]   Loaded 0 filterscripts.
+
+[23:35:57]  
+[23:35:57]  ======================================= 
+[23:35:57]  |                                     | 
+[23:35:57]  |    Optimising code, this may take   | 
+[23:35:57]  |        a little bit of time.        | 
+[23:35:57]  |                                     | 
+[23:35:57]  |            Please wait...           | 
+[23:35:57]  |                                     | 
+[23:35:57]  |=====================================| 
+[23:35:57]  |                                     | 
+[23:35:57]  | Note that these optimisations are   | 
+[23:35:57]  | designed to improve performance     | 
+[23:35:57]  | with the JIT plugin, which you are  | 
+[23:35:57]  | not currently using.  Get it here:  | 
+[23:35:57]  |                                     | 
+[23:35:57]  |      https://git.io/jit-plugin      | 
+[23:35:57]  |                                     | 
+[23:35:57]  ======================================= 
+[23:35:57]  
+[23:35:57]  
+[23:35:57]  
+[23:35:57]  
+[23:35:57]  ======================================= 
+[23:35:57]  |                                     | 
+[23:35:57]  |        YSI version 5.03.0689        | 
+[23:35:57]  |        By Alex "Y_Less" Cole        | 
+[23:35:57]  |                                     | 
+[23:35:57]  ======================================= 
+[23:35:57]  
+[23:35:58] Подключен к базе!!
+[23:35:58] Привет, мир!
+[23:35:58] Number of vehicle models: 0
+[23:36:56] [connection] 127.0.0.1:62381 requests connection cookie.
+[23:36:57] [connection] incoming connection: 127.0.0.1:62381 id: 0
+[23:37:07] [connection] incoming connection: 127.0.0.1:62388 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:37:22] 
+[23:37:22] Server Plugins
+[23:37:22] --------------
+[23:37:22]  Loading plugin: mysql
+[23:37:22]  >> plugin.mysql: R41-4 successfully loaded.
+[23:37:22]   Loaded.
+[23:37:22]  Loading plugin: pawncmd
+[23:37:22] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:37:22]   Loaded.
+[23:37:22]  Loading plugin: sscanf
+[23:37:22] 
+
+[23:37:22]  ===============================
+
+[23:37:22]       sscanf plugin loaded.     
+
+[23:37:22]          Version:  2.8.2        
+
+[23:37:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:37:22]  ===============================
+
+[23:37:22]   Loaded.
+[23:37:22]  Loading plugin: streamer
+[23:37:22] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:37:22]   Loaded.
+[23:37:22]  Loading plugin: pawnraknet
+[23:37:22] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:37:22]   Loaded.
+[23:37:22]  Loading plugin: timerfix
+[23:37:22]   >> TimerFix v1.5 successfully loaded.
+[23:37:22]   Loaded.
+[23:37:22]  Loaded 6 plugins.
+
+[23:37:22] 
+[23:37:22] Filterscripts
+[23:37:22] ---------------
+[23:37:22]   Loaded 0 filterscripts.
+
+[23:37:22]  
+[23:37:22]  ======================================= 
+[23:37:22]  |                                     | 
+[23:37:22]  |    Optimising code, this may take   | 
+[23:37:22]  |        a little bit of time.        | 
+[23:37:22]  |                                     | 
+[23:37:22]  |            Please wait...           | 
+[23:37:22]  |                                     | 
+[23:37:22]  |=====================================| 
+[23:37:22]  |                                     | 
+[23:37:22]  | Note that these optimisations are   | 
+[23:37:22]  | designed to improve performance     | 
+[23:37:22]  | with the JIT plugin, which you are  | 
+[23:37:22]  | not currently using.  Get it here:  | 
+[23:37:22]  |                                     | 
+[23:37:22]  |      https://git.io/jit-plugin      | 
+[23:37:22]  |                                     | 
+[23:37:22]  ======================================= 
+[23:37:22]  
+[23:37:22]  
+[23:37:22]  
+[23:37:22]  
+[23:37:22]  ======================================= 
+[23:37:22]  |                                     | 
+[23:37:22]  |        YSI version 5.03.0689        | 
+[23:37:22]  |        By Alex "Y_Less" Cole        | 
+[23:37:22]  |                                     | 
+[23:37:22]  ======================================= 
+[23:37:22]  
+[23:37:23] Подключен к базе!!
+[23:37:23] Привет, мир!
+[23:37:23] Number of vehicle models: 0
+[23:37:24] [connection] 127.0.0.1:62196 requests connection cookie.
+[23:37:25] [connection] incoming connection: 127.0.0.1:62196 id: 0
+[23:37:35] [connection] incoming connection: 127.0.0.1:57864 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:37:49] 
+[23:37:49] Server Plugins
+[23:37:49] --------------
+[23:37:49]  Loading plugin: mysql
+[23:37:49]  >> plugin.mysql: R41-4 successfully loaded.
+[23:37:49]   Loaded.
+[23:37:49]  Loading plugin: pawncmd
+[23:37:49] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:37:49]   Loaded.
+[23:37:49]  Loading plugin: sscanf
+[23:37:49] 
+
+[23:37:49]  ===============================
+
+[23:37:49]       sscanf plugin loaded.     
+
+[23:37:49]          Version:  2.8.2        
+
+[23:37:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:37:49]  ===============================
+
+[23:37:49]   Loaded.
+[23:37:49]  Loading plugin: streamer
+[23:37:49] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:37:49]   Loaded.
+[23:37:49]  Loading plugin: pawnraknet
+[23:37:49] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:37:49]   Loaded.
+[23:37:49]  Loading plugin: timerfix
+[23:37:49]   >> TimerFix v1.5 successfully loaded.
+[23:37:49]   Loaded.
+[23:37:49]  Loaded 6 plugins.
+
+[23:37:49] 
+[23:37:49] Filterscripts
+[23:37:49] ---------------
+[23:37:49]   Loaded 0 filterscripts.
+
+[23:37:49]  
+[23:37:49]  ======================================= 
+[23:37:49]  |                                     | 
+[23:37:49]  |    Optimising code, this may take   | 
+[23:37:49]  |        a little bit of time.        | 
+[23:37:49]  |                                     | 
+[23:37:49]  |            Please wait...           | 
+[23:37:49]  |                                     | 
+[23:37:49]  |=====================================| 
+[23:37:49]  |                                     | 
+[23:37:49]  | Note that these optimisations are   | 
+[23:37:49]  | designed to improve performance     | 
+[23:37:49]  | with the JIT plugin, which you are  | 
+[23:37:49]  | not currently using.  Get it here:  | 
+[23:37:49]  |                                     | 
+[23:37:49]  |      https://git.io/jit-plugin      | 
+[23:37:49]  |                                     | 
+[23:37:49]  ======================================= 
+[23:37:49]  
+[23:37:49]  
+[23:37:49]  
+[23:37:49]  
+[23:37:49]  ======================================= 
+[23:37:49]  |                                     | 
+[23:37:49]  |        YSI version 5.03.0689        | 
+[23:37:49]  |        By Alex "Y_Less" Cole        | 
+[23:37:49]  |                                     | 
+[23:37:49]  ======================================= 
+[23:37:49]  
+[23:37:49] Подключен к базе!!
+[23:37:49] Привет, мир!
+[23:37:49] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:38:19] 
+[23:38:19] Server Plugins
+[23:38:19] --------------
+[23:38:19]  Loading plugin: mysql
+[23:38:19]  >> plugin.mysql: R41-4 successfully loaded.
+[23:38:19]   Loaded.
+[23:38:19]  Loading plugin: pawncmd
+[23:38:19] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:38:19]   Loaded.
+[23:38:19]  Loading plugin: sscanf
+[23:38:19] 
+
+[23:38:19]  ===============================
+
+[23:38:19]       sscanf plugin loaded.     
+
+[23:38:19]          Version:  2.8.2        
+
+[23:38:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:38:19]  ===============================
+
+[23:38:19]   Loaded.
+[23:38:19]  Loading plugin: streamer
+[23:38:19] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:38:19]   Loaded.
+[23:38:19]  Loading plugin: pawnraknet
+[23:38:19] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:38:19]   Loaded.
+[23:38:19]  Loading plugin: timerfix
+[23:38:19]   >> TimerFix v1.5 successfully loaded.
+[23:38:19]   Loaded.
+[23:38:19]  Loaded 6 plugins.
+
+[23:38:19] 
+[23:38:19] Filterscripts
+[23:38:19] ---------------
+[23:38:19]   Loaded 0 filterscripts.
+
+[23:38:19]  
+[23:38:19]  ======================================= 
+[23:38:19]  |                                     | 
+[23:38:19]  |    Optimising code, this may take   | 
+[23:38:19]  |        a little bit of time.        | 
+[23:38:19]  |                                     | 
+[23:38:19]  |            Please wait...           | 
+[23:38:19]  |                                     | 
+[23:38:19]  |=====================================| 
+[23:38:19]  |                                     | 
+[23:38:19]  | Note that these optimisations are   | 
+[23:38:19]  | designed to improve performance     | 
+[23:38:19]  | with the JIT plugin, which you are  | 
+[23:38:19]  | not currently using.  Get it here:  | 
+[23:38:19]  |                                     | 
+[23:38:19]  |      https://git.io/jit-plugin      | 
+[23:38:19]  |                                     | 
+[23:38:19]  ======================================= 
+[23:38:19]  
+[23:38:19]  
+[23:38:19]  
+[23:38:19]  
+[23:38:19]  ======================================= 
+[23:38:19]  |                                     | 
+[23:38:19]  |        YSI version 5.03.0689        | 
+[23:38:19]  |        By Alex "Y_Less" Cole        | 
+[23:38:19]  |                                     | 
+[23:38:19]  ======================================= 
+[23:38:19]  
+[23:38:19] Подключен к базе!!
+[23:38:19] Привет, мир!
+[23:38:19] Number of vehicle models: 0
+[23:38:20] [connection] 127.0.0.1:57889 requests connection cookie.
+[23:38:21] [connection] incoming connection: 127.0.0.1:57889 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:38:28] 
+[23:38:28] Server Plugins
+[23:38:28] --------------
+[23:38:28]  Loading plugin: mysql
+[23:38:28]  >> plugin.mysql: R41-4 successfully loaded.
+[23:38:28]   Loaded.
+[23:38:28]  Loading plugin: pawncmd
+[23:38:28] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:38:28]   Loaded.
+[23:38:28]  Loading plugin: sscanf
+[23:38:28] 
+
+[23:38:28]  ===============================
+
+[23:38:28]       sscanf plugin loaded.     
+
+[23:38:28]          Version:  2.8.2        
+
+[23:38:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:38:28]  ===============================
+
+[23:38:28]   Loaded.
+[23:38:28]  Loading plugin: streamer
+[23:38:28] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:38:28]   Loaded.
+[23:38:28]  Loading plugin: pawnraknet
+[23:38:28] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:38:28]   Loaded.
+[23:38:28]  Loading plugin: timerfix
+[23:38:28]   >> TimerFix v1.5 successfully loaded.
+[23:38:28]   Loaded.
+[23:38:28]  Loaded 6 plugins.
+
+[23:38:28] 
+[23:38:28] Filterscripts
+[23:38:28] ---------------
+[23:38:28]   Loaded 0 filterscripts.
+
+[23:38:28]  
+[23:38:28]  ======================================= 
+[23:38:28]  |                                     | 
+[23:38:28]  |    Optimising code, this may take   | 
+[23:38:28]  |        a little bit of time.        | 
+[23:38:28]  |                                     | 
+[23:38:28]  |            Please wait...           | 
+[23:38:28]  |                                     | 
+[23:38:28]  |=====================================| 
+[23:38:28]  |                                     | 
+[23:38:28]  | Note that these optimisations are   | 
+[23:38:28]  | designed to improve performance     | 
+[23:38:28]  | with the JIT plugin, which you are  | 
+[23:38:28]  | not currently using.  Get it here:  | 
+[23:38:28]  |                                     | 
+[23:38:28]  |      https://git.io/jit-plugin      | 
+[23:38:28]  |                                     | 
+[23:38:28]  ======================================= 
+[23:38:28]  
+[23:38:28]  
+[23:38:28]  
+[23:38:28]  
+[23:38:28]  ======================================= 
+[23:38:28]  |                                     | 
+[23:38:28]  |        YSI version 5.03.0689        | 
+[23:38:28]  |        By Alex "Y_Less" Cole        | 
+[23:38:28]  |                                     | 
+[23:38:28]  ======================================= 
+[23:38:28]  
+[23:38:29] Подключен к базе!!
+[23:38:29] Привет, мир!
+[23:38:29] Number of vehicle models: 0
+[23:38:33] [connection] 127.0.0.1:57896 requests connection cookie.
+[23:38:34] [connection] incoming connection: 127.0.0.1:57896 id: 0
+[23:38:44] [connection] incoming connection: 127.0.0.1:57901 id: 0
+Console input: [connection] incoming connection: 127.0.0.1:57901 id: 0
+Console input: [connection] incoming connection: 127.0.0.1:57901 id: 0
+Console input: [connection] incoming connection: 127.0.0.1:57901 id: 0
+Console input: [connection] incoming connection: 127.0.0.1:57901 id: 0
+Console input: [connection] incoming connection: 127.0.0.1:57901 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:45:20] 
+[23:45:20] Server Plugins
+[23:45:20] --------------
+[23:45:20]  Loading plugin: mysql
+[23:45:20]  >> plugin.mysql: R41-4 successfully loaded.
+[23:45:20]   Loaded.
+[23:45:20]  Loading plugin: pawncmd
+[23:45:20] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:45:20]   Loaded.
+[23:45:20]  Loading plugin: sscanf
+[23:45:20] 
+
+[23:45:20]  ===============================
+
+[23:45:20]       sscanf plugin loaded.     
+
+[23:45:20]          Version:  2.8.2        
+
+[23:45:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:45:20]  ===============================
+
+[23:45:20]   Loaded.
+[23:45:20]  Loading plugin: streamer
+[23:45:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:45:20]   Loaded.
+[23:45:20]  Loading plugin: pawnraknet
+[23:45:20] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:45:20]   Loaded.
+[23:45:20]  Loading plugin: timerfix
+[23:45:20]   >> TimerFix v1.5 successfully loaded.
+[23:45:20]   Loaded.
+[23:45:20]  Loaded 6 plugins.
+
+[23:45:20] 
+[23:45:20] Filterscripts
+[23:45:20] ---------------
+[23:45:20]   Loaded 0 filterscripts.
+
+[23:45:20]  
+[23:45:20]  ======================================= 
+[23:45:20]  |                                     | 
+[23:45:20]  |    Optimising code, this may take   | 
+[23:45:20]  |        a little bit of time.        | 
+[23:45:20]  |                                     | 
+[23:45:20]  |            Please wait...           | 
+[23:45:20]  |                                     | 
+[23:45:20]  |=====================================| 
+[23:45:20]  |                                     | 
+[23:45:20]  | Note that these optimisations are   | 
+[23:45:20]  | designed to improve performance     | 
+[23:45:20]  | with the JIT plugin, which you are  | 
+[23:45:20]  | not currently using.  Get it here:  | 
+[23:45:20]  |                                     | 
+[23:45:20]  |      https://git.io/jit-plugin      | 
+[23:45:20]  |                                     | 
+[23:45:20]  ======================================= 
+[23:45:20]  
+[23:45:20]  
+[23:45:20]  
+[23:45:20]  
+[23:45:20]  ======================================= 
+[23:45:20]  |                                     | 
+[23:45:20]  |        YSI version 5.03.0689        | 
+[23:45:20]  |        By Alex "Y_Less" Cole        | 
+[23:45:20]  |                                     | 
+[23:45:20]  ======================================= 
+[23:45:20]  
+[23:45:20] Подключен к базе!!
+[23:45:20] Привет, мир!
+[23:45:20] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:47:04] 
+[23:47:04] Server Plugins
+[23:47:04] --------------
+[23:47:04]  Loading plugin: mysql
+[23:47:04]  >> plugin.mysql: R41-4 successfully loaded.
+[23:47:04]   Loaded.
+[23:47:04]  Loading plugin: sscanf
+[23:47:04] 
+
+[23:47:04]  ===============================
+
+[23:47:04]       sscanf plugin loaded.     
+
+[23:47:04]          Version:  2.8.2        
+
+[23:47:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:47:04]  ===============================
+
+[23:47:04]   Loaded.
+[23:47:04]  Loading plugin: streamer
+[23:47:04] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:47:04]   Loaded.
+[23:47:04]  Loading plugin: pawnraknet
+[23:47:04] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:47:04]   Loaded.
+[23:47:04]  Loading plugin: pawncmd
+[23:47:04] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:47:04]   Loaded.
+[23:47:04]  Loading plugin: timerfix
+[23:47:04]   >> TimerFix v1.5 successfully loaded.
+[23:47:04]   Loaded.
+[23:47:04]  Loaded 6 plugins.
+
+[23:47:04] I couldn't load any gamemode scripts. Please verify your server.cfg
+[23:47:04] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:47:06] 
+[23:47:06] Server Plugins
+[23:47:06] --------------
+[23:47:06]  Loading plugin: mysql
+[23:47:06]  >> plugin.mysql: R41-4 successfully loaded.
+[23:47:06]   Loaded.
+[23:47:06]  Loading plugin: sscanf
+[23:47:06] 
+
+[23:47:06]  ===============================
+
+[23:47:06]       sscanf plugin loaded.     
+
+[23:47:06]          Version:  2.8.2        
+
+[23:47:06]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:47:06]  ===============================
+
+[23:47:06]   Loaded.
+[23:47:06]  Loading plugin: streamer
+[23:47:06] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:47:06]   Loaded.
+[23:47:06]  Loading plugin: pawnraknet
+[23:47:06] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:47:06]   Loaded.
+[23:47:06]  Loading plugin: pawncmd
+[23:47:06] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:47:06]   Loaded.
+[23:47:06]  Loading plugin: timerfix
+[23:47:06]   >> TimerFix v1.5 successfully loaded.
+[23:47:06]   Loaded.
+[23:47:06]  Loaded 6 plugins.
+
+[23:47:06] I couldn't load any gamemode scripts. Please verify your server.cfg
+[23:47:06] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:47:07] 
+[23:47:07] Server Plugins
+[23:47:07] --------------
+[23:47:07]  Loading plugin: mysql
+[23:47:07]  >> plugin.mysql: R41-4 successfully loaded.
+[23:47:07]   Loaded.
+[23:47:07]  Loading plugin: sscanf
+[23:47:07] 
+
+[23:47:07]  ===============================
+
+[23:47:07]       sscanf plugin loaded.     
+
+[23:47:07]          Version:  2.8.2        
+
+[23:47:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:47:07]  ===============================
+
+[23:47:07]   Loaded.
+[23:47:07]  Loading plugin: streamer
+[23:47:07] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:47:07]   Loaded.
+[23:47:07]  Loading plugin: pawnraknet
+[23:47:07] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:47:07]   Loaded.
+[23:47:07]  Loading plugin: pawncmd
+[23:47:07] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:47:07]   Loaded.
+[23:47:07]  Loading plugin: timerfix
+[23:47:07]   >> TimerFix v1.5 successfully loaded.
+[23:47:07]   Loaded.
+[23:47:07]  Loaded 6 plugins.
+
+[23:47:07] I couldn't load any gamemode scripts. Please verify your server.cfg
+[23:47:07] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:47:43] 
+[23:47:43] Server Plugins
+[23:47:43] --------------
+[23:47:43]  Loading plugin: mysql
+[23:47:43]  >> plugin.mysql: R41-4 successfully loaded.
+[23:47:43]   Loaded.
+[23:47:43]  Loading plugin: sscanf
+[23:47:43] 
+
+[23:47:43]  ===============================
+
+[23:47:43]       sscanf plugin loaded.     
+
+[23:47:43]          Version:  2.8.2        
+
+[23:47:43]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:47:43]  ===============================
+
+[23:47:43]   Loaded.
+[23:47:43]  Loading plugin: streamer
+[23:47:43] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:47:43]   Loaded.
+[23:47:43]  Loading plugin: pawnraknet
+[23:47:43] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:47:43]   Loaded.
+[23:47:43]  Loading plugin: pawncmd
+[23:47:43] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:47:43]   Loaded.
+[23:47:43]  Loading plugin: timerfix
+[23:47:43]   >> TimerFix v1.5 successfully loaded.
+[23:47:43]   Loaded.
+[23:47:43]  Loaded 6 plugins.
+
+[23:47:43] 
+[23:47:43] Filterscripts
+[23:47:43] ---------------
+[23:47:43]   Loaded 0 filterscripts.
+
+[23:47:43]  
+[23:47:43]  ======================================= 
+[23:47:43]  |                                     | 
+[23:47:43]  |    Optimising code, this may take   | 
+[23:47:43]  |        a little bit of time.        | 
+[23:47:43]  |                                     | 
+[23:47:43]  |            Please wait...           | 
+[23:47:43]  |                                     | 
+[23:47:43]  |=====================================| 
+[23:47:43]  |                                     | 
+[23:47:43]  | Note that these optimisations are   | 
+[23:47:43]  | designed to improve performance     | 
+[23:47:43]  | with the JIT plugin, which you are  | 
+[23:47:43]  | not currently using.  Get it here:  | 
+[23:47:43]  |                                     | 
+[23:47:43]  |      https://git.io/jit-plugin      | 
+[23:47:43]  |                                     | 
+[23:47:43]  ======================================= 
+[23:47:43]  
+[23:47:43]  
+[23:47:43]  
+[23:47:43]  
+[23:47:43]  ======================================= 
+[23:47:43]  |                                     | 
+[23:47:43]  |        YSI version 5.03.0689        | 
+[23:47:43]  |        By Alex "Y_Less" Cole        | 
+[23:47:43]  |                                     | 
+[23:47:43]  ======================================= 
+[23:47:43]  
+[23:47:44] Подключен к базе!!
+[23:47:44] Привет, мир!
+[23:47:44] Number of vehicle models: 0
+[23:47:46] [connection] 127.0.0.1:64231 requests connection cookie.
+[23:47:47] [connection] incoming connection: 127.0.0.1:64231 id: 0
+[23:47:47] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:52:40] 
+[23:52:40] Server Plugins
+[23:52:40] --------------
+[23:52:40]  Loading plugin: mysql
+[23:52:40]  >> plugin.mysql: R41-4 successfully loaded.
+[23:52:40]   Loaded.
+[23:52:40]  Loading plugin: sscanf
+[23:52:40] 
+
+[23:52:40]  ===============================
+
+[23:52:40]       sscanf plugin loaded.     
+
+[23:52:40]          Version:  2.8.2        
+
+[23:52:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:52:40]  ===============================
+
+[23:52:40]   Loaded.
+[23:52:40]  Loading plugin: streamer
+[23:52:40] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:52:40]   Loaded.
+[23:52:40]  Loading plugin: pawnraknet
+[23:52:40] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:52:40]   Loaded.
+[23:52:40]  Loading plugin: pawncmd
+[23:52:40] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:52:40]   Loaded.
+[23:52:40]  Loading plugin: timerfix
+[23:52:40]   >> TimerFix v1.5 successfully loaded.
+[23:52:40]   Loaded.
+[23:52:40]  Loaded 6 plugins.
+
+[23:52:40] 
+[23:52:40] Filterscripts
+[23:52:40] ---------------
+[23:52:40]   Loaded 0 filterscripts.
+
+[23:52:40]  
+[23:52:40]  ======================================= 
+[23:52:40]  |                                     | 
+[23:52:40]  |    Optimising code, this may take   | 
+[23:52:40]  |        a little bit of time.        | 
+[23:52:40]  |                                     | 
+[23:52:40]  |            Please wait...           | 
+[23:52:40]  |                                     | 
+[23:52:40]  |=====================================| 
+[23:52:40]  |                                     | 
+[23:52:40]  | Note that these optimisations are   | 
+[23:52:40]  | designed to improve performance     | 
+[23:52:40]  | with the JIT plugin, which you are  | 
+[23:52:40]  | not currently using.  Get it here:  | 
+[23:52:40]  |                                     | 
+[23:52:40]  |      https://git.io/jit-plugin      | 
+[23:52:40]  |                                     | 
+[23:52:40]  ======================================= 
+[23:52:40]  
+[23:52:40]  
+[23:52:40]  
+[23:52:40]  
+[23:52:40]  ======================================= 
+[23:52:40]  |                                     | 
+[23:52:40]  |        YSI version 5.03.0689        | 
+[23:52:40]  |        By Alex "Y_Less" Cole        | 
+[23:52:40]  |                                     | 
+[23:52:40]  ======================================= 
+[23:52:40]  
+[23:52:40] Подключен к базе!!
+[23:52:40] Привет, мир!
+[23:52:40] Number of vehicle models: 0
+[23:52:44] [connection] 127.0.0.1:61465 requests connection cookie.
+[23:52:45] [connection] incoming connection: 127.0.0.1:61465 id: 0
+[23:52:45] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:53:20] 
+[23:53:20] Server Plugins
+[23:53:20] --------------
+[23:53:20]  Loading plugin: mysql
+[23:53:20]  >> plugin.mysql: R41-4 successfully loaded.
+[23:53:20]   Loaded.
+[23:53:20]  Loading plugin: sscanf
+[23:53:20] 
+
+[23:53:20]  ===============================
+
+[23:53:20]       sscanf plugin loaded.     
+
+[23:53:20]          Version:  2.8.2        
+
+[23:53:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:53:20]  ===============================
+
+[23:53:20]   Loaded.
+[23:53:20]  Loading plugin: streamer
+[23:53:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:53:20]   Loaded.
+[23:53:20]  Loading plugin: pawnraknet
+[23:53:20] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:53:20]   Loaded.
+[23:53:20]  Loading plugin: pawncmd
+[23:53:20] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:53:20]   Loaded.
+[23:53:20]  Loading plugin: timerfix
+[23:53:20]   >> TimerFix v1.5 successfully loaded.
+[23:53:20]   Loaded.
+[23:53:20]  Loaded 6 plugins.
+
+[23:53:20] 
+[23:53:20] Filterscripts
+[23:53:20] ---------------
+[23:53:20]   Loaded 0 filterscripts.
+
+[23:53:20]  
+[23:53:20]  ======================================= 
+[23:53:20]  |                                     | 
+[23:53:20]  |    Optimising code, this may take   | 
+[23:53:20]  |        a little bit of time.        | 
+[23:53:20]  |                                     | 
+[23:53:20]  |            Please wait...           | 
+[23:53:20]  |                                     | 
+[23:53:20]  |=====================================| 
+[23:53:20]  |                                     | 
+[23:53:20]  | Note that these optimisations are   | 
+[23:53:20]  | designed to improve performance     | 
+[23:53:20]  | with the JIT plugin, which you are  | 
+[23:53:20]  | not currently using.  Get it here:  | 
+[23:53:20]  |                                     | 
+[23:53:20]  |      https://git.io/jit-plugin      | 
+[23:53:20]  |                                     | 
+[23:53:20]  ======================================= 
+[23:53:20]  
+[23:53:20]  
+[23:53:20]  
+[23:53:20]  
+[23:53:20]  ======================================= 
+[23:53:20]  |                                     | 
+[23:53:20]  |        YSI version 5.03.0689        | 
+[23:53:20]  |        By Alex "Y_Less" Cole        | 
+[23:53:20]  |                                     | 
+[23:53:20]  ======================================= 
+[23:53:20]  
+[23:53:20] Подключен к базе!!
+[23:53:20] Привет, мир!
+[23:53:20] Number of vehicle models: 0
+[23:53:23] [connection] 127.0.0.1:61472 requests connection cookie.
+[23:53:24] [connection] incoming connection: 127.0.0.1:61472 id: 0
+[23:53:24] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:56:59] 
+[23:56:59] Server Plugins
+[23:56:59] --------------
+[23:56:59]  Loading plugin: mysql
+[23:56:59]  >> plugin.mysql: R41-4 successfully loaded.
+[23:56:59]   Loaded.
+[23:56:59]  Loading plugin: sscanf
+[23:56:59] 
+
+[23:56:59]  ===============================
+
+[23:56:59]       sscanf plugin loaded.     
+
+[23:56:59]          Version:  2.8.2        
+
+[23:56:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:56:59]  ===============================
+
+[23:56:59]   Loaded.
+[23:56:59]  Loading plugin: streamer
+[23:56:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:56:59]   Loaded.
+[23:56:59]  Loading plugin: pawnraknet
+[23:56:59] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:56:59]   Loaded.
+[23:56:59]  Loading plugin: pawncmd
+[23:56:59] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:56:59]   Loaded.
+[23:56:59]  Loading plugin: timerfix
+[23:56:59]   >> TimerFix v1.5 successfully loaded.
+[23:56:59]   Loaded.
+[23:56:59]  Loaded 6 plugins.
+
+[23:56:59] 
+[23:56:59] Filterscripts
+[23:56:59] ---------------
+[23:56:59]   Loaded 0 filterscripts.
+
+[23:56:59]  
+[23:56:59]  ======================================= 
+[23:56:59]  |                                     | 
+[23:56:59]  |    Optimising code, this may take   | 
+[23:56:59]  |        a little bit of time.        | 
+[23:56:59]  |                                     | 
+[23:56:59]  |            Please wait...           | 
+[23:56:59]  |                                     | 
+[23:56:59]  |=====================================| 
+[23:56:59]  |                                     | 
+[23:56:59]  | Note that these optimisations are   | 
+[23:56:59]  | designed to improve performance     | 
+[23:56:59]  | with the JIT plugin, which you are  | 
+[23:56:59]  | not currently using.  Get it here:  | 
+[23:56:59]  |                                     | 
+[23:56:59]  |      https://git.io/jit-plugin      | 
+[23:56:59]  |                                     | 
+[23:56:59]  ======================================= 
+[23:56:59]  
+[23:56:59]  
+[23:56:59]  
+[23:56:59]  
+[23:56:59]  ======================================= 
+[23:56:59]  |                                     | 
+[23:56:59]  |        YSI version 5.03.0689        | 
+[23:56:59]  |        By Alex "Y_Less" Cole        | 
+[23:56:59]  |                                     | 
+[23:56:59]  ======================================= 
+[23:56:59]  
+[23:56:59] Подключен к базе!!
+[23:56:59] Привет, мир!
+[23:56:59] Number of vehicle models: 0
+[23:57:00] [connection] 127.0.0.1:63511 requests connection cookie.
+[23:57:01] [connection] incoming connection: 127.0.0.1:63511 id: 0
+[23:57:01] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:57:46] 
+[23:57:46] Server Plugins
+[23:57:46] --------------
+[23:57:46]  Loading plugin: mysql
+[23:57:46]  >> plugin.mysql: R41-4 successfully loaded.
+[23:57:46]   Loaded.
+[23:57:46]  Loading plugin: sscanf
+[23:57:46] 
+
+[23:57:46]  ===============================
+
+[23:57:46]       sscanf plugin loaded.     
+
+[23:57:46]          Version:  2.8.2        
+
+[23:57:46]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:57:46]  ===============================
+
+[23:57:46]   Loaded.
+[23:57:46]  Loading plugin: streamer
+[23:57:46] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:57:46]   Loaded.
+[23:57:46]  Loading plugin: pawnraknet
+[23:57:46] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:57:46]   Loaded.
+[23:57:46]  Loading plugin: pawncmd
+[23:57:46] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:57:46]   Loaded.
+[23:57:46]  Loading plugin: timerfix
+[23:57:46]   >> TimerFix v1.5 successfully loaded.
+[23:57:46]   Loaded.
+[23:57:46]  Loaded 6 plugins.
+
+[23:57:46] 
+[23:57:46] Filterscripts
+[23:57:46] ---------------
+[23:57:46]   Loaded 0 filterscripts.
+
+[23:57:46]  
+[23:57:46]  ======================================= 
+[23:57:46]  |                                     | 
+[23:57:46]  |    Optimising code, this may take   | 
+[23:57:46]  |        a little bit of time.        | 
+[23:57:46]  |                                     | 
+[23:57:46]  |            Please wait...           | 
+[23:57:46]  |                                     | 
+[23:57:46]  |=====================================| 
+[23:57:46]  |                                     | 
+[23:57:46]  | Note that these optimisations are   | 
+[23:57:46]  | designed to improve performance     | 
+[23:57:46]  | with the JIT plugin, which you are  | 
+[23:57:46]  | not currently using.  Get it here:  | 
+[23:57:46]  |                                     | 
+[23:57:46]  |      https://git.io/jit-plugin      | 
+[23:57:46]  |                                     | 
+[23:57:46]  ======================================= 
+[23:57:46]  
+[23:57:46]  
+[23:57:46]  
+[23:57:46]  
+[23:57:46]  ======================================= 
+[23:57:46]  |                                     | 
+[23:57:46]  |        YSI version 5.03.0689        | 
+[23:57:46]  |        By Alex "Y_Less" Cole        | 
+[23:57:46]  |                                     | 
+[23:57:46]  ======================================= 
+[23:57:46]  
+[23:57:46] Подключен к базе!!
+[23:57:46] Привет, мир!
+[23:57:46] Number of vehicle models: 0
+[23:57:47] [connection] 127.0.0.1:59851 requests connection cookie.
+[23:57:48] [connection] incoming connection: 127.0.0.1:59851 id: 0
+[23:57:49] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:58:40] 
+[23:58:40] Server Plugins
+[23:58:40] --------------
+[23:58:40]  Loading plugin: mysql
+[23:58:40]  >> plugin.mysql: R41-4 successfully loaded.
+[23:58:40]   Loaded.
+[23:58:40]  Loading plugin: sscanf
+[23:58:40] 
+
+[23:58:40]  ===============================
+
+[23:58:40]       sscanf plugin loaded.     
+
+[23:58:40]          Version:  2.8.2        
+
+[23:58:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:58:40]  ===============================
+
+[23:58:40]   Loaded.
+[23:58:40]  Loading plugin: streamer
+[23:58:40] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:58:40]   Loaded.
+[23:58:40]  Loading plugin: pawnraknet
+[23:58:40] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[23:58:40]   Loaded.
+[23:58:40]  Loading plugin: pawncmd
+[23:58:40] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[23:58:40]   Loaded.
+[23:58:40]  Loading plugin: timerfix
+[23:58:40]   >> TimerFix v1.5 successfully loaded.
+[23:58:40]   Loaded.
+[23:58:40]  Loaded 6 plugins.
+
+[23:58:40] 
+[23:58:40] Filterscripts
+[23:58:40] ---------------
+[23:58:40]   Loaded 0 filterscripts.
+
+[23:58:40]  
+[23:58:40]  ======================================= 
+[23:58:40]  |                                     | 
+[23:58:40]  |    Optimising code, this may take   | 
+[23:58:40]  |        a little bit of time.        | 
+[23:58:40]  |                                     | 
+[23:58:40]  |            Please wait...           | 
+[23:58:40]  |                                     | 
+[23:58:40]  |=====================================| 
+[23:58:40]  |                                     | 
+[23:58:40]  | Note that these optimisations are   | 
+[23:58:40]  | designed to improve performance     | 
+[23:58:40]  | with the JIT plugin, which you are  | 
+[23:58:40]  | not currently using.  Get it here:  | 
+[23:58:40]  |                                     | 
+[23:58:40]  |      https://git.io/jit-plugin      | 
+[23:58:40]  |                                     | 
+[23:58:40]  ======================================= 
+[23:58:40]  
+[23:58:40]  
+[23:58:40]  
+[23:58:40]  
+[23:58:40]  ======================================= 
+[23:58:40]  |                                     | 
+[23:58:40]  |        YSI version 5.03.0689        | 
+[23:58:40]  |        By Alex "Y_Less" Cole        | 
+[23:58:40]  |                                     | 
+[23:58:40]  ======================================= 
+[23:58:40]  
+[23:58:40] Подключен к базе!!
+[23:58:40] Привет, мир!
+[23:58:40] Number of vehicle models: 0
+[23:58:41] [connection] 127.0.0.1:62450 requests connection cookie.
+[23:58:42] [connection] incoming connection: 127.0.0.1:62450 id: 0
+[23:58:43] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:10:40] 
+[00:10:40] Server Plugins
+[00:10:40] --------------
+[00:10:40]  Loading plugin: mysql
+[00:10:40]  >> plugin.mysql: R41-4 successfully loaded.
+[00:10:40]   Loaded.
+[00:10:40]  Loading plugin: sscanf
+[00:10:40] 
+
+[00:10:40]  ===============================
+
+[00:10:40]       sscanf plugin loaded.     
+
+[00:10:40]          Version:  2.8.2        
+
+[00:10:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:10:40]  ===============================
+
+[00:10:40]   Loaded.
+[00:10:40]  Loading plugin: streamer
+[00:10:40] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:10:40]   Loaded.
+[00:10:40]  Loading plugin: pawnraknet
+[00:10:40] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:10:40]   Loaded.
+[00:10:40]  Loading plugin: pawncmd
+[00:10:40] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:10:40]   Loaded.
+[00:10:40]  Loading plugin: timerfix
+[00:10:40]   >> TimerFix v1.5 successfully loaded.
+[00:10:40]   Loaded.
+[00:10:40]  Loaded 6 plugins.
+
+[00:10:40] 
+[00:10:40] Filterscripts
+[00:10:40] ---------------
+[00:10:40]   Loaded 0 filterscripts.
+
+[00:10:40]  
+[00:10:40]  ======================================= 
+[00:10:40]  |                                     | 
+[00:10:40]  |    Optimising code, this may take   | 
+[00:10:40]  |        a little bit of time.        | 
+[00:10:40]  |                                     | 
+[00:10:40]  |            Please wait...           | 
+[00:10:40]  |                                     | 
+[00:10:40]  |=====================================| 
+[00:10:40]  |                                     | 
+[00:10:40]  | Note that these optimisations are   | 
+[00:10:40]  | designed to improve performance     | 
+[00:10:40]  | with the JIT plugin, which you are  | 
+[00:10:40]  | not currently using.  Get it here:  | 
+[00:10:40]  |                                     | 
+[00:10:40]  |      https://git.io/jit-plugin      | 
+[00:10:40]  |                                     | 
+[00:10:40]  ======================================= 
+[00:10:40]  
+[00:10:40]  
+[00:10:40]  
+[00:10:40]  
+[00:10:40]  ======================================= 
+[00:10:40]  |                                     | 
+[00:10:40]  |        YSI version 5.03.0689        | 
+[00:10:40]  |        By Alex "Y_Less" Cole        | 
+[00:10:40]  |                                     | 
+[00:10:40]  ======================================= 
+[00:10:40]  
+[00:10:41] Подключен к базе!!
+[00:10:41] Привет, мир!
+[00:10:41] Number of vehicle models: 0
+[00:10:42] [connection] 127.0.0.1:60365 requests connection cookie.
+[00:10:43] [connection] incoming connection: 127.0.0.1:60365 id: 0
+[00:10:43] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:12:22] 
+[00:12:22] Server Plugins
+[00:12:22] --------------
+[00:12:22]  Loading plugin: mysql
+[00:12:22]  >> plugin.mysql: R41-4 successfully loaded.
+[00:12:22]   Loaded.
+[00:12:22]  Loading plugin: sscanf
+[00:12:22] 
+
+[00:12:22]  ===============================
+
+[00:12:22]       sscanf plugin loaded.     
+
+[00:12:22]          Version:  2.8.2        
+
+[00:12:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:12:22]  ===============================
+
+[00:12:22]   Loaded.
+[00:12:22]  Loading plugin: streamer
+[00:12:22] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:12:22]   Loaded.
+[00:12:22]  Loading plugin: pawnraknet
+[00:12:22] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:12:22]   Loaded.
+[00:12:22]  Loading plugin: pawncmd
+[00:12:22] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:12:22]   Loaded.
+[00:12:22]  Loading plugin: timerfix
+[00:12:22]   >> TimerFix v1.5 successfully loaded.
+[00:12:22]   Loaded.
+[00:12:22]  Loaded 6 plugins.
+
+[00:12:22] 
+[00:12:22] Filterscripts
+[00:12:22] ---------------
+[00:12:22]   Loaded 0 filterscripts.
+
+[00:12:22]  
+[00:12:22]  ======================================= 
+[00:12:22]  |                                     | 
+[00:12:22]  |    Optimising code, this may take   | 
+[00:12:22]  |        a little bit of time.        | 
+[00:12:22]  |                                     | 
+[00:12:22]  |            Please wait...           | 
+[00:12:22]  |                                     | 
+[00:12:22]  |=====================================| 
+[00:12:22]  |                                     | 
+[00:12:22]  | Note that these optimisations are   | 
+[00:12:22]  | designed to improve performance     | 
+[00:12:22]  | with the JIT plugin, which you are  | 
+[00:12:22]  | not currently using.  Get it here:  | 
+[00:12:22]  |                                     | 
+[00:12:22]  |      https://git.io/jit-plugin      | 
+[00:12:22]  |                                     | 
+[00:12:22]  ======================================= 
+[00:12:22]  
+[00:12:22]  
+[00:12:22]  
+[00:12:22]  
+[00:12:22]  ======================================= 
+[00:12:22]  |                                     | 
+[00:12:22]  |        YSI version 5.03.0689        | 
+[00:12:22]  |        By Alex "Y_Less" Cole        | 
+[00:12:22]  |                                     | 
+[00:12:22]  ======================================= 
+[00:12:22]  
+[00:12:22] Подключен к базе!!
+[00:12:22] Привет, мир!
+[00:12:22] Number of vehicle models: 0
+[00:12:24] [connection] 127.0.0.1:56870 requests connection cookie.
+[00:12:25] [connection] incoming connection: 127.0.0.1:56870 id: 0
+[00:12:25] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:14:00] 
+[00:14:00] Server Plugins
+[00:14:00] --------------
+[00:14:00]  Loading plugin: mysql
+[00:14:00]  >> plugin.mysql: R41-4 successfully loaded.
+[00:14:00]   Loaded.
+[00:14:00]  Loading plugin: sscanf
+[00:14:00] 
+
+[00:14:00]  ===============================
+
+[00:14:00]       sscanf plugin loaded.     
+
+[00:14:00]          Version:  2.8.2        
+
+[00:14:00]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:14:00]  ===============================
+
+[00:14:00]   Loaded.
+[00:14:00]  Loading plugin: streamer
+[00:14:00] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:14:00]   Loaded.
+[00:14:00]  Loading plugin: pawnraknet
+[00:14:00] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:14:00]   Loaded.
+[00:14:00]  Loading plugin: pawncmd
+[00:14:00] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:14:00]   Loaded.
+[00:14:00]  Loading plugin: timerfix
+[00:14:00]   >> TimerFix v1.5 successfully loaded.
+[00:14:00]   Loaded.
+[00:14:00]  Loaded 6 plugins.
+
+[00:14:00] [connection] 127.0.0.1:49401 requests connection cookie.
+[00:14:00] 
+[00:14:00] Filterscripts
+[00:14:00] ---------------
+[00:14:00]   Loaded 0 filterscripts.
+
+[00:14:00]  
+[00:14:00]  ======================================= 
+[00:14:00]  |                                     | 
+[00:14:00]  |    Optimising code, this may take   | 
+[00:14:00]  |        a little bit of time.        | 
+[00:14:00]  |                                     | 
+[00:14:00]  |            Please wait...           | 
+[00:14:00]  |                                     | 
+[00:14:00]  |=====================================| 
+[00:14:00]  |                                     | 
+[00:14:00]  | Note that these optimisations are   | 
+[00:14:00]  | designed to improve performance     | 
+[00:14:00]  | with the JIT plugin, which you are  | 
+[00:14:00]  | not currently using.  Get it here:  | 
+[00:14:00]  |                                     | 
+[00:14:00]  |      https://git.io/jit-plugin      | 
+[00:14:00]  |                                     | 
+[00:14:00]  ======================================= 
+[00:14:00]  
+[00:14:00]  
+[00:14:00]  
+[00:14:00]  
+[00:14:00]  ======================================= 
+[00:14:00]  |                                     | 
+[00:14:00]  |        YSI version 5.03.0689        | 
+[00:14:00]  |        By Alex "Y_Less" Cole        | 
+[00:14:00]  |                                     | 
+[00:14:00]  ======================================= 
+[00:14:00]  
+[00:14:00] Подключен к базе!!
+[00:14:00] Привет, мир!
+[00:14:00] Number of vehicle models: 0
+[00:14:01] [connection] incoming connection: 127.0.0.1:49401 id: 0
+[00:14:01] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:24:23] 
+[00:24:23] Server Plugins
+[00:24:23] --------------
+[00:24:23]  Loading plugin: mysql
+[00:24:23]  >> plugin.mysql: R41-4 successfully loaded.
+[00:24:23]   Loaded.
+[00:24:23]  Loading plugin: sscanf
+[00:24:23] 
+
+[00:24:23]  ===============================
+
+[00:24:23]       sscanf plugin loaded.     
+
+[00:24:23]          Version:  2.8.2        
+
+[00:24:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:24:23]  ===============================
+
+[00:24:23]   Loaded.
+[00:24:23]  Loading plugin: streamer
+[00:24:23] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:24:23]   Loaded.
+[00:24:23]  Loading plugin: pawnraknet
+[00:24:23] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:24:23]   Loaded.
+[00:24:23]  Loading plugin: pawncmd
+[00:24:23] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:24:23]   Loaded.
+[00:24:23]  Loading plugin: timerfix
+[00:24:23]   >> TimerFix v1.5 successfully loaded.
+[00:24:23]   Loaded.
+[00:24:23]  Loaded 6 plugins.
+
+[00:24:23] 
+[00:24:23] Filterscripts
+[00:24:23] ---------------
+[00:24:23]   Loaded 0 filterscripts.
+
+[00:24:23]  
+[00:24:23]  ======================================= 
+[00:24:23]  |                                     | 
+[00:24:23]  |    Optimising code, this may take   | 
+[00:24:23]  |        a little bit of time.        | 
+[00:24:23]  |                                     | 
+[00:24:23]  |            Please wait...           | 
+[00:24:23]  |                                     | 
+[00:24:23]  |=====================================| 
+[00:24:23]  |                                     | 
+[00:24:23]  | Note that these optimisations are   | 
+[00:24:23]  | designed to improve performance     | 
+[00:24:23]  | with the JIT plugin, which you are  | 
+[00:24:23]  | not currently using.  Get it here:  | 
+[00:24:23]  |                                     | 
+[00:24:23]  |      https://git.io/jit-plugin      | 
+[00:24:23]  |                                     | 
+[00:24:23]  ======================================= 
+[00:24:23]  
+[00:24:23]  
+[00:24:23]  
+[00:24:23]  
+[00:24:23]  ======================================= 
+[00:24:23]  |                                     | 
+[00:24:23]  |        YSI version 5.03.0689        | 
+[00:24:23]  |        By Alex "Y_Less" Cole        | 
+[00:24:23]  |                                     | 
+[00:24:23]  ======================================= 
+[00:24:23]  
+[00:24:23] Подключен к базе!!
+[00:24:23] Привет, мир!
+[00:24:23] Number of vehicle models: 0
+[00:24:26] [connection] 127.0.0.1:60208 requests connection cookie.
+[00:24:27] [connection] incoming connection: 127.0.0.1:60208 id: 0
+[00:24:27] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:24:44] 
+[00:24:44] Server Plugins
+[00:24:44] --------------
+[00:24:44]  Loading plugin: mysql
+[00:24:44]  >> plugin.mysql: R41-4 successfully loaded.
+[00:24:44]   Loaded.
+[00:24:44]  Loading plugin: sscanf
+[00:24:44] 
+
+[00:24:44]  ===============================
+
+[00:24:44]       sscanf plugin loaded.     
+
+[00:24:44]          Version:  2.8.2        
+
+[00:24:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:24:44]  ===============================
+
+[00:24:44]   Loaded.
+[00:24:44]  Loading plugin: streamer
+[00:24:44] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:24:44]   Loaded.
+[00:24:44]  Loading plugin: pawnraknet
+[00:24:44] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:24:44]   Loaded.
+[00:24:44]  Loading plugin: pawncmd
+[00:24:44] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:24:44]   Loaded.
+[00:24:44]  Loading plugin: timerfix
+[00:24:44]   >> TimerFix v1.5 successfully loaded.
+[00:24:44]   Loaded.
+[00:24:44]  Loaded 6 plugins.
+
+[00:24:44] 
+[00:24:44] Filterscripts
+[00:24:44] ---------------
+[00:24:44]   Loaded 0 filterscripts.
+
+[00:24:44]  
+[00:24:44]  ======================================= 
+[00:24:44]  |                                     | 
+[00:24:44]  |    Optimising code, this may take   | 
+[00:24:44]  |        a little bit of time.        | 
+[00:24:44]  |                                     | 
+[00:24:44]  |            Please wait...           | 
+[00:24:44]  |                                     | 
+[00:24:44]  |=====================================| 
+[00:24:44]  |                                     | 
+[00:24:44]  | Note that these optimisations are   | 
+[00:24:44]  | designed to improve performance     | 
+[00:24:44]  | with the JIT plugin, which you are  | 
+[00:24:44]  | not currently using.  Get it here:  | 
+[00:24:44]  |                                     | 
+[00:24:44]  |      https://git.io/jit-plugin      | 
+[00:24:44]  |                                     | 
+[00:24:44]  ======================================= 
+[00:24:44]  
+[00:24:44]  
+[00:24:44]  
+[00:24:44]  
+[00:24:44]  ======================================= 
+[00:24:44]  |                                     | 
+[00:24:44]  |        YSI version 5.03.0689        | 
+[00:24:44]  |        By Alex "Y_Less" Cole        | 
+[00:24:44]  |                                     | 
+[00:24:44]  ======================================= 
+[00:24:44]  
+[00:24:45] Подключен к базе!!
+[00:24:45] Привет, мир!
+[00:24:45] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:25:12] 
+[00:25:12] Server Plugins
+[00:25:12] --------------
+[00:25:12]  Loading plugin: mysql
+[00:25:12]  >> plugin.mysql: R41-4 successfully loaded.
+[00:25:12]   Loaded.
+[00:25:12]  Loading plugin: sscanf
+[00:25:12] 
+
+[00:25:12]  ===============================
+
+[00:25:12]       sscanf plugin loaded.     
+
+[00:25:12]          Version:  2.8.2        
+
+[00:25:12]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:25:12]  ===============================
+
+[00:25:12]   Loaded.
+[00:25:12]  Loading plugin: streamer
+[00:25:12] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:25:12]   Loaded.
+[00:25:12]  Loading plugin: pawnraknet
+[00:25:12] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:25:12]   Loaded.
+[00:25:12]  Loading plugin: pawncmd
+[00:25:12] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:25:12]   Loaded.
+[00:25:12]  Loading plugin: timerfix
+[00:25:12]   >> TimerFix v1.5 successfully loaded.
+[00:25:12]   Loaded.
+[00:25:12]  Loaded 6 plugins.
+
+[00:25:12] 
+[00:25:12] Filterscripts
+[00:25:12] ---------------
+[00:25:12]   Loaded 0 filterscripts.
+
+[00:25:12]  
+[00:25:12]  ======================================= 
+[00:25:12]  |                                     | 
+[00:25:12]  |    Optimising code, this may take   | 
+[00:25:12]  |        a little bit of time.        | 
+[00:25:12]  |                                     | 
+[00:25:12]  |            Please wait...           | 
+[00:25:12]  |                                     | 
+[00:25:12]  |=====================================| 
+[00:25:12]  |                                     | 
+[00:25:12]  | Note that these optimisations are   | 
+[00:25:12]  | designed to improve performance     | 
+[00:25:12]  | with the JIT plugin, which you are  | 
+[00:25:12]  | not currently using.  Get it here:  | 
+[00:25:12]  |                                     | 
+[00:25:12]  |      https://git.io/jit-plugin      | 
+[00:25:12]  |                                     | 
+[00:25:12]  ======================================= 
+[00:25:12]  
+[00:25:12]  
+[00:25:12]  
+[00:25:12]  
+[00:25:12]  ======================================= 
+[00:25:12]  |                                     | 
+[00:25:12]  |        YSI version 5.03.0689        | 
+[00:25:12]  |        By Alex "Y_Less" Cole        | 
+[00:25:12]  |                                     | 
+[00:25:12]  ======================================= 
+[00:25:12]  
+[00:25:12] Подключен к базе!!
+[00:25:12] Привет, мир!
+[00:25:12] Number of vehicle models: 0
+[00:25:13] [connection] 127.0.0.1:60216 requests connection cookie.
+[00:25:14] [connection] incoming connection: 127.0.0.1:60216 id: 0
+[00:25:14] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:25:28] 
+[00:25:28] Server Plugins
+[00:25:28] --------------
+[00:25:28]  Loading plugin: mysql
+[00:25:28]  >> plugin.mysql: R41-4 successfully loaded.
+[00:25:28]   Loaded.
+[00:25:28]  Loading plugin: sscanf
+[00:25:28] 
+
+[00:25:28]  ===============================
+
+[00:25:28]       sscanf plugin loaded.     
+
+[00:25:28]          Version:  2.8.2        
+
+[00:25:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:25:28]  ===============================
+
+[00:25:28]   Loaded.
+[00:25:28]  Loading plugin: streamer
+[00:25:28] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:25:28]   Loaded.
+[00:25:28]  Loading plugin: pawnraknet
+[00:25:28] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:25:28]   Loaded.
+[00:25:28]  Loading plugin: pawncmd
+[00:25:28] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:25:28]   Loaded.
+[00:25:28]  Loading plugin: timerfix
+[00:25:28]   >> TimerFix v1.5 successfully loaded.
+[00:25:28]   Loaded.
+[00:25:28]  Loaded 6 plugins.
+
+[00:25:28] 
+[00:25:28] Filterscripts
+[00:25:28] ---------------
+[00:25:28]   Loaded 0 filterscripts.
+
+[00:25:28]  
+[00:25:28]  ======================================= 
+[00:25:28]  |                                     | 
+[00:25:28]  |    Optimising code, this may take   | 
+[00:25:28]  |        a little bit of time.        | 
+[00:25:28]  |                                     | 
+[00:25:28]  |            Please wait...           | 
+[00:25:28]  |                                     | 
+[00:25:28]  |=====================================| 
+[00:25:28]  |                                     | 
+[00:25:28]  | Note that these optimisations are   | 
+[00:25:28]  | designed to improve performance     | 
+[00:25:28]  | with the JIT plugin, which you are  | 
+[00:25:28]  | not currently using.  Get it here:  | 
+[00:25:28]  |                                     | 
+[00:25:28]  |      https://git.io/jit-plugin      | 
+[00:25:28]  |                                     | 
+[00:25:28]  ======================================= 
+[00:25:28]  
+[00:25:28]  
+[00:25:28]  
+[00:25:28]  
+[00:25:28]  ======================================= 
+[00:25:28]  |                                     | 
+[00:25:28]  |        YSI version 5.03.0689        | 
+[00:25:28]  |        By Alex "Y_Less" Cole        | 
+[00:25:28]  |                                     | 
+[00:25:28]  ======================================= 
+[00:25:28]  
+[00:25:29] Подключен к базе!!
+[00:25:29] Привет, мир!
+[00:25:29] Number of vehicle models: 0
+[00:25:35] [connection] 127.0.0.1:60224 requests connection cookie.
+[00:25:36] [connection] incoming connection: 127.0.0.1:60224 id: 0
+[00:25:36] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:26:13] 
+[00:26:13] Server Plugins
+[00:26:13] --------------
+[00:26:13]  Loading plugin: mysql
+[00:26:13]  >> plugin.mysql: R41-4 successfully loaded.
+[00:26:13]   Loaded.
+[00:26:13]  Loading plugin: sscanf
+[00:26:13] 
+
+[00:26:13]  ===============================
+
+[00:26:13]       sscanf plugin loaded.     
+
+[00:26:13]          Version:  2.8.2        
+
+[00:26:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:26:13]  ===============================
+
+[00:26:13]   Loaded.
+[00:26:13]  Loading plugin: streamer
+[00:26:13] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:26:13]   Loaded.
+[00:26:13]  Loading plugin: pawnraknet
+[00:26:13] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:26:13]   Loaded.
+[00:26:13]  Loading plugin: pawncmd
+[00:26:13] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:26:13]   Loaded.
+[00:26:13]  Loading plugin: timerfix
+[00:26:13]   >> TimerFix v1.5 successfully loaded.
+[00:26:13]   Loaded.
+[00:26:13]  Loaded 6 plugins.
+
+[00:26:13] 
+[00:26:13] Filterscripts
+[00:26:13] ---------------
+[00:26:13]   Loaded 0 filterscripts.
+
+[00:26:13]  
+[00:26:13]  ======================================= 
+[00:26:13]  |                                     | 
+[00:26:13]  |    Optimising code, this may take   | 
+[00:26:13]  |        a little bit of time.        | 
+[00:26:13]  |                                     | 
+[00:26:13]  |            Please wait...           | 
+[00:26:13]  |                                     | 
+[00:26:13]  |=====================================| 
+[00:26:13]  |                                     | 
+[00:26:13]  | Note that these optimisations are   | 
+[00:26:13]  | designed to improve performance     | 
+[00:26:13]  | with the JIT plugin, which you are  | 
+[00:26:13]  | not currently using.  Get it here:  | 
+[00:26:13]  |                                     | 
+[00:26:13]  |      https://git.io/jit-plugin      | 
+[00:26:13]  |                                     | 
+[00:26:13]  ======================================= 
+[00:26:13]  
+[00:26:13]  
+[00:26:13]  
+[00:26:13]  
+[00:26:13]  ======================================= 
+[00:26:13]  |                                     | 
+[00:26:13]  |        YSI version 5.03.0689        | 
+[00:26:13]  |        By Alex "Y_Less" Cole        | 
+[00:26:13]  |                                     | 
+[00:26:13]  ======================================= 
+[00:26:13]  
+[00:26:13] Подключен к базе!!
+[00:26:13] Привет, мир!
+[00:26:13] Number of vehicle models: 0
+[00:26:14] [connection] 127.0.0.1:50631 requests connection cookie.
+[00:26:15] [connection] incoming connection: 127.0.0.1:50631 id: 0
+[00:26:15] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:28:13] 
+[00:28:13] Server Plugins
+[00:28:13] --------------
+[00:28:13]  Loading plugin: mysql
+[00:28:13]  >> plugin.mysql: R41-4 successfully loaded.
+[00:28:13]   Loaded.
+[00:28:13]  Loading plugin: sscanf
+[00:28:13] 
+
+[00:28:13]  ===============================
+
+[00:28:13]       sscanf plugin loaded.     
+
+[00:28:13]          Version:  2.8.2        
+
+[00:28:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:28:13]  ===============================
+
+[00:28:13]   Loaded.
+[00:28:13]  Loading plugin: streamer
+[00:28:13] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:28:13]   Loaded.
+[00:28:13]  Loading plugin: pawnraknet
+[00:28:13] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:28:13]   Loaded.
+[00:28:13]  Loading plugin: pawncmd
+[00:28:13] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:28:13]   Loaded.
+[00:28:13]  Loading plugin: timerfix
+[00:28:13]   >> TimerFix v1.5 successfully loaded.
+[00:28:13]   Loaded.
+[00:28:13]  Loaded 6 plugins.
+
+[00:28:13] 
+[00:28:13] Filterscripts
+[00:28:13] ---------------
+[00:28:13]   Loaded 0 filterscripts.
+
+[00:28:13]  
+[00:28:13]  ======================================= 
+[00:28:13]  |                                     | 
+[00:28:13]  |    Optimising code, this may take   | 
+[00:28:13]  |        a little bit of time.        | 
+[00:28:13]  |                                     | 
+[00:28:13]  |            Please wait...           | 
+[00:28:13]  |                                     | 
+[00:28:13]  |=====================================| 
+[00:28:13]  |                                     | 
+[00:28:13]  | Note that these optimisations are   | 
+[00:28:13]  | designed to improve performance     | 
+[00:28:13]  | with the JIT plugin, which you are  | 
+[00:28:13]  | not currently using.  Get it here:  | 
+[00:28:13]  |                                     | 
+[00:28:13]  |      https://git.io/jit-plugin      | 
+[00:28:13]  |                                     | 
+[00:28:13]  ======================================= 
+[00:28:13]  
+[00:28:13]  
+[00:28:13]  
+[00:28:13]  
+[00:28:13]  ======================================= 
+[00:28:13]  |                                     | 
+[00:28:13]  |        YSI version 5.03.0689        | 
+[00:28:13]  |        By Alex "Y_Less" Cole        | 
+[00:28:13]  |                                     | 
+[00:28:13]  ======================================= 
+[00:28:13]  
+[00:28:14] Подключен к базе!!
+[00:28:14] Привет, мир!
+[00:28:14] Number of vehicle models: 0
+[00:28:15] [connection] 127.0.0.1:58025 requests connection cookie.
+[00:28:16] [connection] incoming connection: 127.0.0.1:58025 id: 0
+[00:28:17] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:28:52] 
+[00:28:52] Server Plugins
+[00:28:52] --------------
+[00:28:52]  Loading plugin: mysql
+[00:28:52]  >> plugin.mysql: R41-4 successfully loaded.
+[00:28:52]   Loaded.
+[00:28:52]  Loading plugin: sscanf
+[00:28:52] 
+
+[00:28:52]  ===============================
+
+[00:28:52]       sscanf plugin loaded.     
+
+[00:28:52]          Version:  2.8.2        
+
+[00:28:52]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:28:52]  ===============================
+
+[00:28:52]   Loaded.
+[00:28:52]  Loading plugin: streamer
+[00:28:52] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:28:52]   Loaded.
+[00:28:52]  Loading plugin: pawnraknet
+[00:28:52] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:28:52]   Loaded.
+[00:28:52]  Loading plugin: pawncmd
+[00:28:52] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:28:52]   Loaded.
+[00:28:52]  Loading plugin: timerfix
+[00:28:52]   >> TimerFix v1.5 successfully loaded.
+[00:28:52]   Loaded.
+[00:28:52]  Loaded 6 plugins.
+
+[00:28:52] 
+[00:28:52] Filterscripts
+[00:28:52] ---------------
+[00:28:52]   Loaded 0 filterscripts.
+
+[00:28:52]  
+[00:28:52]  ======================================= 
+[00:28:53]  |                                     | 
+[00:28:53]  |    Optimising code, this may take   | 
+[00:28:53]  |        a little bit of time.        | 
+[00:28:53]  |                                     | 
+[00:28:53]  |            Please wait...           | 
+[00:28:53]  |                                     | 
+[00:28:53]  |=====================================| 
+[00:28:53]  |                                     | 
+[00:28:53]  | Note that these optimisations are   | 
+[00:28:53]  | designed to improve performance     | 
+[00:28:53]  | with the JIT plugin, which you are  | 
+[00:28:53]  | not currently using.  Get it here:  | 
+[00:28:53]  |                                     | 
+[00:28:53]  |      https://git.io/jit-plugin      | 
+[00:28:53]  |                                     | 
+[00:28:53]  ======================================= 
+[00:28:53]  
+[00:28:53]  
+[00:28:53]  
+[00:28:53]  
+[00:28:53]  ======================================= 
+[00:28:53]  |                                     | 
+[00:28:53]  |        YSI version 5.03.0689        | 
+[00:28:53]  |        By Alex "Y_Less" Cole        | 
+[00:28:53]  |                                     | 
+[00:28:53]  ======================================= 
+[00:28:53]  
+[00:28:53] Подключен к базе!!
+[00:28:53] Привет, мир!
+[00:28:53] Number of vehicle models: 0
+[00:29:04] [connection] 127.0.0.1:54472 requests connection cookie.
+[00:29:05] [connection] incoming connection: 127.0.0.1:54472 id: 0
+[00:29:05] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:46:40] 
+[00:46:40] Server Plugins
+[00:46:40] --------------
+[00:46:40]  Loading plugin: mysql
+[00:46:40]  >> plugin.mysql: R41-4 successfully loaded.
+[00:46:40]   Loaded.
+[00:46:40]  Loading plugin: sscanf
+[00:46:40] 
+
+[00:46:40]  ===============================
+
+[00:46:40]       sscanf plugin loaded.     
+
+[00:46:40]          Version:  2.8.2        
+
+[00:46:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:46:40]  ===============================
+
+[00:46:40]   Loaded.
+[00:46:40]  Loading plugin: streamer
+[00:46:40] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:46:40]   Loaded.
+[00:46:40]  Loading plugin: pawnraknet
+[00:46:40] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[00:46:40]   Loaded.
+[00:46:40]  Loading plugin: pawncmd
+[00:46:40] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:46:40]   Loaded.
+[00:46:40]  Loading plugin: timerfix
+[00:46:40]   >> TimerFix v1.5 successfully loaded.
+[00:46:40]   Loaded.
+[00:46:40]  Loaded 6 plugins.
+
+[00:46:40] 
+[00:46:40] Filterscripts
+[00:46:40] ---------------
+[00:46:40]   Loaded 0 filterscripts.
+
+[00:46:40]  
+[00:46:40]  ======================================= 
+[00:46:40]  |                                     | 
+[00:46:40]  |    Optimising code, this may take   | 
+[00:46:40]  |        a little bit of time.        | 
+[00:46:40]  |                                     | 
+[00:46:40]  |            Please wait...           | 
+[00:46:40]  |                                     | 
+[00:46:40]  |=====================================| 
+[00:46:40]  |                                     | 
+[00:46:40]  | Note that these optimisations are   | 
+[00:46:40]  | designed to improve performance     | 
+[00:46:40]  | with the JIT plugin, which you are  | 
+[00:46:40]  | not currently using.  Get it here:  | 
+[00:46:40]  |                                     | 
+[00:46:40]  |      https://git.io/jit-plugin      | 
+[00:46:40]  |                                     | 
+[00:46:40]  ======================================= 
+[00:46:40]  
+[00:46:40]  
+[00:46:40]  
+[00:46:40]  
+[00:46:40]  ======================================= 
+[00:46:40]  |                                     | 
+[00:46:40]  |        YSI version 5.03.0689        | 
+[00:46:40]  |        By Alex "Y_Less" Cole        | 
+[00:46:40]  |                                     | 
+[00:46:40]  ======================================= 
+[00:46:40]  
+[00:46:41] Подключен к базе!!
+[00:46:41] Привет, мир!
+[00:46:41] Number of vehicle models: 0
+[00:46:51] [connection] 127.0.0.1:54646 requests connection cookie.
+[00:46:52] [connection] incoming connection: 127.0.0.1:54646 id: 0
+[00:46:53] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:01:49] 
+[01:01:49] Server Plugins
+[01:01:49] --------------
+[01:01:49]  Loading plugin: mysql
+[01:01:50]  >> plugin.mysql: R41-4 successfully loaded.
+[01:01:50]   Loaded.
+[01:01:50]  Loading plugin: sscanf
+[01:01:50] 
+
+[01:01:50]  ===============================
+
+[01:01:50]       sscanf plugin loaded.     
+
+[01:01:50]          Version:  2.8.2        
+
+[01:01:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:01:50]  ===============================
+
+[01:01:50]   Loaded.
+[01:01:50]  Loading plugin: streamer
+[01:01:50] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:01:50]   Loaded.
+[01:01:50]  Loading plugin: pawnraknet
+[01:01:50] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:01:50]   Loaded.
+[01:01:50]  Loading plugin: pawncmd
+[01:01:50] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:01:50]   Loaded.
+[01:01:50]  Loading plugin: timerfix
+[01:01:50]   >> TimerFix v1.5 successfully loaded.
+[01:01:50]   Loaded.
+[01:01:50]  Loaded 6 plugins.
+
+[01:01:50] I couldn't load any gamemode scripts. Please verify your server.cfg
+[01:01:50] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:06:44] 
+[01:06:44] Server Plugins
+[01:06:44] --------------
+[01:06:44]  Loading plugin: mysql
+[01:06:44]  >> plugin.mysql: R41-4 successfully loaded.
+[01:06:44]   Loaded.
+[01:06:44]  Loading plugin: sscanf
+[01:06:44] 
+
+[01:06:44]  ===============================
+
+[01:06:44]       sscanf plugin loaded.     
+
+[01:06:44]          Version:  2.8.2        
+
+[01:06:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:06:44]  ===============================
+
+[01:06:44]   Loaded.
+[01:06:44]  Loading plugin: streamer
+[01:06:44] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:06:44]   Loaded.
+[01:06:44]  Loading plugin: pawnraknet
+[01:06:44] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:06:44]   Loaded.
+[01:06:44]  Loading plugin: pawncmd
+[01:06:44] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:06:44]   Loaded.
+[01:06:44]  Loading plugin: timerfix
+[01:06:44]   >> TimerFix v1.5 successfully loaded.
+[01:06:44]   Loaded.
+[01:06:44]  Loaded 6 plugins.
+
+[01:06:44] 
+[01:06:44] Filterscripts
+[01:06:44] ---------------
+[01:06:44]   Loaded 0 filterscripts.
+
+[01:06:44]  
+[01:06:44]  ======================================= 
+[01:06:44]  |                                     | 
+[01:06:44]  |    Optimising code, this may take   | 
+[01:06:44]  |        a little bit of time.        | 
+[01:06:44]  |                                     | 
+[01:06:44]  |            Please wait...           | 
+[01:06:44]  |                                     | 
+[01:06:44]  |=====================================| 
+[01:06:44]  |                                     | 
+[01:06:44]  | Note that these optimisations are   | 
+[01:06:44]  | designed to improve performance     | 
+[01:06:44]  | with the JIT plugin, which you are  | 
+[01:06:44]  | not currently using.  Get it here:  | 
+[01:06:44]  |                                     | 
+[01:06:44]  |      https://git.io/jit-plugin      | 
+[01:06:44]  |                                     | 
+[01:06:44]  ======================================= 
+[01:06:44]  
+[01:06:44]  
+[01:06:44]  
+[01:06:44]  
+[01:06:44]  ======================================= 
+[01:06:44]  |                                     | 
+[01:06:44]  |        YSI version 5.03.0689        | 
+[01:06:44]  |        By Alex "Y_Less" Cole        | 
+[01:06:44]  |                                     | 
+[01:06:44]  ======================================= 
+[01:06:44]  
+[01:06:45] Подключен к базе!!
+[01:06:45] Привет, мир!
+[01:06:45] Number of vehicle models: 0
+[01:06:59] [connection] 127.0.0.1:58638 requests connection cookie.
+[01:07:00] [connection] incoming connection: 127.0.0.1:58638 id: 0
+[01:07:00] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:08:04] 
+[01:08:04] Server Plugins
+[01:08:04] --------------
+[01:08:04]  Loading plugin: mysql
+[01:08:04]  >> plugin.mysql: R41-4 successfully loaded.
+[01:08:04]   Loaded.
+[01:08:04]  Loading plugin: sscanf
+[01:08:04] 
+
+[01:08:04]  ===============================
+
+[01:08:04]       sscanf plugin loaded.     
+
+[01:08:04]          Version:  2.8.2        
+
+[01:08:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:08:04]  ===============================
+
+[01:08:04]   Loaded.
+[01:08:04]  Loading plugin: streamer
+[01:08:04] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:08:04]   Loaded.
+[01:08:04]  Loading plugin: pawnraknet
+[01:08:04] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:08:04]   Loaded.
+[01:08:04]  Loading plugin: pawncmd
+[01:08:04] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:08:04]   Loaded.
+[01:08:04]  Loading plugin: timerfix
+[01:08:04]   >> TimerFix v1.5 successfully loaded.
+[01:08:04]   Loaded.
+[01:08:04]  Loaded 6 plugins.
+
+[01:08:04] 
+[01:08:04] Filterscripts
+[01:08:04] ---------------
+[01:08:04]   Loaded 0 filterscripts.
+
+[01:08:04]  
+[01:08:04]  ======================================= 
+[01:08:04]  |                                     | 
+[01:08:04]  |    Optimising code, this may take   | 
+[01:08:04]  |        a little bit of time.        | 
+[01:08:04]  |                                     | 
+[01:08:04]  |            Please wait...           | 
+[01:08:04]  |                                     | 
+[01:08:04]  |=====================================| 
+[01:08:04]  |                                     | 
+[01:08:04]  | Note that these optimisations are   | 
+[01:08:04]  | designed to improve performance     | 
+[01:08:04]  | with the JIT plugin, which you are  | 
+[01:08:04]  | not currently using.  Get it here:  | 
+[01:08:04]  |                                     | 
+[01:08:04]  |      https://git.io/jit-plugin      | 
+[01:08:04]  |                                     | 
+[01:08:04]  ======================================= 
+[01:08:04]  
+[01:08:04]  
+[01:08:04]  
+[01:08:04]  
+[01:08:04]  ======================================= 
+[01:08:04]  |                                     | 
+[01:08:04]  |        YSI version 5.03.0689        | 
+[01:08:04]  |        By Alex "Y_Less" Cole        | 
+[01:08:04]  |                                     | 
+[01:08:04]  ======================================= 
+[01:08:04]  
+[01:08:04] Подключен к базе!!
+[01:08:04] Привет, мир!
+[01:08:04] Number of vehicle models: 0
+[01:08:21] [connection] 127.0.0.1:61873 requests connection cookie.
+[01:08:22] [connection] incoming connection: 127.0.0.1:61873 id: 0
+[01:08:23] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:33:51] 
+[01:33:51] Server Plugins
+[01:33:51] --------------
+[01:33:51]  Loading plugin: mysql
+[01:33:51]  >> plugin.mysql: R41-4 successfully loaded.
+[01:33:51]   Loaded.
+[01:33:51]  Loading plugin: sscanf
+[01:33:51] 
+
+[01:33:51]  ===============================
+
+[01:33:51]       sscanf plugin loaded.     
+
+[01:33:51]          Version:  2.8.2        
+
+[01:33:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:33:51]  ===============================
+
+[01:33:51]   Loaded.
+[01:33:51]  Loading plugin: streamer
+[01:33:51] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:33:51]   Loaded.
+[01:33:51]  Loading plugin: pawnraknet
+[01:33:51] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:33:51]   Loaded.
+[01:33:51]  Loading plugin: pawncmd
+[01:33:51] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:33:51]   Loaded.
+[01:33:51]  Loading plugin: timerfix
+[01:33:51]   >> TimerFix v1.5 successfully loaded.
+[01:33:51]   Loaded.
+[01:33:51]  Loaded 6 plugins.
+
+[01:33:51] 
+[01:33:51] Filterscripts
+[01:33:51] ---------------
+[01:33:51]   Loaded 0 filterscripts.
+
+[01:33:51]  
+[01:33:51]  ======================================= 
+[01:33:51]  |                                     | 
+[01:33:51]  |    Optimising code, this may take   | 
+[01:33:51]  |        a little bit of time.        | 
+[01:33:51]  |                                     | 
+[01:33:51]  |            Please wait...           | 
+[01:33:51]  |                                     | 
+[01:33:51]  |=====================================| 
+[01:33:51]  |                                     | 
+[01:33:51]  | Note that these optimisations are   | 
+[01:33:51]  | designed to improve performance     | 
+[01:33:51]  | with the JIT plugin, which you are  | 
+[01:33:51]  | not currently using.  Get it here:  | 
+[01:33:51]  |                                     | 
+[01:33:51]  |      https://git.io/jit-plugin      | 
+[01:33:51]  |                                     | 
+[01:33:51]  ======================================= 
+[01:33:51]  
+[01:33:51]  
+[01:33:51]  
+[01:33:51]  
+[01:33:51]  ======================================= 
+[01:33:51]  |                                     | 
+[01:33:51]  |        YSI version 5.03.0689        | 
+[01:33:51]  |        By Alex "Y_Less" Cole        | 
+[01:33:51]  |                                     | 
+[01:33:51]  ======================================= 
+[01:33:51]  
+[01:33:51] Подключен к базе!!
+[01:33:51] Привет, мир!
+[01:33:51] Number of vehicle models: 0
+[01:33:57] [connection] 127.0.0.1:61181 requests connection cookie.
+[01:33:58] [connection] incoming connection: 127.0.0.1:61181 id: 0
+[01:33:59] [join] Marshall_Matthers has joined the server (0:127.0.0.1)
+[01:34:58] [part] Marshall_Matthers has left the server (0:1)
+[01:35:53] [connection] 127.0.0.1:54525 requests connection cookie.
+[01:35:54] [connection] incoming connection: 127.0.0.1:54525 id: 0
+[01:35:54] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:36:44] 
+[01:36:44] Server Plugins
+[01:36:44] --------------
+[01:36:44]  Loading plugin: mysql
+[01:36:44]  >> plugin.mysql: R41-4 successfully loaded.
+[01:36:44]   Loaded.
+[01:36:44]  Loading plugin: sscanf
+[01:36:44] 
+
+[01:36:44]  ===============================
+
+[01:36:44]       sscanf plugin loaded.     
+
+[01:36:44]          Version:  2.8.2        
+
+[01:36:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:36:44]  ===============================
+
+[01:36:44]   Loaded.
+[01:36:44]  Loading plugin: streamer
+[01:36:44] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:36:44]   Loaded.
+[01:36:44]  Loading plugin: pawnraknet
+[01:36:44] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:36:44]   Loaded.
+[01:36:44]  Loading plugin: pawncmd
+[01:36:44] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:36:44]   Loaded.
+[01:36:44]  Loading plugin: timerfix
+[01:36:44]   >> TimerFix v1.5 successfully loaded.
+[01:36:44]   Loaded.
+[01:36:44]  Loaded 6 plugins.
+
+[01:36:44] 
+[01:36:44] Filterscripts
+[01:36:44] ---------------
+[01:36:44]   Loaded 0 filterscripts.
+
+[01:36:44]  
+[01:36:44]  ======================================= 
+[01:36:44]  |                                     | 
+[01:36:44]  |    Optimising code, this may take   | 
+[01:36:44]  |        a little bit of time.        | 
+[01:36:44]  |                                     | 
+[01:36:44]  |            Please wait...           | 
+[01:36:44]  |                                     | 
+[01:36:44]  |=====================================| 
+[01:36:44]  |                                     | 
+[01:36:44]  | Note that these optimisations are   | 
+[01:36:44]  | designed to improve performance     | 
+[01:36:44]  | with the JIT plugin, which you are  | 
+[01:36:44]  | not currently using.  Get it here:  | 
+[01:36:44]  |                                     | 
+[01:36:44]  |      https://git.io/jit-plugin      | 
+[01:36:44]  |                                     | 
+[01:36:44]  ======================================= 
+[01:36:44]  
+[01:36:45]  
+[01:36:45]  
+[01:36:45]  
+[01:36:45]  ======================================= 
+[01:36:45]  |                                     | 
+[01:36:45]  |        YSI version 5.03.0689        | 
+[01:36:45]  |        By Alex "Y_Less" Cole        | 
+[01:36:45]  |                                     | 
+[01:36:45]  ======================================= 
+[01:36:45]  
+[01:36:45] Подключен к базе!!
+[01:36:45] Привет, мир!
+[01:36:45] Number of vehicle models: 0
+[01:36:58] [connection] 127.0.0.1:50100 requests connection cookie.
+[01:36:59] [connection] incoming connection: 127.0.0.1:50100 id: 0
+[01:36:59] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:38:29] 
+[01:38:29] Server Plugins
+[01:38:29] --------------
+[01:38:29]  Loading plugin: mysql
+[01:38:29]  >> plugin.mysql: R41-4 successfully loaded.
+[01:38:29]   Loaded.
+[01:38:29]  Loading plugin: sscanf
+[01:38:29] 
+
+[01:38:29]  ===============================
+
+[01:38:29]       sscanf plugin loaded.     
+
+[01:38:29]          Version:  2.8.2        
+
+[01:38:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:38:29]  ===============================
+
+[01:38:29]   Loaded.
+[01:38:29]  Loading plugin: streamer
+[01:38:29] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:38:29]   Loaded.
+[01:38:29]  Loading plugin: pawnraknet
+[01:38:29] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:38:29]   Loaded.
+[01:38:29]  Loading plugin: pawncmd
+[01:38:29] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:38:29]   Loaded.
+[01:38:29]  Loading plugin: timerfix
+[01:38:29]   >> TimerFix v1.5 successfully loaded.
+[01:38:29]   Loaded.
+[01:38:29]  Loaded 6 plugins.
+
+[01:38:29] 
+[01:38:29] Filterscripts
+[01:38:29] ---------------
+[01:38:29]   Loaded 0 filterscripts.
+
+[01:38:29]  
+[01:38:29]  ======================================= 
+[01:38:29]  |                                     | 
+[01:38:29]  |    Optimising code, this may take   | 
+[01:38:29]  |        a little bit of time.        | 
+[01:38:29]  |                                     | 
+[01:38:29]  |            Please wait...           | 
+[01:38:29]  |                                     | 
+[01:38:29]  |=====================================| 
+[01:38:29]  |                                     | 
+[01:38:29]  | Note that these optimisations are   | 
+[01:38:29]  | designed to improve performance     | 
+[01:38:29]  | with the JIT plugin, which you are  | 
+[01:38:29]  | not currently using.  Get it here:  | 
+[01:38:29]  |                                     | 
+[01:38:29]  |      https://git.io/jit-plugin      | 
+[01:38:29]  |                                     | 
+[01:38:29]  ======================================= 
+[01:38:29]  
+[01:38:29]  
+[01:38:29]  
+[01:38:29]  
+[01:38:29]  ======================================= 
+[01:38:29]  |                                     | 
+[01:38:29]  |        YSI version 5.03.0689        | 
+[01:38:29]  |        By Alex "Y_Less" Cole        | 
+[01:38:29]  |                                     | 
+[01:38:29]  ======================================= 
+[01:38:29]  
+[01:38:29] Подключен к базе!!
+[01:38:29] Привет, мир!
+[01:38:29] Number of vehicle models: 0
+[01:38:31] [connection] 127.0.0.1:57943 requests connection cookie.
+[01:38:32] [connection] incoming connection: 127.0.0.1:57943 id: 0
+[01:38:32] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:46:15] 
+[01:46:15] Server Plugins
+[01:46:15] --------------
+[01:46:15]  Loading plugin: mysql
+[01:46:15]  >> plugin.mysql: R41-4 successfully loaded.
+[01:46:15]   Loaded.
+[01:46:15]  Loading plugin: sscanf
+[01:46:15] 
+
+[01:46:15]  ===============================
+
+[01:46:15]       sscanf plugin loaded.     
+
+[01:46:15]          Version:  2.8.2        
+
+[01:46:15]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:46:15]  ===============================
+
+[01:46:15]   Loaded.
+[01:46:15]  Loading plugin: streamer
+[01:46:15] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:46:15]   Loaded.
+[01:46:15]  Loading plugin: pawnraknet
+[01:46:15] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:46:15]   Loaded.
+[01:46:15]  Loading plugin: pawncmd
+[01:46:15] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:46:15]   Loaded.
+[01:46:15]  Loading plugin: timerfix
+[01:46:15]   >> TimerFix v1.5 successfully loaded.
+[01:46:15]   Loaded.
+[01:46:15]  Loaded 6 plugins.
+
+[01:46:15] 
+[01:46:15] Filterscripts
+[01:46:15] ---------------
+[01:46:15]   Loaded 0 filterscripts.
+
+[01:46:15]  
+[01:46:15]  ======================================= 
+[01:46:15]  |                                     | 
+[01:46:15]  |    Optimising code, this may take   | 
+[01:46:15]  |        a little bit of time.        | 
+[01:46:15]  |                                     | 
+[01:46:15]  |            Please wait...           | 
+[01:46:15]  |                                     | 
+[01:46:15]  |=====================================| 
+[01:46:15]  |                                     | 
+[01:46:15]  | Note that these optimisations are   | 
+[01:46:15]  | designed to improve performance     | 
+[01:46:15]  | with the JIT plugin, which you are  | 
+[01:46:15]  | not currently using.  Get it here:  | 
+[01:46:15]  |                                     | 
+[01:46:15]  |      https://git.io/jit-plugin      | 
+[01:46:15]  |                                     | 
+[01:46:15]  ======================================= 
+[01:46:15]  
+[01:46:15]  
+[01:46:15]  
+[01:46:15]  
+[01:46:15]  ======================================= 
+[01:46:15]  |                                     | 
+[01:46:15]  |        YSI version 5.03.0689        | 
+[01:46:15]  |        By Alex "Y_Less" Cole        | 
+[01:46:15]  |                                     | 
+[01:46:15]  ======================================= 
+[01:46:15]  
+[01:46:15] Подключен к базе!!
+[01:46:15] Привет, мир!
+[01:46:15] Number of vehicle models: 0
+[01:46:17] [connection] 127.0.0.1:64959 requests connection cookie.
+[01:46:18] [connection] incoming connection: 127.0.0.1:64959 id: 0
+[01:46:18] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+[01:46:21] [part] Selena_Lunysh has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:54:30] 
+[01:54:30] Server Plugins
+[01:54:30] --------------
+[01:54:30]  Loading plugin: mysql
+[01:54:30]  >> plugin.mysql: R41-4 successfully loaded.
+[01:54:30]   Loaded.
+[01:54:30]  Loading plugin: sscanf
+[01:54:30] 
+
+[01:54:30]  ===============================
+
+[01:54:30]       sscanf plugin loaded.     
+
+[01:54:30]          Version:  2.8.2        
+
+[01:54:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:54:30]  ===============================
+
+[01:54:30]   Loaded.
+[01:54:30]  Loading plugin: streamer
+[01:54:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:54:30]   Loaded.
+[01:54:30]  Loading plugin: pawnraknet
+[01:54:30] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:54:30]   Loaded.
+[01:54:30]  Loading plugin: pawncmd
+[01:54:30] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:54:30]   Loaded.
+[01:54:30]  Loading plugin: timerfix
+[01:54:30]   >> TimerFix v1.5 successfully loaded.
+[01:54:30]   Loaded.
+[01:54:30]  Loaded 6 plugins.
+
+[01:54:30] 
+[01:54:30] Filterscripts
+[01:54:30] ---------------
+[01:54:30]   Loaded 0 filterscripts.
+
+[01:54:30]  
+[01:54:30]  ======================================= 
+[01:54:30]  |                                     | 
+[01:54:30]  |    Optimising code, this may take   | 
+[01:54:30]  |        a little bit of time.        | 
+[01:54:30]  |                                     | 
+[01:54:30]  |            Please wait...           | 
+[01:54:30]  |                                     | 
+[01:54:30]  |=====================================| 
+[01:54:30]  |                                     | 
+[01:54:30]  | Note that these optimisations are   | 
+[01:54:30]  | designed to improve performance     | 
+[01:54:30]  | with the JIT plugin, which you are  | 
+[01:54:30]  | not currently using.  Get it here:  | 
+[01:54:30]  |                                     | 
+[01:54:30]  |      https://git.io/jit-plugin      | 
+[01:54:30]  |                                     | 
+[01:54:30]  ======================================= 
+[01:54:30]  
+[01:54:30]  
+[01:54:30]  
+[01:54:30]  
+[01:54:30]  ======================================= 
+[01:54:30]  |                                     | 
+[01:54:30]  |        YSI version 5.03.0689        | 
+[01:54:30]  |        By Alex "Y_Less" Cole        | 
+[01:54:30]  |                                     | 
+[01:54:30]  ======================================= 
+[01:54:30]  
+[01:54:30] Подключен к базе!!
+[01:54:30] Привет, мир!
+[01:54:30] Number of vehicle models: 0
+[01:55:04] [connection] 127.0.0.1:59638 requests connection cookie.
+[01:55:05] [connection] incoming connection: 127.0.0.1:59638 id: 0
+[01:55:06] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+[01:55:19] [part] Selena_Lunysh has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:57:12] 
+[01:57:12] Server Plugins
+[01:57:12] --------------
+[01:57:12]  Loading plugin: mysql
+[01:57:12]  >> plugin.mysql: R41-4 successfully loaded.
+[01:57:12]   Loaded.
+[01:57:12]  Loading plugin: sscanf
+[01:57:12] 
+
+[01:57:12]  ===============================
+
+[01:57:12]       sscanf plugin loaded.     
+
+[01:57:12]          Version:  2.8.2        
+
+[01:57:12]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:57:12]  ===============================
+
+[01:57:12]   Loaded.
+[01:57:12]  Loading plugin: streamer
+[01:57:12] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:57:12]   Loaded.
+[01:57:12]  Loading plugin: pawnraknet
+[01:57:12] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[01:57:12]   Loaded.
+[01:57:12]  Loading plugin: pawncmd
+[01:57:12] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:57:12]   Loaded.
+[01:57:12]  Loading plugin: timerfix
+[01:57:12]   >> TimerFix v1.5 successfully loaded.
+[01:57:12]   Loaded.
+[01:57:12]  Loaded 6 plugins.
+
+[01:57:12] 
+[01:57:12] Filterscripts
+[01:57:12] ---------------
+[01:57:12]   Loaded 0 filterscripts.
+
+[01:57:12]  
+[01:57:12]  ======================================= 
+[01:57:12]  |                                     | 
+[01:57:12]  |    Optimising code, this may take   | 
+[01:57:12]  |        a little bit of time.        | 
+[01:57:12]  |                                     | 
+[01:57:12]  |            Please wait...           | 
+[01:57:12]  |                                     | 
+[01:57:12]  |=====================================| 
+[01:57:12]  |                                     | 
+[01:57:12]  | Note that these optimisations are   | 
+[01:57:12]  | designed to improve performance     | 
+[01:57:12]  | with the JIT plugin, which you are  | 
+[01:57:12]  | not currently using.  Get it here:  | 
+[01:57:12]  |                                     | 
+[01:57:12]  |      https://git.io/jit-plugin      | 
+[01:57:12]  |                                     | 
+[01:57:12]  ======================================= 
+[01:57:12]  
+[01:57:12]  
+[01:57:12]  
+[01:57:12]  
+[01:57:12]  ======================================= 
+[01:57:12]  |                                     | 
+[01:57:12]  |        YSI version 5.03.0689        | 
+[01:57:12]  |        By Alex "Y_Less" Cole        | 
+[01:57:12]  |                                     | 
+[01:57:12]  ======================================= 
+[01:57:12]  
+[01:57:13] Подключен к базе!!
+[01:57:13] Привет, мир!
+[01:57:13] Number of vehicle models: 0
+[01:57:42] [connection] 127.0.0.1:51560 requests connection cookie.
+[01:57:43] [connection] incoming connection: 127.0.0.1:51560 id: 0
+[01:57:43] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:28:29] 
+[03:28:29] Server Plugins
+[03:28:29] --------------
+[03:28:29]  Loading plugin: mysql
+[03:28:30]  >> plugin.mysql: R41-4 successfully loaded.
+[03:28:30]   Loaded.
+[03:28:30]  Loading plugin: sscanf
+[03:28:30] 
+
+[03:28:30]  ===============================
+
+[03:28:30]       sscanf plugin loaded.     
+
+[03:28:30]          Version:  2.8.2        
+
+[03:28:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[03:28:30]  ===============================
+
+[03:28:30]   Loaded.
+[03:28:30]  Loading plugin: streamer
+[03:28:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[03:28:30]   Loaded.
+[03:28:30]  Loading plugin: pawnraknet
+[03:28:30] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[03:28:30]   Loaded.
+[03:28:30]  Loading plugin: pawncmd
+[03:28:30] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[03:28:30]   Loaded.
+[03:28:30]  Loading plugin: timerfix
+[03:28:30]   >> TimerFix v1.5 successfully loaded.
+[03:28:30]   Loaded.
+[03:28:30]  Loaded 6 plugins.
+
+[03:28:30] 
+[03:28:30] Filterscripts
+[03:28:30] ---------------
+[03:28:30]   Loaded 0 filterscripts.
+
+[03:28:31]  
+[03:28:31]  ======================================= 
+[03:28:31]  |                                     | 
+[03:28:31]  |    Optimising code, this may take   | 
+[03:28:31]  |        a little bit of time.        | 
+[03:28:31]  |                                     | 
+[03:28:31]  |            Please wait...           | 
+[03:28:31]  |                                     | 
+[03:28:31]  |=====================================| 
+[03:28:31]  |                                     | 
+[03:28:31]  | Note that these optimisations are   | 
+[03:28:31]  | designed to improve performance     | 
+[03:28:31]  | with the JIT plugin, which you are  | 
+[03:28:31]  | not currently using.  Get it here:  | 
+[03:28:31]  |                                     | 
+[03:28:31]  |      https://git.io/jit-plugin      | 
+[03:28:31]  |                                     | 
+[03:28:31]  ======================================= 
+[03:28:31]  
+[03:28:31]  
+[03:28:31]  
+[03:28:31]  
+[03:28:31]  ======================================= 
+[03:28:31]  |                                     | 
+[03:28:31]  |        YSI version 5.03.0689        | 
+[03:28:31]  |        By Alex "Y_Less" Cole        | 
+[03:28:31]  |                                     | 
+[03:28:31]  ======================================= 
+[03:28:31]  
+[03:28:31] Подключен к базе!!
+[03:28:31] Привет, мир!
+[03:28:31] Number of vehicle models: 0
+[03:28:38] [connection] 127.0.0.1:54501 requests connection cookie.
+[03:28:39] [connection] incoming connection: 127.0.0.1:54501 id: 0
+[03:28:39] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:29:39] 
+[03:29:39] Server Plugins
+[03:29:39] --------------
+[03:29:39]  Loading plugin: mysql
+[03:29:39]  >> plugin.mysql: R41-4 successfully loaded.
+[03:29:39]   Loaded.
+[03:29:39]  Loading plugin: sscanf
+[03:29:39] 
+
+[03:29:39]  ===============================
+
+[03:29:39]       sscanf plugin loaded.     
+
+[03:29:39]          Version:  2.8.2        
+
+[03:29:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[03:29:39]  ===============================
+
+[03:29:39]   Loaded.
+[03:29:39]  Loading plugin: streamer
+[03:29:39] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[03:29:39]   Loaded.
+[03:29:39]  Loading plugin: pawnraknet
+[03:29:39] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[03:29:39]   Loaded.
+[03:29:39]  Loading plugin: pawncmd
+[03:29:39] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[03:29:39]   Loaded.
+[03:29:39]  Loading plugin: timerfix
+[03:29:39]   >> TimerFix v1.5 successfully loaded.
+[03:29:39]   Loaded.
+[03:29:39]  Loaded 6 plugins.
+
+[03:29:39] 
+[03:29:39] Filterscripts
+[03:29:39] ---------------
+[03:29:39]   Loaded 0 filterscripts.
+
+[03:29:39]  
+[03:29:39]  ======================================= 
+[03:29:39]  |                                     | 
+[03:29:39]  |    Optimising code, this may take   | 
+[03:29:39]  |        a little bit of time.        | 
+[03:29:39]  |                                     | 
+[03:29:39]  |            Please wait...           | 
+[03:29:39]  |                                     | 
+[03:29:39]  |=====================================| 
+[03:29:39]  |                                     | 
+[03:29:39]  | Note that these optimisations are   | 
+[03:29:39]  | designed to improve performance     | 
+[03:29:39]  | with the JIT plugin, which you are  | 
+[03:29:39]  | not currently using.  Get it here:  | 
+[03:29:39]  |                                     | 
+[03:29:39]  |      https://git.io/jit-plugin      | 
+[03:29:39]  |                                     | 
+[03:29:39]  ======================================= 
+[03:29:39]  
+[03:29:39]  
+[03:29:39]  
+[03:29:39]  
+[03:29:39]  ======================================= 
+[03:29:39]  |                                     | 
+[03:29:39]  |        YSI version 5.03.0689        | 
+[03:29:39]  |        By Alex "Y_Less" Cole        | 
+[03:29:39]  |                                     | 
+[03:29:39]  ======================================= 
+[03:29:39]  
+[03:29:39] Подключен к базе!!
+[03:29:39] Привет, мир!
+[03:29:39] Number of vehicle models: 0
+[03:29:41] [connection] 127.0.0.1:57956 requests connection cookie.
+[03:29:43] [connection] incoming connection: 127.0.0.1:57956 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:29:48] 
+[03:29:48] Server Plugins
+[03:29:48] --------------
+[03:29:48]  Loading plugin: mysql
+[03:29:48]  >> plugin.mysql: R41-4 successfully loaded.
+[03:29:48]   Loaded.
+[03:29:48]  Loading plugin: sscanf
+[03:29:48] 
+
+[03:29:48]  ===============================
+
+[03:29:48]       sscanf plugin loaded.     
+
+[03:29:48]          Version:  2.8.2        
+
+[03:29:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[03:29:48]  ===============================
+
+[03:29:48]   Loaded.
+[03:29:48]  Loading plugin: streamer
+[03:29:48] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[03:29:48]   Loaded.
+[03:29:48]  Loading plugin: pawnraknet
+[03:29:48] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[03:29:48]   Loaded.
+[03:29:48]  Loading plugin: pawncmd
+[03:29:48] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[03:29:48]   Loaded.
+[03:29:48]  Loading plugin: timerfix
+[03:29:48]   >> TimerFix v1.5 successfully loaded.
+[03:29:48]   Loaded.
+[03:29:48]  Loaded 6 plugins.
+
+[03:29:48] 
+[03:29:48] Filterscripts
+[03:29:48] ---------------
+[03:29:48]   Loaded 0 filterscripts.
+
+[03:29:48]  
+[03:29:48]  ======================================= 
+[03:29:48]  |                                     | 
+[03:29:48]  |    Optimising code, this may take   | 
+[03:29:48]  |        a little bit of time.        | 
+[03:29:48]  |                                     | 
+[03:29:48]  |            Please wait...           | 
+[03:29:48]  |                                     | 
+[03:29:48]  |=====================================| 
+[03:29:48]  |                                     | 
+[03:29:48]  | Note that these optimisations are   | 
+[03:29:48]  | designed to improve performance     | 
+[03:29:48]  | with the JIT plugin, which you are  | 
+[03:29:48]  | not currently using.  Get it here:  | 
+[03:29:48]  |                                     | 
+[03:29:48]  |      https://git.io/jit-plugin      | 
+[03:29:48]  |                                     | 
+[03:29:48]  ======================================= 
+[03:29:48]  
+[03:29:48]  
+[03:29:48]  
+[03:29:48]  
+[03:29:48]  ======================================= 
+[03:29:48]  |                                     | 
+[03:29:48]  |        YSI version 5.03.0689        | 
+[03:29:48]  |        By Alex "Y_Less" Cole        | 
+[03:29:48]  |                                     | 
+[03:29:48]  ======================================= 
+[03:29:48]  
+[03:29:48] Подключен к базе!!
+[03:29:48] Привет, мир!
+[03:29:48] Number of vehicle models: 0
+[03:29:53] [connection] 127.0.0.1:57960 requests connection cookie.
+[03:29:54] [connection] incoming connection: 127.0.0.1:57960 id: 0
+[03:29:54] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:31:01] 
+[03:31:01] Server Plugins
+[03:31:01] --------------
+[03:31:01]  Loading plugin: mysql
+[03:31:01]   Failed.
+[03:31:01]  Loading plugin: sscanf
+[03:31:01]   Failed.
+[03:31:01]  Loading plugin: streamer
+[03:31:01]   Failed.
+[03:31:01]  Loading plugin: pawnraknet
+[03:31:01]   Failed.
+[03:31:01]  Loading plugin: pawncmd
+[03:31:01]   Failed.
+[03:31:01]  Loading plugin: timerfix
+[03:31:01]   Failed.
+[03:31:01]  Loaded 0 plugins.
+
+[03:31:01] 
+[03:31:01] Filterscripts
+[03:31:01] ---------------
+[03:31:01]   Loaded 0 filterscripts.
+
+[03:31:01] Script[gamemodes/brilliant.amx]: Run time error 19: "File or function is not found"
+[03:31:01] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:31:27] 
+[03:31:27] Server Plugins
+[03:31:27] --------------
+[03:31:27]  Loading plugin: mysql
+[03:31:27]  >> plugin.mysql: R41-4 successfully loaded.
+[03:31:27]   Loaded.
+[03:31:27]  Loading plugin: sscanf
+[03:31:27] 
+
+[03:31:27]  ===============================
+
+[03:31:27]       sscanf plugin loaded.     
+
+[03:31:27]          Version:  2.8.2        
+
+[03:31:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[03:31:27]  ===============================
+
+[03:31:27]   Loaded.
+[03:31:27]  Loading plugin: streamer
+[03:31:27] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[03:31:27]   Loaded.
+[03:31:27]  Loading plugin: pawnraknet
+[03:31:27] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[03:31:27]   Loaded.
+[03:31:27]  Loading plugin: pawncmd
+[03:31:27] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[03:31:27]   Loaded.
+[03:31:27]  Loading plugin: timerfix
+[03:31:27]   >> TimerFix v1.5 successfully loaded.
+[03:31:27]   Loaded.
+[03:31:27]  Loaded 6 plugins.
+
+[03:31:27] 
+[03:31:27] Filterscripts
+[03:31:27] ---------------
+[03:31:27]   Loaded 0 filterscripts.
+
+[03:31:27]  
+[03:31:27]  ======================================= 
+[03:31:27]  |                                     | 
+[03:31:27]  |    Optimising code, this may take   | 
+[03:31:27]  |        a little bit of time.        | 
+[03:31:27]  |                                     | 
+[03:31:27]  |            Please wait...           | 
+[03:31:27]  |                                     | 
+[03:31:27]  |=====================================| 
+[03:31:27]  |                                     | 
+[03:31:27]  | Note that these optimisations are   | 
+[03:31:27]  | designed to improve performance     | 
+[03:31:27]  | with the JIT plugin, which you are  | 
+[03:31:27]  | not currently using.  Get it here:  | 
+[03:31:27]  |                                     | 
+[03:31:27]  |      https://git.io/jit-plugin      | 
+[03:31:27]  |                                     | 
+[03:31:27]  ======================================= 
+[03:31:27]  
+[03:31:27]  
+[03:31:27]  
+[03:31:27]  
+[03:31:27]  ======================================= 
+[03:31:27]  |                                     | 
+[03:31:27]  |        YSI version 5.03.0689        | 
+[03:31:27]  |        By Alex "Y_Less" Cole        | 
+[03:31:27]  |                                     | 
+[03:31:27]  ======================================= 
+[03:31:27]  
+[03:31:27] Подключен к базе!!
+[03:31:27] Привет, мир!
+[03:31:27] Number of vehicle models: 0
+[03:31:30] [connection] 127.0.0.1:64318 requests connection cookie.
+[03:31:31] [connection] incoming connection: 127.0.0.1:64318 id: 0
+[03:31:32] [join] Selena_Lunysh has joined the server (0:127.0.0.1)
