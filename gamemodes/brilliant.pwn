@@ -54,31 +54,32 @@
 
 */
 
-#pragma warning disable 204 // Symbol never used
-#pragma warning disable 203 //
+#pragma warning disable 217
 
 // —»—“≈ÃÕ€≈ »Õ À”ƒ€
 #include <a_samp>
-#define  YSI_NO_HEAP_MALLOC
-#include <YSI_Data/y_foreach>
 #include <a_mysql>
 #include <sscanf2>
-#include "../includes/brilliant_core.inc"
-#include "../includes/API.inc"
+#include <streamer>
+#include <YSI_Data/y_foreach>
+#include "../files/brilliant_core.inc"
+#include "../files/API.inc"
 
 
 // œŒƒ√–”∆¿≈Ã€≈ »Õ À”ƒ€
-#include <YSF>
+//#include <YSF>
 #include <Pawn.CMD>
-#include <mdialog>
+//#include <mdialog>
 #include <Pawn.RakNet>
-#include "../includes/mysql.inc"
-#include "../includes/PLAYER_system/PLAYER_variables.inc"
-#include "../includes/player_spawn.inc"
-#include "../includes/registration.inc" 
-#include "../includes/registration.inc"
-#include "../includes/admin.inc"
-#include "../includes/admin_cmd.inc"
+#include "../files/mysql.inc"
+#include "../files/PLAYER_system/PLAYER_variables.inc"
+#include "../files/PLAYER_system/player_spawn.inc"
+#include "../files/PLAYER_system/chat.inc"
+#include "../files/registration.inc"
+#include "../files/tester.inc"
+#include "../files/ADMIN_system/admin_cmd.inc"
+#include "../files/ADMIN_system/admin.inc"
+
 //#include <mxINI> // Œ¯Ë·Í‡
 
 //lang Ù‡ÈÎ˚
@@ -89,8 +90,16 @@
 
 main(){}
 
+cmd:int(playerid)
+{
+	FreezePlayer(playerid, 2000);
+	SetPlayerPos(playerid, 1079.0, 2279.25, 1121.7);
+	SetPlayerInterior(playerid, 3);
+}
+
 public OnGameModeInit()
 {
+    #include "../files/mapping/Kvartira.inc"
     mysql_log();
 	print(SYSTEM_HI_RU);
 }

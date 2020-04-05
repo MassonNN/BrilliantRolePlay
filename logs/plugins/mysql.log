@@ -61,3 +61,5 @@
 [22:34:22] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on '185.211.247.111' (10061)'
 [22:34:23] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on '185.211.247.111' (10061)'
 [22:34:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on '185.211.247.111' (10061)'
+[00:00:42] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/registration.inc:187)
+[00:30:01] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/registration.inc:180)
