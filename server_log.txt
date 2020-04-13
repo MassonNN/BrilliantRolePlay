@@ -20262,3 +20262,157 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [18:53:09] [connection] incoming connection: 127.0.0.1:56703 id: 0
 [18:53:09] [join] Roma_Omegov has joined the server (0:127.0.0.1)
 [18:53:32] [part] Roma_Omegov has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:44:08] 
+[10:44:08] Server Plugins
+[10:44:08] --------------
+[10:44:08]  Loading plugin: mysql
+[10:44:08]   Failed.
+[10:44:08]  Loading plugin: sscanf
+[10:44:08] 
+
+[10:44:08]  ===============================
+
+[10:44:08]       sscanf plugin loaded.     
+
+[10:44:08]          Version:  2.8.2        
+
+[10:44:08]    (c) 2012 Alex "Y_Less" Cole  
+
+[10:44:08]  ===============================
+
+[10:44:08]   Loaded.
+[10:44:08]  Loading plugin: streamer
+[10:44:08] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[10:44:08]   Loaded.
+[10:44:08]  Loading plugin: pawnraknet
+[10:44:09] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[10:44:09]   Loaded.
+[10:44:09]  Loading plugin: pawncmd
+[10:44:09] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[10:44:09]   Loaded.
+[10:44:09]  Loading plugin: timerfix
+[10:44:09]   >> TimerFix v1.5 successfully loaded.
+[10:44:09]   Loaded.
+[10:44:09]  Loaded 5 plugins.
+
+[10:44:09] 
+[10:44:09] Filterscripts
+[10:44:09] ---------------
+[10:44:09]   Loaded 0 filterscripts.
+
+[10:44:09] Script[gamemodes/brilliant.amx]: Run time error 19: "File or function is not found"
+[10:44:09] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:44:55] 
+[10:44:55] Server Plugins
+[10:44:55] --------------
+[10:44:55]  Loading plugin: sscanf
+[10:44:55] 
+
+[10:44:55]  ===============================
+
+[10:44:55]       sscanf plugin loaded.     
+
+[10:44:55]          Version:  2.8.2        
+
+[10:44:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[10:44:55]  ===============================
+
+[10:44:55]   Loaded.
+[10:44:55]  Loading plugin: streamer
+[10:44:55] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[10:44:55]   Loaded.
+[10:44:55]  Loading plugin: pawnraknet
+[10:44:55] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[10:44:56]   Loaded.
+[10:44:56]  Loading plugin: pawncmd
+[10:44:56] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[10:44:56]   Loaded.
+[10:44:56]  Loading plugin: timerfix
+[10:44:56]   >> TimerFix v1.5 successfully loaded.
+[10:44:56]   Loaded.
+[10:44:56]  Loaded 5 plugins.
+
+[10:44:56] 
+[10:44:56] Filterscripts
+[10:44:56] ---------------
+[10:44:56]   Loaded 0 filterscripts.
+
+[10:44:56] Script[gamemodes/brilliant.amx]: Run time error 19: "File or function is not found"
+[10:44:56] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:46:33] 
+[10:46:33] Server Plugins
+[10:46:33] --------------
+[10:46:33]  Loading plugin: mysql
+[10:46:33]   Failed.
+[10:46:33]  Loading plugin: sscanf
+[10:46:33] 
+
+[10:46:33]  ===============================
+
+[10:46:33]       sscanf plugin loaded.     
+
+[10:46:33]          Version:  2.8.2        
+
+[10:46:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[10:46:33]  ===============================
+
+[10:46:33]   Loaded.
+[10:46:33]  Loading plugin: streamer
+[10:46:33] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[10:46:33]   Loaded.
+[10:46:33]  Loading plugin: pawnraknet
+[10:46:33] Pawn.RakNet plugin v1.3.0 by urShadow has been loaded
+[10:46:33]   Loaded.
+[10:46:33]  Loading plugin: pawncmd
+[10:46:33] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[10:46:33]   Loaded.
+[10:46:33]  Loading plugin: timerfix
+[10:46:33]   >> TimerFix v1.5 successfully loaded.
+[10:46:33]   Loaded.
+[10:46:33]  Loaded 5 plugins.
+
+[10:46:33] 
+[10:46:33] Filterscripts
+[10:46:33] ---------------
+[10:46:33]   Loaded 0 filterscripts.
+
+[10:46:33] Script[gamemodes/brilliant.amx]: Run time error 19: "File or function is not found"
+[10:46:33] Number of vehicle models: 0

@@ -111,7 +111,7 @@ stock timestamp_to_date
 		строку с численными значениями даты вместо их псевдонимов
 		размер строки = sizeOfOutput
 */
-stock date ( formatStr[] = "%dd.%mm.%yyyy, %hh:%ii:%ss", timestamp = 0 )
+stock date ( const formatStr[] = "%dd.%mm.%yyyy, %hh:%ii:%ss", timestamp = 0 )
 {
 	// ------------
 	const sizeOfOutput = 128; // размер возвращаемой строки

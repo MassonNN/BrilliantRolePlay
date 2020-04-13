@@ -1,8 +1,16 @@
+new TempPlayerPassword[MAX_PLAYERS][33];
+
 enum 
 {
 	DIALOG_REG,
 	DIALOG_LOG,
 	DIALOG_SEX
+}
+
+public OnPlayerDisconnect(playerid, reason)
+{
+	TempPlayerPassword[playerid][0] = EOS;
+	return 1;
 }
 
 public OnPlayerConnect(playerid)
@@ -32,8 +40,6 @@ public OnPlayerRequestClass(playerid, classid)
 	return 1;
 }
 
-new TempPlayerPassword[MAX_PLAYERS][33];
-
 forward CheckAcc(playerid);
 public CheckAcc(playerid)
 {
@@ -45,8 +51,8 @@ public CheckAcc(playerid)
     	}
     	else
     	{
+    		cache_get_value_name(0, "password", TempPlayerPassword[playerid]);
      	    ShowPlayerDialog(playerid, DIALOG_LOG, DIALOG_STYLE_PASSWORD, !"Авторизация", !"{FFFFFF}Введите пароль от своего аккаунта", !"Далее", !"Отмена");
-    	    cache_get_value_name(0, "password", TempPlayerPassword[playerid]);
     	}
     	return 1;
 }
@@ -163,7 +169,7 @@ public OnPlayerLogin(playerid)
 	return 1;
 }
 
-CreateAcc(playerid, const password[])
+stock CreateAcc(playerid, const password[])
 {
 	new qString[200], skin;
 	if(PI[playerid][PLAYER_Sex] == 1)

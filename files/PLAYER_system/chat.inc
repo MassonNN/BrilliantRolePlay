@@ -1,3 +1,5 @@
+#include <YSI_Coding/y_hooks>
+
 public OnPlayerText(playerid, text[])
 {
     if(!PI[playerid][PLAYER_Logged]) return Kick(playerid);

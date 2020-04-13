@@ -6,17 +6,27 @@
 
 */
 
-#define COLOR_WHITE			#FFFFFF
-#define COLOR_WHITE_L		0xFFFFFFFF
-#define COLOR_WHITE_S		"{FFFFFF}"
+#define COLOR_WHITE_H            FFFFFF
+#define COLOR_WHITE_L            0xFFFFFFFF
+#define COLOR_WHITE_S            "{FFFFFF}"
 
-#define COLOR_RED			#CC0000
-#define COLOR_RED_L			0xCC0000FF
-#define COLOR_RED_S			"{CC0000}"
+#define COLOR_BLUE_H            0366FC
+#define COLOR_BLUE_L            0x0366FCFF
 
-#define COLOR_BLUE 			#0000FF
-#define COLOR_BLUE_L		0x0000FFFF
-#define COLOR_BLUE_S		"{0000FF}"
+#define COLOR_RED_H             FF0000
+#define COLOR_RED_L             0xFF0000FF
+
+#define COLOR_ADM_H             EC4646
+#define COLOR_ADM_L             0xEC4646FF
+
+#define COLOR_ADMIN_H           006000
+#define COLOR_ADMIN_L           0x006000FF
+
+#define COLOR_SYSTEM_H          6B6B6B
+#define COLOR_SYSTEM_L          0x6B6B6BFF
+
+#define COLOR_PURPLE_H          F398F0
+#define COLOR_PURPLE_L          0xF398F0FF
 
 #define COLOR_GRAY          #DFDFDF
 #define COLOR_GRAY_L		0xDFDFDFFF
@@ -41,10 +51,6 @@
 #define COLOR_CYAN			#00FFFF
 #define COLOR_CYAN_L		0x00FFFFFF
 #define COLOR_CYAN_S		"{00FFFF}"
-
-#define COLOR_PURPLE		#800080
-#define COLOR_PURPLE_L		0x800080FF
-#define COLOR_PURPLE_S		"{800080}"
 
 #define COLOR_CHOCOLATE 	#D2691E
 #define COLOR_CHOCOLATE_L 	0xD2691EFF

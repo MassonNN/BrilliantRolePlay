@@ -1,3 +1,35 @@
+/*----------------------------------------------------------------------------------------------------*-
+
+Автор:
+	Fro он же Fro1sha
+	
+Описание:
+	Русский текст в SA:MP
+ 
+Права: 
+    Copyright © 2009-2011 TBG
+	
+
+
+                            ______              __________             
+                            ___  /______  __    ___  ____/____________ 
+                            __  __ \_  / / /    __  /_   __  ___/  __ \
+                            _  /_/ /  /_/ /     _  __/   _  /   / /_/ /
+                            /_.___/_\__, /      /_/      /_/    \____/ 
+                                   /____/                              
+                                                                              
+																				
+           _______________       _________                                              
+           ___  __/__  __ )      __  ____/_____ _______ ________________ ___________  __
+           __  /  __  __  |_______  / __ _  __ `/_  __ `__ \  _ \_  ___/ __  ___/  / / /
+           _  /   _  /_/ /_/_____/ /_/ / / /_/ /_  / / / / /  __/(__  )___  /   / /_/ / 
+           /_/    /_____/        \____/  \__,_/ /_/ /_/ /_/\___//____/_(_)_/    \__,_/  
+                                                                                        
+
+	http://tb-games.ru/
+	
+-*----------------------------------------------------------------------------------------------------*/
+
 #if defined _crp_included
 	#endinput
 #endif
@@ -21,8 +53,6 @@ native _AddMenuItem(Menu:menuid, column, const menutext[]) = AddMenuItem;
 native _SetMenuColumnHeader(Menu:menuid, column, const columnheader[]) = SetMenuColumnHeader;
 native Text:_TextDrawCreate(Float:x, Float:y, text[]) = TextDrawCreate;
 native _TextDrawSetString(Text:text, string[]) = TextDrawSetString;
-native PlayerText:_CreatePlayerTextDraw(playerid, Float:x, Float:y, text[]) = CreatePlayerTextDraw;
-native _PlayerTextDrawSetString(playerid, PlayerText: text, string[]) = PlayerTextDrawSetString;
 
 // -------------------------------------------------------------------------------------*-
 
@@ -107,34 +137,15 @@ stock TextDrawSetStringRus(Text:text, string[])
 	CRP(string, buffer);
 	return TextDrawSetString(text, buffer);
 }
-stock PlayerText: CreatePlayerTextDrawRus(playerid, Float:x, Float:y, text[])
-{
-	new 
-		buffer[ 256 ]
-	;
-	CRP(text, buffer);
-	return CreatePlayerTextDraw(playerid, x, y, buffer);
-}
-stock PlayerTextDrawSetStringRus(playerid, PlayerText:text, string[])
-{
-	new
-		buffer[ 256 ]
-	;
-	
-	CRP(string, buffer);
-	return PlayerTextDrawSetString(playerid, text, buffer);
-}
 
 // -------------------------------------------------------------------------------------*-
 
 #define GameTextForAll 			GameTextForAllRus
 #define GameTextForPlayer 		GameTextForPlayerRus
-#define CreateMenu 			CreateMenuRus
+#define CreateMenu 				CreateMenuRus
 #define AddMenuItem 			AddMenuItemRus
-#define SetMenuColumnHeader 		SetMenuColumnHeaderRus
+#define SetMenuColumnHeader 	SetMenuColumnHeaderRus
 #define TextDrawCreate 			TextDrawCreateRus
 #define TextDrawSetString 		TextDrawSetStringRus
-#define CreatePlayerTextDraw		CreatePlayerTextDrawRus
-#define PlayerTextDrawSetString		PlayerTextDrawSetStringRus
 
 // -------------------------------------------------------------------------------------*-

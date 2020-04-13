@@ -23,5 +23,5 @@ hook OnPlayerConnect(playerid) {
 		}
 		continue;
 	}
-	return Kick(playerid);
+	return Kick(playerid), Y_HOOKS_CONTINUE_RETURN_1;
 }

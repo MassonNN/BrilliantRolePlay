@@ -11,6 +11,17 @@ stock UnknownCommand(playerid) {
 	return 1;
 }
 
+stock LoggedInAdmin(playerid) {
+	format(global, sizeof(global), "<ADM> %s вошел в систему администрирования", PI[playerid][PLAYER_Name]);
+	SendAdmin(global, COLOR_HAKI_S);
+	return 1;
+}
+
+//Игрок не зареган в админке
+stock NotLoggedInAdmin(playerid) {
+	SendClientMessage(playerid, COLOR_WHITE_L, !"Для того, чтобы использывать эту "COLOR_HAKI_S"команду "COLOR_WHITE_S"- войдите в систему администрирования используя "COLOR_HAKI_S"/alogin");
+	return 1;
+}
 
 //Задержка для кика (fix)
 stock GKick(playerid) {
@@ -52,6 +63,15 @@ stock SendSuccess(playerid, text[]) {
 }
 
 
+stock GetPlayerTurn(playerid, &Float:x, &Float:y, &Float:z, Float:distance, turn)
+{
+    new Float:angle,Float:dis;
+    dis = dis/2 - distance;
+    GetPlayerPos(playerid, x, y, z),GetPlayerFacingAngle(playerid, angle);
+    x += (dis * floatsin(-angle+turn, degrees)),y += (dis * floatcos(-angle+turn, degrees));
+    return 1;
+}
+
 
 // ERRORS
 
@@ -78,11 +98,11 @@ stock SendError(playerid, text[], error_id = 0) {
 }
 
 // Отправить сообщение администрации, где color - цвет, minlevel - минимальный уровень админа для отправления сообщения
-stock SendAdmin(text[], color = -1, minlevel = 1) {
+stock SendAdmin(const text[], color = -1, minlevel = 1) {
 	foreach(new i : Player) {
 		if(PI[i][PLAYER_Admin] < minlevel) continue;
 		else {
-			SendMessage(i, color, text);
+			SendClientMessage(i, color, text);
 		}
 	}
 }
