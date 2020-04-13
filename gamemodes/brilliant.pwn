@@ -307,6 +307,16 @@ public OnGameModeInit()
     SetTimer("SecondUpdate", 1000, true);
 }
 
+enum e_ReportSystem
+{
+    bool:Attempt,
+    Sender[25],
+    SenderID,
+    Question[150],
+    bool:Check,
+}
+new RS[100][e_ReportSystem];
+
 static const PlayerMenu[] = 
     !"{FFFFFF}1. Статистика персонажа\n\
     {FFFFFF}2. Паспорт\n\
@@ -369,6 +379,7 @@ static const AdminCommands[][] = {
 
 public OnPlayerSpawn(playerid)
 {
+    SetPlayerHealth(playerid, 100);
     ResetPlayerMoney(playerid);
     GivePlayerMoney(playerid, PI[playerid][PLAYER_Money]);
     FreezePlayer(playerid, 2300);
@@ -464,6 +475,8 @@ enum
     DIALOG_AHELP,
     DIALOG_MM,
     DIALOG_CHANGENICK, 
+    DIALOG_AREP,
+    DIALOG_REPORT,
 
     //CAR
     DIALOG_TUNE,
@@ -564,6 +577,12 @@ public OnPlayerDisconnect(playerid, reason)
     online--;
     return 1;
 }                        
+
+public OnPlayerDeath(playerid)
+{
+    OnPlayerSpawn(playerid);
+    return 1;
+}
 
 public OnPlayerConnect(playerid)
 {
@@ -787,16 +806,19 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
         }
         case DIALOG_SPOILERS:
         {
+            if(!response) return 0;
             if(!IsPlayerInAnyVehicle(playerid)) return SendClientMessage(playerid, COLOR_WHITE_L, !"Можно использовать только в машине");
             AddVehicleComponent(GetPlayerVehicleID(playerid), a_TUNE_SPOILERS[listitem][TUNING_ID]);
         }
         case DIALOG_HOOD:
         {
+            if(!response) return 0;
             if(!IsPlayerInAnyVehicle(playerid)) return SendClientMessage(playerid, COLOR_WHITE_L, !"Можно использовать только в машине");
             AddVehicleComponent(GetPlayerVehicleID(playerid), a_TUNE_HOOD[listitem][TUNING_ID]);
         }
         case DIALOG_ROOF:
         {
+            if(!response) return 0;
             if(!IsPlayerInAnyVehicle(playerid)) return SendClientMessage(playerid, COLOR_WHITE_L, !"Можно использовать только в машине");
             AddVehicleComponent(GetPlayerVehicleID(playerid), a_TUNE_ROOF[listitem][TUNING_ID]);
         }
@@ -807,6 +829,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
         }
         case DIALOG_NITRO:
         {
+            if(!response) return 0;
             if(!IsPlayerInAnyVehicle(playerid)) return SendClientMessage(playerid, COLOR_WHITE_L, !"Можно использовать только в машине");
             AddVehicleComponent(GetPlayerVehicleID(playerid), a_TUNE_NITRO[listitem][TUNING_ID]);
         }
@@ -848,6 +871,11 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
             new string[144];
             format(string, sizeof(string), "SELECT `name` FROM `accounts` WHERE `name` = '%s'", inputtext);
             mysql_tquery(dbHandle, string, "OnPlayerChangeNick", "ds", playerid, inputtext);
+        }
+        case DIALOG_AREP:
+        {
+            if(!response) return 0;
+            if(RS[listitem][Check]) return SendClientMessage(playerid, COLOR_WHITE_L, !"Репорт уже на проверке!");
         }
 	}
  	return 1;
@@ -961,17 +989,70 @@ cmd:todo(playerid, params[])
 
 cmd:report(playerid, params[])
 {
+    if(GetPVarInt(playerid, "SendReport") == 1) return SendClientMessage(playerid, COLOR_WHITE_L, !"Вы уже писали в репорт");
     if(GetPVarInt(playerid, "Report") > gettime()) return SendClientMessage(playerid, COLOR_WHITE_L, !"Писать в report можно лишь раз в минуту");
     if(strlen(params) < 2) return SendClientMessage(playerid, COLOR_WHITE_L, !"Используйте /report [Текст]");
     if(strlen(params) > 115) return SendClientMessage(playerid, COLOR_WHITE_L, !"Текст слишком длинный!");
     SetPVarInt(playerid, "Report", gettime() + 60);
-    new str[160];
-    format(str, sizeof(str), "[REP] {3fed39}%s: %s", PI[playerid][PLAYER_Name], params);
-    SendAdmin(str, 0xf5f51bFF);
+    for(new i; i < 100; i++)
+    {
+        if(RS[i][Attempt]) continue;
+        new str[144];
+        format(str, sizeof(str), "[REP] {3fed39}%s: %s", PI[playerid][PLAYER_Name], params);
+        SendAdmin(str, 0xf5f51bFF);
+        RS[i][Attempt] = true;
+        RS[i][SenderID] = playerid;
+        strcat(RS[i][Sender], PI[playerid][PLAYER_Name]);
+        strcat(RS[i][Question], params);
+        SetPVarInt(playerid, "SendReport", 1);
+        return 1;
+    }
+    return SendClientMessage(playerid, COLOR_WHITE_L, !"Очередь в репорт забита");
+}
+
+cmd:pay(playerid, params[])
+{
+    if(sscanf(params, "dd", params[0], params[1])) return SendClientMessage(playerid, COLOR_WHITE_L, !"Используйте /pay [ID] [Сумма]");
+    if(!IsPlayerConnected(params[0])) return SendClientMessage(playerid, COLOR_WHITE_L, !"Вы слишком далеко от этого игрока");
+    if(params[0] == playerid) return 0;
+    if(params[1] > PI[playerid][PLAYER_Money]) return SendClientMessage(playerid, COLOR_WHITE_L, !"У Вас нету столько денег");
+    if(params[1] < 1 || params[1]> 100000) return SendClientMessage(playerid, COLOR_WHITE_L, !"До 100.000 за раз");
+    new Float:InputX, Float:InputY, Float:InputZ;
+    GetPlayerPos(params[0], InputX, InputY, InputZ);
+    if(!IsPlayerInRangeOfPoint(playerid, 3, InputX, InputY, InputZ)) return SendClientMessage(playerid, COLOR_WHITE_L, !"Вы слишком далеко от этого игрока");
+    new string[144];
+    TakeMoney(playerid, params[1]);
+    GiveMoney(params[0], params[1]);
+    format(string, sizeof(string), "Вы передали %s %d %s", PI[params[0]][PLAYER_Name], params[1], FormatedInt(params[1], "рубль", "рубля", "рублей"));
+    SendClientMessage(playerid, 0xdb74b8FF, string);
+    format(string, sizeof(string), "%s передал Вам %d %s", PI[playerid][PLAYER_Name], params[1], FormatedInt(params[1], "рубль", "рубля", "рублей"));
+    SendClientMessage(params[0], 0xdb74b8FF, string);
     return 1;
 }
 
 ///////////////////////////////////////////////////[КОМАНДЫ ДЛЯ АДМИНИСТРАТОРА 1+ УРОВНЯ]////////////////////////////////////////////////////////////////////
+
+cmd:rep(playerid)
+{
+    if(PI[playerid][PLAYER_Admin] < 1) return UnknownCommand(playerid);
+    if(!PI[playerid][PLAYER_AdminLogged]) return NotLoggedInAdmin(playerid);
+    new report[50];
+    new dialog[3500];
+    for(new i = 0; i < 100; i++)
+    {
+        if(RS[i][Attempt])
+        {
+            format(report, sizeof(report), "Репорт от {ffa21f}%s%s\n", RS[i][Sender], RS[i][Check] ? ("\t{fc1e05}На проверке") : (""));
+            strcat(dialog, report);
+        }
+        else
+        {
+            strcat(dialog, "Пусто\n");
+        }
+    }
+    ShowPlayerDialog(playerid, DIALOG_AREP, DIALOG_STYLE_LIST, !"Репорт", dialog, !"Выбрать", !"Отмена");
+    return 1;
+}
 
 cmd:ahelp(playerid)
 {
@@ -1220,6 +1301,8 @@ cmd:veh(playerid, params[])
     }
     else return SendClientMessage(playerid, COLOR_WHITE_L, !"Используйте /veh [ID/Имя] [ID цвета] [ID цвета]");
     ChangeVehicleColor(AVeh[playerid], params[1], params[2]);
+    new Adm[20] = "{FF0000}ADMIN";
+    SetVehicleNumberPlate(AVeh[playerid], Adm);
     return 1;
 }
 
@@ -1251,6 +1334,7 @@ cmd:fixveh(playerid)
     if(!PI[playerid][PLAYER_AdminLogged]) return NotLoggedInAdmin(playerid);
     if(!IsPlayerInAnyVehicle(playerid)) return SendClientMessage(playerid, COLOR_WHITE_L, !"Можно использовать только в машине");
     SetVehicleHealth(GetPlayerVehicleID(playerid), 1000.0);
+    RepairVehicle(GetPlayerVehicleID(playerid));
     SendClientMessage(playerid, COLOR_WHITE_L, !"Вы починили машину");
     return 1;
 }
@@ -1478,21 +1562,23 @@ callback:CreateAcc(playerid, const password[])
 
 stock GiveMoney(playerid, money)
 {
-    if(money < 1) return 1;
     new str[144];
-    I[playerid][PLAYER_Money] += money;
+    PI[playerid][PLAYER_Money] = PI[playerid][PLAYER_Money] + money;
     format(str, sizeof(str), "UPDATE `accounts` SET `money` = '%d' WHERE `id` = '%d'", PI[playerid][PLAYER_Money], PI[playerid][PLAYER_ID]);
     mysql_tquery(dbHandle, str);
+    ResetPlayerMoney(playerid);
+    GivePlayerMoney(playerid, PI[playerid][PLAYER_Money]);
     return 1;
 }
 
 stock TakeMoney(playerid, money)
 {
-    if(money > -1) return 1;
     new str[144];
-    PI[playerid][PLAYER_Money] -= money;
+    PI[playerid][PLAYER_Money] = PI[playerid][PLAYER_Money] - money;
     format(str, sizeof(str), "UPDATE `accounts` SET `money` = '%d' WHERE `id` = '%d'", PI[playerid][PLAYER_Money], PI[playerid][PLAYER_ID]);
     mysql_tquery(dbHandle, str);
+    ResetPlayerMoney(playerid);
+    GivePlayerMoney(playerid, PI[playerid][PLAYER_Money]);
     return 1;
 }
 
