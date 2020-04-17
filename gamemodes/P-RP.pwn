@@ -4349,10 +4349,10 @@ static const stock pdd_MSG[][] = {
 
 //========================[ Загруженные объекты ]===============================
 // - Спидометр;
-stock LoadTextDrawSpeed()
-{
-    #include "../include/textdraws/LoadTextDrawSpeed"
-}
+// stock LoadTextDrawSpeed()
+// {
+//     #include "../include/textdraws/LoadTextDrawSpeed"
+// }
 
 /*stock LoadTextDrawsBrilliant()
 {
@@ -5085,7 +5085,7 @@ public OnGameModeInit()
 	CreateDynamic3DTextLabel("{FFCC00}Шахта\n{FFFFFF}Металл: {0099FF}4935670 кг",-1,1646.49, 1409.40, 12.00+2,5.0,INVALID_PLAYER_ID,INVALID_VEHICLE_ID,-1,-1); // текст шахта
 	CreateDynamic3DTextLabel("{FFFFFF}Получение номеров\nВведите {FFCC00}/mynumber",-1,-101.0118,737.2228,1620.9200,5.0,INVALID_PLAYER_ID,INVALID_VEHICLE_ID,-1,-1); // текст ДПС
 	//==========================================================================
-	LoadTextDrawSpeed();
+	// LoadTextDrawSpeed();
 // 	LoadTextDrawGreenZone();
 //	LoadTextDrawsBrilliant();
 	LoadPickups();
