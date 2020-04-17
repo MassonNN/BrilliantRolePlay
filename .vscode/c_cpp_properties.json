@@ -1,0 +1,1 @@
+{    "configurations": [        {            "name": "Win32",            "includePath": ["E:/devsamp/pawno/include"],            "browse" : {                "limitSymbolsToIncludedHeaders" : false,                "databaseFilename" : ""            }        }    ]}

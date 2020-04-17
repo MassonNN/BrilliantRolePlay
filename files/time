@@ -1,0 +1,216 @@
+stock Speedometr(playerid)
+{
+
+	/* 
+		new speed_textpa[playerid] [7] = {
+			0 - спидометр
+			1 - поворотник влево
+			2 - поворотник вправо
+			3 - иконка двигателя
+			4 - иконка лимита скорости
+			5 - иконка дверей
+			6 - иконка фар
+			7 - аварийка
+		}
+	
+	*/
+
+	for(new i, j = sizeof(speed_textpa[playerid]), i < j, i++) PlayerTextDrawDestroy(speed_textpa[playerid][i]);
+
+	new tmpid = GetPlayerVehicleID(playerid);
+	if(tmpid == INVALID_VEHICLE_ID) return 1;
+	//==============================================================================
+
+	
+
+	speed_textpa[playerid][0] = CreatePlayerTextDraw(playerid, 531.303600, 305.083400, "speed:speed");              // - Основной спидометр
+	PlayerTextDrawLetterSize(playerid, playerid, speed_textpa[playerid][0], 0.000000, 0.000000);
+	PlayerTextDrawTextSize(playerid, playerid, speed_textpa[playerid][0], 114.399711, 138.250030);
+	PlayerTextDrawAlignment(playerid, playerid, speed_textpa[playerid][0], 1);
+	PlayerTextDrawColor(playerid, playerid, speed_textpa[playerid][0], -1);
+	PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][0], 0);
+	PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][0], 0);
+	PlayerTextDrawFont(playerid, speed_textpa[playerid][0], 4);
+
+	switch(side_light) // Поворотники
+	{
+		case 1: { // Поворотник налево
+
+			speed_textpa[playerid][1] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:left1");              // - Поворотник в лево ВКЛ
+			PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][1], 0.000000, 0.000000);
+			PlayerTextDrawTextSize(playerid, speed_textpa[playerid][1], 114.399711, 138.250030);
+			PlayerTextDrawAlignment(playerid, speed_textpa[playerid][1], 1);
+			PlayerTextDrawColor(playerid, speed_textpa[playerid][1], -1);
+			PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][1], 0);
+			PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][1], 0);
+			PlayerTextDrawFont(playerid, speed_textpa[playerid][1], 4);
+
+			speed_textpa[playerid][2] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:right2");             // - Поворотник в право ВЫКЛ
+			PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][2], 0.000000, 0.000000);
+			PlayerTextDrawTextSize(playerid, speed_textpa[playerid][2], 114.399711, 138.250030);
+			PlayerTextDrawAlignment(playerid, speed_textpa[playerid][2], 1);
+			PlayerTextDrawColor(playerid, speed_textpa[playerid][2], -1);
+			PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][2], 0);
+			PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][2], 0);
+			PlayerTextDrawFont(playerid, speed_textpa[playerid][2], 4);
+		}
+
+		case 2: { // Поворотник направо
+
+			speed_textpa[playerid][2] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:right1");             // - Поворотник в право ВКЛ
+			PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][2], 0.000000, 0.000000);
+			PlayerTextDrawTextSize(playerid, speed_textpa[playerid][2], 114.399711, 138.250030);
+			PlayerTextDrawAlignment(playerid, speed_textpa[playerid][2], 1);
+			PlayerTextDrawColor(playerid, speed_textpa[playerid][2], -1);
+			PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][2], 0);
+			PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][2], 0);
+			PlayerTextDrawFont(playerid, speed_textpa[playerid][2], 4);
+
+			speed_textpa[playerid][1] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:left2");              // - Поворотник в лево ВЫКЛ
+			PlayerTextDrawLetterSize(playerid, SPEED8, 0.000000, 0.000000);
+			PlayerTextDrawTextSize(playerid, SPEED8, 114.399711, 138.250030);
+			PlayerTextDrawAlignment(playerid, SPEED8, 1);
+			PlayerTextDrawColor(playerid, SPEED8, -1);
+			PlayerTextDrawSetShadow(playerid, SPEED8, 0);
+			PlayerTextDrawSetOutline(playerid, SPEED8, 0);
+			PlayerTextDrawFont(playerid, SPEED8, 4);
+		}
+
+		default: { // Поворотники выключены
+
+				speed_textpa[playerid][1] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:left2");              // - Поворотник в лево ВЫКЛ
+				PlayerTextDrawLetterSize(playerid, SPEED8, 0.000000, 0.000000);
+				PlayerTextDrawTextSize(playerid, SPEED8, 114.399711, 138.250030);
+				PlayerTextDrawAlignment(playerid, SPEED8, 1);
+				PlayerTextDrawColor(playerid, SPEED8, -1);
+				PlayerTextDrawSetShadow(playerid, SPEED8, 0);
+				PlayerTextDrawSetOutline(playerid, SPEED8, 0);
+				PlayerTextDrawFont(playerid, SPEED8, 4);
+
+				speed_textpa[playerid][2] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:right2");             // - Поворотник в право ВЫКЛ
+				PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][2], 0.000000, 0.000000);
+				PlayerTextDrawTextSize(playerid, speed_textpa[playerid][2], 114.399711, 138.250030);
+				PlayerTextDrawAlignment(playerid, speed_textpa[playerid][2], 1);
+				PlayerTextDrawColor(playerid, speed_textpa[playerid][2], -1);
+				PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][2], 0);
+				PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][2], 0);
+				PlayerTextDrawFont(playerid, speed_textpa[playerid][2], 4);
+		}
+	}
+
+	if(Engine[tmpid] == true) {
+		speed_textpa[playerid][3] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:engine1");            // - Иконка двигателя ВК
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][3], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][3], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][3], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][3], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][3], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][3], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][3], 4);
+	}
+
+	else {
+			speed_textpa[playerid][3] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:engine2");            // - Иконка двигателя ВЫКЛ
+			PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][3], 0.000000, 0.000000);
+			PlayerTextDrawTextSize(playerid, speed_textpa[playerid][3], 114.399711, 138.250030);
+			PlayerTextDrawAlignment(playerid, speed_textpa[playerid][3], 1);
+			PlayerTextDrawColor(playerid, speed_textpa[playerid][3], -1);
+			PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][3], 0);
+			PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][3], 0);
+			PlayerTextDrawFont(playerid, speed_textpa[playerid][3], 4);
+	}
+
+	if(speed_limit[tmpid] == true) {
+		speed_textpa[playerid][4] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:limit1");             // - Иконка лимита скорости ВКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][4], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][4], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][4], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][4], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][4], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][4], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][4], 4);
+	}
+
+	else {
+		speed_textpa[playerid][4] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:limit2");             // - Иконка лимита скорости ВЫКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][4], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][4], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][4], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][4], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][4], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][4], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][4], 4);
+	}
+
+
+	if(IsLocked[tmpid] == true) {
+		speed_textpa[playerid][5] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:door1");              // - Иконка дверей ВКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][5], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][5], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][5], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][5], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][5], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][5], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][5], 4);		
+	}
+
+	else {	
+		speed_textpa[playerid][5] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:door2");              // - Иконка дверей ВЫКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][5], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][5], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][5], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][5], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][5], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][5], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][5], 4);
+
+	}
+
+	if(Lights[tmpid] == true) {
+		speed_textpa[playerid][6] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:light1");             // - Иконка фар ВКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][6], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][6], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][6], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][6], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][6], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][6], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][6], 4);
+	}
+
+	else {
+		speed_textpa[playerid][6] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:light2");             // - Иконка фар ВЫКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][6], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][6], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][6], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][6], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][6], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][6], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][6], 4);
+	}
+
+	if(accident_light[tmpid] == true) {
+		speed_textpa[playerid][7] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:middle1");            // - Аварийка ВКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][7], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][7], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][7], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][7], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][7], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][7], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][7], 4);	
+	}
+
+	else {
+		speed_textpa[playerid][7] = PlayerTextDrawCreate(531.303600, 305.083400, "speed:middle2");            // - Аварийка ВЫКЛ
+		PlayerTextDrawLetterSize(playerid, speed_textpa[playerid][7], 0.000000, 0.000000);
+		PlayerTextDrawTextSize(playerid, speed_textpa[playerid][7], 114.399711, 138.250030);
+		PlayerTextDrawAlignment(playerid, speed_textpa[playerid][7], 1);
+		PlayerTextDrawColor(playerid, speed_textpa[playerid][7], -1);
+		PlayerTextDrawSetShadow(playerid, speed_textpa[playerid][7], 0);
+		PlayerTextDrawSetOutline(playerid, speed_textpa[playerid][7], 0);
+		PlayerTextDrawFont(playerid, speed_textpa[playerid][7], 4);
+	}
+
+	return 1;
+
+
+}

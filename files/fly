@@ -1,0 +1,30 @@
+FlyTXD = TextDrawCreate(241.222534, 185.499969, "admin:rejim_poleta"); 
+TextDrawLetterSize(FlyTXD, 0.000000, 0.000000); 
+TextDrawTextSize(FlyTXD, 177.569564, 96.833297); 
+TextDrawAlignment(FlyTXD, 1); 
+TextDrawColor(FlyTXD, -1); 
+TextDrawSetShadow(FlyTXD, 248); 
+TextDrawSetOutline(FlyTXD, 0); 
+TextDrawFont(FlyTXD, 4); 
+
+	Interact_FlyTXD[playerid][0] = TextDrawCreate(326.685211, 250.583328, "usebox"); 
+	TextDrawLetterSize(Interact_FlyTXD[playerid][0], 0.000000, 2.016664); 
+	TextDrawTextSize(Interact_FlyTXD[playerid][0], 251.938507, 0.000000); 
+	TextDrawAlignment(Interact_FlyTXD[playerid][0], 1); 
+	TextDrawColor(Interact_FlyTXD[playerid][0], 0); 
+	TextDrawUseBox(Interact_FlyTXD[playerid][0], true); 
+	TextDrawBoxColor(Interact_FlyTXD[playerid][0], 102); 
+	TextDrawSetShadow(Interact_FlyTXD[playerid][0], 0); 
+	TextDrawSetOutline(Interact_FlyTXD[playerid][0], 0); 
+	TextDrawFont(Interact_FlyTXD[playerid][0], 0); 
+
+	Interact_FlyTXD[playerid][1] = TextDrawCreate(406.802368, 250.000000, "usebox"); 
+	TextDrawLetterSize(Interact_FlyTXD[playerid][1]] = 0.000000, 2.146298); 
+	TextDrawTextSize(Interact_FlyTXD[playerid][1], 332.524169, 0.000000); 
+	TextDrawAlignment(Interact_FlyTXD[playerid][1], 1); 
+	TextDrawColor(Interact_FlyTXD[playerid][1], 0); 
+	TextDrawUseBox(Interact_FlyTXD[playerid][1], true); 
+	TextDrawBoxColor(Interact_FlyTXD[playerid][1], 102); 
+	TextDrawSetShadow(Interact_FlyTXD[playerid][1], 0); 
+	TextDrawSetOutline(Interact_FlyTXD[playerid][1], 0); 
+	TextDrawFont(Interact_FlyTXD[playerid][1], 0);

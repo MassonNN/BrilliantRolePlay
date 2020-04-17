@@ -1,0 +1,5 @@
+E:\devsamp\pawno\include\../../files/carsharing.inc(215) : идентификатор не используется: "oldstate"
+e:\devsamp\gamemodes\P-RP.pwn(470) : идентификатор не используется: "DestroySession"
+e:\devsamp\gamemodes\P-RP.pwn(31) : идентификатору присвоено значение, но он не используется: "p_Main"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2017, ITB CompuPhase
+
