@@ -260,8 +260,10 @@ cmd:cban(playerid, params[]) {
 	if(CheckAdmin(playerid, 1)) return 1;
 	new id;
 	if(sscanf(params, "d", id)) return SendErr(playerid, "Использование: /cban [id игрока]");
+	if(!IsPlayerConnected(id) || id = INVALID_PLAYER_ID) return SendErr(playerid, "Такого игрока нет");
 	if(id == playerid) return SendErr(playerid, "Вы не можете заблокировать себя за использование читов");
 	if(PI[id][pAdmin] && PI[playerid][pAdmin] < 7) return SendErr(playerid, "Игрок администратор!");
+
 	new ban_str[60*8], ban_string2[60];
 
 	for(new i, j = sizeof(ban_reason); i < j; i++) {
